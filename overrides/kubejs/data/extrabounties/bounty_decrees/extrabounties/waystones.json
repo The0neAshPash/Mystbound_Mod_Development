@@ -1,0 +1,13 @@
+{
+  "requires": [
+    "waystones"
+  ],
+  "objectives": [
+    "treasures",
+    "resources"
+  ],
+  "rewards": [
+    "decree",
+    "rarities"
+  ]
+}

@@ -1,0 +1,441 @@
+
+{
+	"content": {
+		"cooking_fish_and_chips": {
+			"type": "item",
+			"content": "casualness_delight:fish_and_chips",
+			"amount": {
+			  "min": 1,
+			  "max": 20
+			},
+			"unitWorth": 350
+		  },
+		  "cooking_stargazy_pie_slice": {
+			"type": "item",
+			"content": "casualness_delight:stargazy_pie_slice",
+			"amount": {
+			  "min": 1,
+			  "max": 8
+			},
+			"unitWorth": 450
+		  },
+		  "cooking_quiche_lorraine_slice": {
+			"type": "item",
+			"content": "casualness_delight:quiche_lorraine_slice",
+			"amount": {
+			  "min": 1,
+			  "max": 8
+			},
+			"unitWorth": 450
+		  },
+		  "cooking_chicken_bobo_chicken": {
+			"type": "item",
+			"content": "casualness_delight:chicken_bobo_chicken",
+			"amount": {
+			  "min": 1,
+			  "max": 8
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_cabbage_bobo_chicken": {
+			"type": "item",
+			"content": "casualness_delight:cabbage_bobo_chicken",
+			"amount": {
+			  "min": 1,
+			  "max": 8
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_potato_bobo_chicken": {
+			"type": "item",
+			"content": "casualness_delight:potato_bobo_chicken",
+			"amount": {
+			  "min": 1,
+			  "max": 8
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_tonkatsu": {
+			"type": "item",
+			"content": "casualness_delight:tonkatsu",
+			"amount": {
+			  "min": 1,
+			  "max": 8
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_spring_roll": {
+			"type": "item",
+			"content": "casualness_delight:spring_roll",
+			"amount": {
+			  "min": 1,
+			  "max": 8
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_bowl_of_fried_dumpling": {
+			"type": "item",
+			"content": "casualness_delight:bowl_of_fried_dumpling",
+			"amount": {
+			  "min": 1,
+			  "max": 8
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_large_fish_with_vegetables": {
+			"type": "item",
+			"content": "aquaculturedelight:large_fish_with_vegetables",
+			"amount": {
+			  "min": 1,
+			  "max": 8
+			},
+			"unitWorth": 700
+		  },
+		  "cooking_crispy_fried_perch": {
+			"type": "item",
+			"content": "aquaculturedelight:crispy_fried_perch",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_roasted_tambaqui": {
+			"type": "item",
+			"content": "aquaculturedelight:roasted_tambaqui",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_jellyfish_jelly": {
+			"type": "item",
+			"content": "aquaculturedelight:jellyfish_jelly",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_halibut_with_tartar_sauce": {
+			"type": "item",
+			"content": "aquaculturedelight:halibut_with_tartar_sauce",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 400
+		  },
+		  "cooking_bass_stew": {
+			"type": "item",
+			"content": "aquaculturedelight:bass_stew",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_trout_steak": {
+			"type": "item",
+			"content": "aquaculturedelight:trout_steak",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_halaszle": {
+			"type": "item",
+			"content": "aquaculturedelight:halaszle",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_baked_pollock_with_carrots": {
+			"type": "item",
+			"content": "aquaculturedelight:baked_pollock_with_carrots",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_tuna_spaghetti": {
+			"type": "item",
+			"content": "aquaculturedelight:tuna_spaghetti",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_fried_perch_roll": {
+			"type": "item",
+			"content": "aquaculturedelight:fried_perch_roll",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_buckling": {
+			"type": "item",
+			"content": "aquaculturedelight:buckling",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_catfish_barbecue": {
+			"type": "item",
+			"content": "aquaculturedelight:catfish_barbecue",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_rollmops": {
+			"type": "item",
+			"content": "aquaculturedelight:rollmops",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "cooking_bayberry_soup": {
+			"type": "item",
+			"content": "fruitsdelight:bayberry_soup",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_blueberry_custard": {
+			"type": "item",
+			"content": "fruitsdelight:blueberry_custard",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_bowl_of_pineapple_fried_rice": {
+			"type": "item",
+			"content": "fruitsdelight:bowl_of_pineapple_fried_rice",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_cranberry_muffin": {
+			"type": "item",
+			"content": "fruitsdelight:cranberry_muffin",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_durian_pie": {
+			"type": "item",
+			"content": "fruitsdelight:durian_pie",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_fig_chicken_stew": {
+			"type": "item",
+			"content": "fruitsdelight:fig_chicken_stew",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_hamimelon_popsicle": {
+			"type": "item",
+			"content": "fruitsdelight:hamimelon_popsicle",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_hawberry_roll": {
+			"type": "item",
+			"content": "fruitsdelight:hawberry_roll",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_kiwi_juice": {
+			"type": "item",
+			"content": "fruitsdelight:kiwi_juice",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_lemon_tart": {
+			"type": "item",
+			"content": "fruitsdelight:lemon_tart",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_lychee_chicken": {
+			"type": "item",
+			"content": "fruitsdelight:lychee_chicken",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_mango_milkshake": {
+			"type": "item",
+			"content": "fruitsdelight:mango_milkshake",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_orange_marinated_pork": {
+			"type": "item",
+			"content": "fruitsdelight:orange_marinated_pork",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_peach_jello": {
+			"type": "item",
+			"content": "fruitsdelight:peach_jello",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_pear_with_rock_sugar": {
+			"type": "item",
+			"content": "fruitsdelight:pear_with_rock_sugar",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_persimmon_cookie": {
+			"type": "item",
+			"content": "fruitsdelight:persimmon_cookie",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_pineapple_marinated_pork": {
+			"type": "item",
+			"content": "fruitsdelight:pineapple_marinated_pork",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_sweetberry_jello": {
+			"type": "item",
+			"content": "fruitsdelight:sweetberry_jello",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 100
+		  },
+		  "cooking_custard": {
+			"type": "item",
+			"content": "caupona:custard",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_goulash": {
+			"type": "item",
+			"content": "caupona:goulash",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_fricassee": {
+			"type": "item",
+			"content": "caupona:fricassee",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_pumpkin_soup_cream": {
+			"type": "item",
+			"content": "caupona:pumpkin_soup_cream",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_stracciatella": {
+			"type": "item",
+			"content": "caupona:stracciatella",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_ukha": {
+			"type": "item",
+			"content": "caupona:ukha",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  },
+		  "cooking_sauteed_vegetables": {
+			"type": "item",
+			"content": "caupona:sauteed_vegetables",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 200
+		  }
+		  
+
+	}
+
+
+}

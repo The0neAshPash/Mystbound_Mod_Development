@@ -1,0 +1,1177 @@
+{
+  "entries": [
+    {
+      "type": "CARB",
+      "effects": [],
+      "ingredient": [
+        {
+          "item": "farmersdelight:rice"
+        },
+        {
+          "item": "farmersdelight:raw_pasta"
+        },
+        {
+          "item": "farmersdelight:wheat_dough"
+        }, 
+        {
+          "item": "bakery:sweet_dough"
+        },
+        {
+          "item": "bakery:cake_dough"
+        },
+        {
+          "item": "bakery:dough"
+        },
+        {
+          "item": "bakery:toast"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 300,
+      "nutrition": 8,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.7,
+      "size": 2,
+      "stir_time": 80
+    },
+    {
+      "type": "VEG",
+      "effects": [],
+      "ingredient": [
+        {
+          "item": "farmersdelight:tomato"
+        },
+        {
+          "item": "farmersdelight:cabbage"
+        },
+        {
+          "item": "farmersdelight:onion"
+        },
+        {
+          "item": "farmersdelight:pumpkin_slice"
+        },
+        {
+          "item": "caupona:fig"
+        },
+        {
+          "item": "caupona:walnut"
+        },
+        {
+          "item": "caupona:wolfberries"
+        },
+        {
+          "item": "vinery:apple_mash"
+        },
+        {
+          "item": "quark:glow_shroom"
+        },
+        {
+          "item": "quark:ancient_fruit"
+        },
+        {
+          "item": "collectorsreap:portobello"
+        },
+        {
+          "item": "collectorsreap:pomegranate_slice"
+        },
+        {
+          "item": "collectorsreap:lime"
+        },
+        {
+          "item": "bakery:strawberry"
+        },
+        {
+          "item": "netherexp:cerebrage"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 5,
+      "overcook_penalty": 0.2,
+      "raw_penalty": 0.0,
+      "size": 2,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [],
+      "ingredient": [
+        {
+          "item": "farmersdelight:cabbage_leaf"
+        },
+        {
+          "item": "vinery:cherry"
+        },
+        {
+          "item": "vinery:red_grape"
+        },
+        {
+          "item": "vinery:jungle_grapes_red"
+        },
+        {
+          "item": "vinery:jungle_grapes_white"
+        },
+        {
+          "item": "vinery:savanna_grapes_red"
+        },
+        {
+          "item": "vinery:savanna_grapes_white"
+        },
+        {
+          "item": "vinery:taiga_grapes_red"
+        },
+        {
+          "item": "vinery:taiga_grapes_white"
+        },
+        {
+          "item": "vinery:white_grape"
+        },
+        {
+          "item": "quark:moss_paste"
+        },
+        {
+          "item": "collectorsreap:pomegranate_seeds"
+        },
+        {
+          "item": "collectorsreap:lime_slice"
+        },
+        {
+          "item": "regions_unexplored:salmonberry"
+        },
+        {
+          "item": "regions_unexplored:duskmelon_slice"
+        },
+        {
+          "item": "regions_unexplored:meadow_sage"
+        },
+        {
+          "item": "regions_unexplored:hanging_earlight_fruit"
+        }
+      ],
+      "max_time": 240,
+      "min_time": 0,
+      "nutrition": 5,
+      "overcook_penalty": 0.2,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "sweety_archaeology:venomous",
+          "level": 1,
+          "time": 120000
+        }
+      ],
+      "ingredient": {
+        "item": "sweety_archaeology:ancient_berries"
+      },
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 4,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:resistance",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "caupona:asafoetida"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:instant_health",
+          "level": 1,
+          "time": 0
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "netherexp:glowcheese"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [],
+      "ingredient": [
+        {
+        "item": "farmersdelight:milk_bottle"
+        },
+        {
+          "item": "dragnlivestock:cheese"
+        },
+        {
+          "item": "dragnlivestock:sheep_cheese"
+        },
+        {
+          "item": "dragnlivestock:llama_cheese"
+        },
+        {
+          "item": "dragnlivestock:goat_cheese"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 1,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:armor_effect",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:aegis_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:strength",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:apple_cider"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "tipsylib:lesser_strength",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:apple_juice"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:resistance",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:apple_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:lava_walker",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:bolvar_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:experience_effect",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:bottle_mojang_noir"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:climbing_effect",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:chenet_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:invisibility",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:cherry_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:teleport",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:chorus_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:double_jump",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:clark_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:creeper_effect",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:creepers_crush"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:water_breathing",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:cristel_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:frosty_armor",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:eiswein"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:jellie_wine",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:jellie_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:glowing",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:glowing_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:climbing_effect",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:jo_special_mixture"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:water_walker",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:kelp_cider"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:party_effect",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:lilitu_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:magnet",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:magnetic_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:haste",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:mead"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:instant_health",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:mellohi_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:jump_boost",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:noir_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:slow_falling",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:red_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:health_boost",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:solaris_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "vinery:health_effect",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:stal_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:night_vision",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:strad_wine"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:bad_omen",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "vinery:villagers_fright"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "brewery:pintcharisma",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewery:beer_barley"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "brewery:haley",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewery:beer_haley"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "brewery:partystarter",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewery:beer_hops"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "brewery:snowwhite",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewery:beer_wheat"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "brewery:renewingtouch",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewery:whiskey_carrasconlabel"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "brewery:protectivetouch",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewery:whiskey_cristelwalker"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "brewery:toxictouch",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewery:whiskey_jojannik"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "brewery:partystarter",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewery:whiskey_lilitusinglemalt"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "brewery:healingtouch",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "brewery:whiskey_maggoallan"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "cold_sweat:frigidness",
+          "level": 8,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "betterbeekeeping:cool_honey_bottle"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "cold_sweat:warmth",
+          "level": 8,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "betterbeekeeping:warm_honey_bottle"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "netherexp:slowness_immunity",
+          "level": 0,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "betterbeekeeping:spicy_honey_bottle"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "herbalbrews:revitalizing",
+          "level": 1,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "betterbeekeeping:lively_honey_bottle"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "netherexp:darkness_immunity",
+          "level": 0,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "betterbeekeeping:bright_honey_bottle"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "netherexp:wither_immunity",
+          "level": 0,
+          "time": 2000
+        }
+      ],
+      "ingredient": [
+        {
+          "item": "betterbeekeeping:strange_honey_bottle"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 0,
+      "nutrition": 2,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.25,
+      "size": 1,
+      "stir_time": 40
+    }
+    
+  ]
+}

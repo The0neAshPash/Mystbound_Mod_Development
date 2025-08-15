@@ -1,0 +1,22 @@
+
+#General settings
+[general]
+	#Maximum Feathers for players when they spawn (default: 20)
+	#Range: 1 ~ 20
+	maxFeathers = 20
+	#The Swing Process represents the progress of a timer that starts when an attack is executed.
+	#This timer goes from 0.0 to 1.0, where 1.0 marks the completion of the recovery from attacking.
+	#The value defined here indicates the point during this process (default: 0.7) when rolling is allowed.
+	#Range: 0.0 ~ 1.0
+	swingTreshold = 0.7
+	#Volume of the Perfect Attack sound effect. set to 0.0 to disable. (default: 0.6)
+	#Range: 0.0 ~ 1.0
+	perfectAttackVolume = 0.6
+	#Set to false if you don't want to show the attack particle. (default: true)
+	showParticle = true
+	#How many ticks does the Sweep Attack particle display after performing a Perfect Attack. (default: 5)
+	#Range: 1 ~ 20
+	Particles = 5
+	#Set to false to use vanilla sweep attack sound instead of custom.
+	useCustomSound = true
+

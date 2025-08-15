@@ -1,0 +1,134 @@
+{
+  "fluidTransform": {
+    "farmersdelight:milk_bottle": {
+      "color": -1
+    },
+    "vinery:aegis_wine": {
+      "color": -77010
+    },
+    "vinery:apple_cider": {
+      "color": -77010
+    },
+    "vinery:apple_juice": {
+      "color": -77010
+    },
+    "vinery:apple_wine": {
+      "color": -77010
+    },
+    "vinery:bolvar_wine": {
+      "color": -3407872
+    },
+    "vinery:bottle_mojang_noir": {
+      "color": -3407872
+    },
+    "vinery:chenet_wine": {
+      "color": -3407872
+    },
+    "vinery:cherry_wine": {
+      "color": -3407872
+    },
+    "vinery:chorus_wine": {
+      "color": -3407872
+    },
+    "vinery:clark_wine": {
+      "color": -77010
+    },
+    "vinery:creepers_crush": {
+      "color": -77010
+    },
+    "vinery:cristel_wine": {
+      "color": -3407872
+    },
+    "vinery:eiswein": {
+      "color": -77010
+    },
+    "vinery:jellie_wine": {
+      "color": -77010
+    },
+    "vinery:glowing_wine": {
+      "color": -77010
+    },
+    "vinery:jo_special_mixture": {
+      "color": -3407872
+    },
+    "vinery:kelp_cider": {
+      "color": -77010
+    },
+    "vinery:lilitu_wine": {
+      "color": -3407872
+    },
+    "vinery:magnetic_wine": {
+      "color": -3407872
+    },
+    "vinery:mead": {
+      "color": -77010
+    },
+    "vinery:mellohi_wine": {
+      "color": -77010
+    },
+    "vinery:noir_wine": {
+      "color": -3407872
+    },
+    "vinery:red_wine": {
+      "color": -3407872
+    },
+    "vinery:solaris_wine": {
+      "color": -77010
+    },
+    "vinery:stal_wine": {
+      "color": -3407872
+    },
+    "vinery:strad_wine": {
+      "color": -3407872
+    },
+    "vinery:villagers_fright": {
+      "color": -77010
+    },
+    "brewery:beer_barley": {
+      "color": -77010
+    },
+    "brewery:beer_haley": {
+      "color": -77010
+    },
+    "brewery:beer_hops": {
+      "color": -77010
+    },
+    "brewery:beer_wheat": {
+      "color": -77010
+    },
+    "brewery:whiskey_carrasconlabel": {
+      "color": -77010
+    },
+    "brewery:whiskey_cristelwalker": {
+      "color": -77010
+    },
+    "brewery:whiskey_jojannik": {
+      "color": -77010
+    },
+    "brewery:whiskey_lilitusinglemalt": {
+      "color": -77010
+    },
+    "brewery:whiskey_maggoallan": {
+      "color": -77010
+    },
+    "betterbeekeeping:cool_honey_bottle": {
+      "color": -77010
+    },
+    "betterbeekeeping:warm_honey_bottle": {
+      "color": -77010
+    },
+    "betterbeekeeping:spicy_honey_bottle": {
+      "color": -77010
+    },
+    "betterbeekeeping:lively_honey_bottle": {
+      "color": -77010
+    },
+    "betterbeekeeping:bright_honey_bottle": {
+      "color": -77010
+    },
+    "betterbeekeeping:strange_honey_bottle": {
+      "color": -77010
+    }
+  },
+  "itemTransform": {}
+}

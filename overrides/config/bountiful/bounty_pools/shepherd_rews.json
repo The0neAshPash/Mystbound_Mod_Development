@@ -1,0 +1,29 @@
+
+{
+    "replace": true,
+	"content": {
+
+        "shepherd_rew_shears": {
+            "type": "item",
+            "content": "minecraft:shears",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 200,
+            "nbt": "{Damage:0}"
+        },
+
+        "shepherd_rew_lapis_block": {
+            "type": "item",
+            "content": "minecraft:lapis_block",
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 500
+        }
+
+	}
+
+}

@@ -1,0 +1,124 @@
+
+{
+	"replace": true,
+	"content": {
+
+		"butcher_rew_leather": {
+			"type": "item",
+			"content": "minecraft:leather",
+			"amount": {
+				"min": 2,
+				"max": 20
+			},
+			"unitWorth": 50
+		},
+		"butcher_rew_goatfur": {
+			"type": "item",
+			"content": "cold_sweat:goat_fur",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 2000
+		},
+		"butcher_rew_chick": {
+			"type": "item",
+			"content": "villagersellanimals:crate_chick",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 100
+		},
+		"butcher_rew_hhide": {
+			"type": "item",
+			"content": "cold_sweat:hoglin_hide",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 2000
+		},
+		"butcher_rew_cmolt": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "cold_sweat:chameleon_molt",
+			"amount": {
+				"min": 2,
+				"max": 5
+			},
+			"unitWorth": 500
+		},
+		"butcher_rew_horn": {
+			"type": "item",
+			"content": "minecraft:goat_horn",
+			"amount": {
+				"min": 2,
+				"max": 10
+			},
+			"unitWorth": 300
+		},
+		"butcher_epearl": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "minecraft:ender_pearl",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 200
+		},
+		"butcher_fox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "villagersellanimals:crate_fox_pup",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 350
+		},
+		"butcher_goat": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "villagersellanimals:crate_goatlet",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 350
+		},
+		"butcher_rabbit": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "villagersellanimals:crate_rabbit_cub",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 350
+		},
+		"butcher_rew_phantom_membrane": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "minecraft:phantom_membrane",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 500
+		},
+		"butcher_rew_mooshroom": {
+			"type": "item",
+			"rarity": "LEGENDARY",
+			"content": "villagersellanimals:crate_red_mooshroom",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000
+		}
+
+	}
+
+}

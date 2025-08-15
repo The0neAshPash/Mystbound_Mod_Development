@@ -1,0 +1,241 @@
+{
+  "fluidTransform": {},
+  "itemTransform": {
+    "farmersdelight:bacon": {
+      "next": "farmersdelight:cooked_bacon",
+      "stage": "COOKED"
+    },
+    "farmersdelight:chicken_cuts": {
+      "next": "farmersdelight:cooked_chicken_cuts",
+      "stage": "COOKED"
+    },
+    "farmersdelight:cod_slice": {
+      "next": "farmersdelight:cooked_cod_slice",
+      "stage": "COOKED"
+    },
+    "farmersdelight:ham": {
+      "next": "farmersdelight:smoked_ham",
+      "stage": "COOKED"
+    },
+    "farmersdelight:minced_beef": {
+      "next": "farmersdelight:beef_patty",
+      "stage": "COOKED"
+    },
+    "farmersdelight:mutton_chops": {
+      "next": "farmersdelight:cooked_mutton_chops",
+      "stage": "COOKED"
+    },
+    "farmersdelight:salmon_slice": {
+      "next": "farmersdelight:cooked_salmon_slice",
+      "stage": "COOKED"
+    },
+    "butcher:rawlambloin": {
+      "next": "butcher:lamb_loin",
+      "stage": "COOKED"
+    },
+    "butcher:sausages": {
+      "next": "butcher:cookedsausages",
+      "stage": "COOKED"
+    },
+    "butcher:rawcreeperleg": {
+      "next": "butcher:creeperleg",
+      "stage": "COOKED"
+    },
+    "butcher:batmeat": {
+      "next": "butcher:cookedbatmeat",
+      "stage": "COOKED"
+    },
+    "butcher:frogsleg": {
+      "next": "butcher:cooked_green_frogs_leg",
+      "stage": "COOKED"
+    },
+    "butcher:gray_frog_leg": {
+      "next": "butcher:cooked_gray_frog_leg",
+      "stage": "COOKED"
+    },
+    "butcher:orange_frog_leg": {
+      "next": "butcher:cooked_orange_frog_leg",
+      "stage": "COOKED"
+    },
+    "butcher:raw_pork_belly": {
+      "next": "butcher:pork_belly",
+      "stage": "COOKED"
+    },
+    "butcher:wolfmeat": {
+      "next": "butcher:cookedwolfmeat",
+      "stage": "COOKED"
+    },
+    "butcher:rawfoxmeat": {
+      "next": "butcher:foxmeat",
+      "stage": "COOKED"
+    },
+    "butcher:lambrib": {
+      "next": "butcher:cooked_lamb_rib",
+      "stage": "COOKED"
+    },
+    "butcher:raw_leg_of_lamb": {
+      "next": "butcher:leg_of_lamb",
+      "stage": "COOKED"
+    },
+    "butcher:spiderleg": {
+      "next": "butcher:cookedspiderleg",
+      "stage": "COOKED"
+    },
+    "butcher:endermanmeat": {
+      "next": "butcher:cookedendermanmeat",
+      "stage": "COOKED"
+    },
+    "butcher:horsemeat": {
+      "next": "butcher:cookedhorsemeat",
+      "stage": "COOKED"
+    },
+    "butcher:lungs": {
+      "next": "butcher:cookedlungs",
+      "stage": "COOKED"
+    },
+    "butcher:frog_heart": {
+      "next": "butcher:cookedheart",
+      "stage": "COOKED"
+    },
+    "butcher:heart": {
+      "next": "butcher:cookedheart",
+      "stage": "COOKED"
+    },
+    "butcher:stomach": {
+      "next": "butcher:cookedstomach",
+      "stage": "COOKED"
+    },
+    "butcher:kidney": {
+      "next": "butcher:cookedkidney",
+      "stage": "COOKED"
+    },
+    "butcher:mincedlamb": {
+      "next": "butcher:cookedmincedlamb",
+      "stage": "COOKED"
+    },
+    "butcher:liver": {
+      "next": "butcher:cookedliver",
+      "stage": "COOKED"
+    },
+    "butcher:mincedbeef": {
+      "next": "butcher:cookedmincebeef",
+      "stage": "COOKED"
+    },
+    "butcher:intestines": {
+      "next": "butcher:cookedintestines",
+      "stage": "COOKED"
+    },
+      "butcher:raw_tbone_steak": {
+    "next": "butcher:tbonesteak",
+    "stage": "COOKED"
+    },
+    "butcher:rawllamameat": {
+      "next": "butcher:llamameat",
+      "stage": "COOKED"
+    },
+    "butcher:raw_chuck_steak": {
+      "next": "butcher:chuck_steak",
+      "stage": "COOKED"
+    },
+    "butcher:raw_sirloin_steak": {
+      "next": "butcher:sirloin_steak",
+      "stage": "COOKED"
+    },
+    "butcher:rawcamelmeat": {
+      "next": "butcher:camelmeat",
+      "stage": "COOKED"
+    },
+    "butcher:rawwitchmeat": {
+      "next": "butcher:witchmeat",
+      "stage": "COOKED"
+    },
+    "butcher:raw_pork_leg": {
+      "next": "butcher:pork_leg",
+      "stage": "COOKED"
+    },
+    "butcher:raw_pork_ham": {
+      "next": "butcher:ham",
+      "stage": "COOKED"
+    },
+    "butcher:rawcreepermeat": {
+      "next": "butcher:creepermeat",
+      "stage": "COOKED"
+    },
+    "butcher:raw_lamb_sirloin": {
+      "next": "butcher:lamb_sirloin",
+      "stage": "COOKED"
+    },
+    "butcher:raw_rump_steak": {
+      "next": "butcher:rump_steak",
+      "stage": "COOKED"
+    },
+    "butcher:raw_lamb_shoulder": {
+      "next": "butcher:lamb_shoulder",
+      "stage": "COOKED"
+    },
+    "butcher:rawdolphinmeat": {
+      "next": "butcher:dolphinmeat",
+      "stage": "COOKED"
+    },
+    "butcher:raw_pork_shoulder": {
+      "next": "butcher:pork_shoulder",
+      "stage": "COOKED"
+    },
+    "butcher:turtle_meat": {
+      "next": "butcher:cookedturtlemeat",
+      "stage": "COOKED"
+    },
+    "butcher:raw_pork_loin": {
+      "next": "butcher:pork_loin",
+      "stage": "COOKED"
+    },
+    "butcher:pillagermeat": {
+      "next": "butcher:cookedpillagermeat",
+      "stage": "COOKED"
+    },
+    "butcher:humanmeat": {
+      "next": "butcher:cookedhumanmeat",
+      "stage": "COOKED"
+    },
+    "butcher:villager_meat": {
+      "next": "butcher:cooked_villager_meat",
+      "stage": "COOKED"
+    },
+    "butcher:raw_ribeye_steak": {
+      "next": "butcher:rib_steak",
+      "stage": "COOKED"
+    },
+    "netherexp:hogham": {
+      "next": "netherexp:cooked_hogham",
+      "stage": "COOKED"
+    },
+    "mofus_better_end_:unfertilized_axe_fish_egg": {
+      "next": "mofus_better_end_:sunnysideup_axe_egg",
+      "stage": "COOKED"
+    },
+    "butcher:rawpandameat": {
+      "next": "butcher:pandameat",
+      "stage": "COOKED"
+    },
+    "butcher:rawbearmeat": {
+      "next": "butcher:bearmeat",
+      "stage": "COOKED"
+    },
+    "butcher:hoglinmeat": {
+      "next": "butcher:cookedhoglinmeat",
+      "stage": "COOKED"
+    },
+    "butcher:raweldermeat": {
+      "next": "butcher:elder_meat",
+      "stage": "COOKED"
+    },
+    "butcher:rawdragonmeat": {
+      "next": "butcher:cooked_dragon_meat",
+      "stage": "COOKED"
+    },
+    "mofus_better_end_:meteor_crab_meat": {
+      "next": "mofus_better_end_:cooked_meteor_crab_meat",
+      "stage": "COOKED"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "values": [
+    "minecraft:wheat_seeds",
+    "minecraft:carrot",
+    "minecraft:beetroot_seeds",
+    "minecraft:potato",
+    "minecraft:pumpkin_seeds",
+    "minecraft:cocoa_beans",
+    "minecraft:torchflower_seeds",
+    "collectorsreap:lime_seeds",
+    "fruitsdelight:lemon_seeds",
+    "fruitsdelight:pear_sapling",
+    "fruitsdelight:persimmon_sapling",
+    "fruitsdelight:fig_sapling",
+    "fruitsdelight:peach_sapling",
+    "fruitsdelight:orange_sapling",
+    "fruitsdelight:apple_sapling",
+    "fruitsdelight:blueberry",
+    "fruitsdelight:blueberry_bush",
+    "caupona:walnut_fruits",
+    "finallyfarmabledyes:white",
+    "finallyfarmabledyes:orange",
+    "finallyfarmabledyes:magenta",
+    "finallyfarmabledyes:pink",
+    "finallyfarmabledyes:red_tulip",
+    "brewery:hops_seeds",
+    "bakery:oat_seeds",
+    "vinery:dark_cherry_sapling",
+    "vinery:dark_cherry_leaves",
+    "vinery:apple_tree_sapling",
+    "vinery:apple_leaves",
+    "herbalbrews:yerba_mate_leaf",
+    {
+      "id": "farmersdelight:tomato_seeds",
+      "required": false
+    }
+  ]
+}

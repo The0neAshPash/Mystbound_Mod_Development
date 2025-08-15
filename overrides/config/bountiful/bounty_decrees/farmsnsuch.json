@@ -1,0 +1,13 @@
+{
+  "objectives": [
+    "farmersdelight_objs",
+    "butcher_objs",
+    "aquaculture_objs"
+  ],
+  "rewards": [
+    "decree",
+    "butcher_rews",
+    "alexsmobs_rews",
+    "resources"
+  ]
+}

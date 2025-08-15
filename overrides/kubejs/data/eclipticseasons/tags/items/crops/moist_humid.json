@@ -1,0 +1,34 @@
+{
+  "values": [
+    "minecraft:bamboo",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "fruitsdelight:bayberry_sapling",
+    "fruitsdelight:cranberry",
+    "collectorsreap:portobello",
+    "collectorsreap:portobello_colony",
+    "collectorsreap:lime_seeds",
+    "spelunkery:button_mushroom",
+    "spelunkery:crimini",
+    "spelunkery:portabella",
+    "spelunkery:inkcap_mushroom",
+    "spelunkery:white_inkcap_mushroom",
+    "spelunkery:mushgloom",
+    "spelunkery:phosphor_fungus",
+    "spelunkery:milly_bubcap",
+    "bakery:strawberry_seeds",
+    "herbalbrews:tea_blossom",
+    {
+      "id": "farmersdelight:rice",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:brown_mushroom_colony",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:red_mushroom_colony",
+      "required": false
+    }
+  ]
+}

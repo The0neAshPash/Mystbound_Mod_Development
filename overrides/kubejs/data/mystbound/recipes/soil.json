@@ -1,0 +1,13 @@
+{
+    "type": "lychee:lightning_channeling",
+    "post": [
+        {
+            "type": "execute",
+            "command": "fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:dirt replace farmersdelight:rich_soil"
+        },
+        {
+            "type": "execute",
+            "command": "fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:grass_block replace farmersdelight:rich_soil"
+        }
+    ]
+}

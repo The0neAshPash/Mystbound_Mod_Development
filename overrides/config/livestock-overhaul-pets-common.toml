@@ -1,0 +1,29 @@
+
+[Spawning]
+	#Should wolves be replaced by O-Wolves?
+	"Replace Wolves" = true
+	#Should ocelots be replaced by O-Ocelots?
+	"Replace Ocelots" = true
+	#Should foxes be replaced by O-Foxes?
+	"Replace Foxes" = true
+	#Should axolotls be replaced by O-Axolotls?
+	"Replace Axolotls" = true
+	#Should parrots be replaced by O-Parrots?
+	"Replace Parrots" = true
+	#Should cats be replaced by O-Cats & O-Dogs?
+	"Replace Cats & Add Dogs" = true
+	#Should tropical fish be replaced by O-Tropical Fish?
+	"Replace Tropical Fish" = true
+
+[Miscellaneous]
+	#Should your O-Cats give you gifts once in a while?
+	"Cats Give Gifts" = true
+	#Should cropped O-Dogs be allowed to spawn? Whilst players can't crop them themselves, you can chose to allow natural ones to spawn.
+	"Allow Naturally-Cropped Dogs" = true
+	#Should wild O-Wolf packs attack players?
+	"Wolf Packs Attack Players" = true
+	#Maximum amount of O-Wolves that can pack together. Default is 6.
+	"Wolf Pack Maximum" = 8
+	#Maximum amount of O-Dogs that can pack together. Default is 3.
+	"Dog Pack Maximum" = 3
+

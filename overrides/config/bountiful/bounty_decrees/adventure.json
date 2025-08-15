@@ -1,0 +1,15 @@
+{
+  "objectives": [
+    "artifacts_objs",
+    "cleric_objs",
+    "irons_spellbooks_objs"
+  ],
+  "rewards": [
+    "decree",
+    "irons_spellbooks_rews",
+    "librarian_rews",
+    "mapper_rews",
+    "cleric_rews"
+
+  ]
+}

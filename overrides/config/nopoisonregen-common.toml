@@ -1,0 +1,6 @@
+
+#General settings
+[general]
+	#A list of cancelable effects in the format "effect1,effect2"
+	cancelable = ["minecraft:regeneration,minecraft:poison"]
+

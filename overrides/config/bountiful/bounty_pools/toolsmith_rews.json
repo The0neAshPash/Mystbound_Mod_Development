@@ -1,0 +1,115 @@
+
+{
+    "replace": true,
+	"content": {
+
+        "toolsmith_rew_iron_pickaxe": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:iron_pickaxe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 800,
+            "nbt": "{Damage:0}",
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:iron_ingot"
+                }
+            ]
+        },
+
+        "toolsmith_rew_iron_hoe": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:iron_hoe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 700,
+            "nbt": "{Damage:0}",
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:iron_ingot"
+                }
+            ]
+        },
+
+        
+        "toolsmith_rew_trident": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:trident",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 9000,
+            "nbt": "{Damage:0}"
+        },
+
+
+        "toolsmith_rew_diamond_pickaxe": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:diamond_pickaxe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 9000,
+            "nbt": "{Damage:0}",
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:diamond"
+                }
+            ],
+            "weightMult": 0.3
+        },
+
+        "toolsmith_rew_diamond_axe": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:diamond_axe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 9000,
+            "nbt": "{Damage:0}",
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:diamond"
+                }
+            ],
+            "weightMult": 0.3
+        },
+
+        "toolsmith_rew_diamond_hoe": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:diamond_hoe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000,
+            "nbt": "{Damage:0}",
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:diamond"
+                }
+            ],
+            "weightMult": 0.3
+        }
+
+	}
+
+}

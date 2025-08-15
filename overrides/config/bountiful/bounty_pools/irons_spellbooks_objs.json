@@ -1,0 +1,239 @@
+{
+  "content": {
+    "irons_spellbooks_oakskin_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:oakskin_elixir",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_greater_oakskin_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:greater_oakskin_elixir",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_greater_healing_potion": {
+      "type": "item",
+      "content": "irons_spellbooks:greater_healing_potion",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_invisibility_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:invisibility_elixir",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_greater_invisibility_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:greater_invisibility_elixir",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 4000
+    },
+    "irons_spellbooks_evasion_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:evasion_elixir",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_greater_evasion_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:greater_evasion_elixir",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_fire_ale": {
+      "type": "item",
+      "content": "irons_spellbooks:fire_ale",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_magic_cloth": {
+      "type": "item",
+      "content": "irons_spellbooks:magic_cloth",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_arcane_essence": {
+      "type": "item",
+      "content": "irons_spellbooks:arcane_essence",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 100
+    },
+
+    "irons_spellbooks_divine_pearl": {
+      "type": "item",
+      "content": "irons_spellbooks:divine_pearl",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_lightning_bottle": {
+      "type": "item",
+      "content": "irons_spellbooks:lightning_bottle",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_blood_vial": {
+      "type": "item",
+      "content": "irons_spellbooks:blood_vial",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_frozen_bone": {
+      "type": "item",
+      "content": "irons_spellbooks:frozen_bone",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_legendary_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:legendary_ink",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 5000
+    },
+    "irons_spellbooks_epic_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:epic_ink",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 4000
+    },
+    "irons_spellbooks_rare_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:rare_ink",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 3000
+    },
+    "irons_spellbooks_uncommon_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:uncommon_ink",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_common_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:common_ink",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "minecraft_skeleton_skull": {
+      "type": "item",
+      "content": "minecraft:skeleton_skull",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_ruined_book": {
+      "type": "item",
+      "content": "irons_spellbooks:ruined_book",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_cinder_essence": {
+      "type": "item",
+      "content": "irons_spellbooks:cinder_essence",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_arcane_ingot": {
+      "type": "item",
+      "content": "irons_spellbooks:arcane_ingot",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_shriving_stone": {
+      "type": "item",
+      "content": "irons_spellbooks:shriving_stone",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_energized_core": {
+      "type": "item",
+      "content": "irons_spellbooks:energized_core",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_blank_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:blank_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 100
+    }
+  }
+}

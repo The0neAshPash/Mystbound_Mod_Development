@@ -1,0 +1,24 @@
+{
+    "type": "lychee:item_burning",
+    "item_in": [
+        {
+            "item": "apotheosis:lucky_foot"
+        }
+    ],
+    "post": [
+            {
+                "type": "execute",
+                "command": "execute as @p run solapplepie clear",
+                "hide": true
+            },
+            {
+                "type": "execute",
+                "command": "origin set @p origins:origin mystbound-origins:hobbit",
+                "hide": true
+            }
+
+    ]
+}
+
+
+

@@ -1,0 +1,18 @@
+{
+    "type": "lychee:item_burning",
+    "item_in": [
+        {
+            "item": "minecraft:skeleton_skull"
+        }
+    ],
+    "post": [
+            {
+                "type": "execute",
+                "command": "give @p summoningrituals:altar",
+                "hide": true
+            }
+    ]
+}
+
+
+

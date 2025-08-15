@@ -1,0 +1,230 @@
+
+["Eld Knight Configuration"]
+	"Should do the poison passive attack" = true
+	#Range: 0 ~ 6
+	"Number of Eld Bombs generated at half hp" = 3
+	#Range: 0.0 ~ 20.0
+	"Quantity of healing each 4 seconds" = 3.0
+	#Range: 1.0 ~ 500.0
+	"Max health for Eld Knight" = 90.0
+
+["Ghosty Configuration"]
+	#Range: 0.0 ~ 25.0
+	"Ghosty invulnerability radius" = 0.0
+
+["Gremlin Configuration"]
+	"Can take gold from a player" = true
+	#Range: 1.0 ~ 10.0
+	"Second phase movement speed multipler" = 1.1
+	#Range: 1.0 ~ 10.0
+	"Second phase attack speed multipler" = 1.15
+	#Range: 1.0 ~ 10.0
+	"Second phase attack damage multipler" = 1.2
+	#Range: 1.0 ~ 500.0
+	"Max health for Gremlin" = 35.0
+
+["Swampman Configuration"]
+	#Range: 0.0 ~ 20.0
+	"Amount of healing per second on second phase" = 0.0
+	"Can change phase" = true
+	"Should axe throwables apply poison effect" = false
+	#Range: 1.0 ~ 500.0
+	"Max health for Swampman" = 50.0
+
+["Netherman Configuration"]
+	#Range: 100.0 ~ 10000.0
+	"How much health should the Netherman spawn with?" = 450.0
+	#Range: 6.0 ~ 50.0
+	"Amount of damage dealt per normal hit" = 16.0
+	"Should the Netherman teleport when hit?" = true
+	#Random number between the interval stated below
+	#Range: 0 ~ 30
+	"Minimum time for fire attack (seconds)" = 3
+	#Range: 0 ~ 60
+	"Maximum time for fire attack (seconds)" = 7
+	#Range: 0 ~ 10
+	"Maximum number of Netherman clones that can spawn per attack" = 4
+	#Range: 0 ~ 2000
+	"Freeze ticks applied by ice attack" = 300
+	#Range: 0 ~ 30
+	"Minimum time for darkness attack (seconds)" = 3
+	#Range: 0 ~ 60
+	"Maximum time for darkness attack (seconds)" = 7
+	#Range: 0 ~ 2000
+	"Ticks of freeze applied by Netherman clone explosions" = 200
+	#Range: 0.0 ~ 10.0
+	"Explosion radius of Netherman projectiles" = 3.0
+	"Should it restore blocks converted to lava back to their original state after dying?" = true
+	#Range: 0 ~ 3000
+	"Amount of experience dropped upon death" = 500
+
+["Drop Chance Configuration"]
+	#Drop chance for small essence must be changed inside knightlib.toml
+	#Range: 0.0 ~ 1.0
+	"Drop chance for ratman eye" = 0.4
+	#Range: 0.0 ~ 1.0
+	"Drop chance for lizzy scale" = 0.3
+
+["Armor Set Passives Configuration"]
+	"Should Bamboo Set push players?" = false
+	#Range: 5 ~ 30
+	"Teleport radius for Enderman Set" = 10
+	#Range: 0.1 ~ 1.0
+	"Chance for Forze Set to deflect" = 0.3
+	#Range: 0.1 ~ 2.0
+	"Damage multiplier for Forze Set deflection" = 0.5
+	#Range: 0.1 ~ 1.0
+	"Chance for Silver Set to burn" = 0.3
+	#Range: 0.1 ~ 2.0
+	"Healing multiplier per hit for Hollow Set (healing won't be higher than victim's health)" = 0.25
+	#Range: 1.0 ~ 2.0
+	"Damage multiplier for Dragon Set" = 1.05
+	#Range: 0.1 ~ 1.0
+	"Chance of applying Wither with Wither Set" = 0.3
+	"Should Warlord Set effect apply to itself?" = false
+	#Range: 1 ~ 40
+	"Effect radius for Warlord Set" = 15
+	#Range: 1.0 ~ 10.0
+	"Healing amount for Zombie Set" = 1.0
+	#Range: 1 ~ 1000
+	"Time in ticks for Zombie Set healing interval" = 120
+	#Range: 0.0 ~ 1.0
+	"Fall damage multiplier for Deepslate Set" = 0.2
+	#Range: 0.0 ~ 1.0
+	"Chance to apply Darkness for Evoker Set" = 0.25
+	#Range: 0.0 ~ 1.0
+	"Damage received multiplier for Squire Set" = 0.85
+	#Range: 0.0 ~ 1.0
+	"Chance to apply Fire for Blaze Set" = 0.4
+	#Range: 1 ~ 100
+	"Minimum seconds on fire for Blaze Set" = 2
+	#Range: 1 ~ 200
+	"Maximum seconds on fire for Blaze Set" = 8
+	#Range: 0.0 ~ 1.0
+	"Explosion damage multiplier for Creeper Set" = 0.1
+	#Range: 0 ~ 100
+	"Maximum height to apply effect for Silverfish Set" = 50
+	#Range: 0 ~ 15
+	"Maximum light level to grant effect for Skulk Set" = 4
+	#Range: 0.1 ~ 1.0
+	"Teleport chance for Enderman Set" = 0.4
+
+["Armor Set Passives Enabler Configuration"]
+	"Enable Deepslate Set Passive" = true
+	"Enable Evoker Set Passive" = true
+	"Enable Squire Set Passive" = false
+	"Enable Blaze Set Passive" = true
+	"Enable Dragon Set Passive" = true
+	"Enable Bamboo Set Green Passive" = true
+	"Enable Shinobi Set Passive" = true
+	"Enable Bamboo Set Passive" = true
+	"Enable Path Set Passive" = true
+	"Enable Bow Set Passive" = true
+	"Enable Bat Set Passive" = true
+	"Enable Shield Set Passive" = false
+	"Enable Phantom Set Passive" = true
+	"Enable Horn Set Passive" = true
+	"Enable Sea Set Passive" = true
+	"Enable Pirate Set Passive" = true
+	"Enable Spider Set Passive" = true
+	"Enable Nether Set Passive" = true
+	"Enable Skulk Passive" = true
+	"Enable Straw Hat Set Passive" = true
+	"Enable Enderman Set Passive" = false
+	"Enable Veteran Set Passive" = true
+	"Enable Forze Set Passive" = true
+	"Enable Creeper Set Passive" = true
+	"Enable Polar Passive" = true
+	"Enable Silver Set Passive" = true
+	"Enable Hollow Set Passive" = false
+	"Enable Wither Set Passive" = true
+	"Enable Apple Set Passive" = true
+	"Enable Conquistador Set Passive" = true
+	"Enable Witch Passive" = true
+	"Enable Tengu Helmet Passive" = true
+	"Enable Husk Set Passive" = true
+	"Enable Bamboo Set Blue Passive" = true
+	"Enable Warlord Set Passive" = true
+	"Enable Zombie Set Passive" = true
+	"Enable Silverfish Set Passive" = true
+	"Enable Skeleton Set Passive" = true
+
+["General Configuration"]
+	#The amount of armor pieces required to apply a set effect, which means that if this value is set to 1, you can equip 4 different armors pieces and receive the passive effects of each set.
+	#Range: 1 ~ 4
+	"Required armor pieces to apply a full-set bonus effect" = 4
+
+["Weapon Configuration"]
+	#The following cooldowns and timings, per se, are measured in ticks (1 second = 20 ticks)
+	#Range: 0 ~ 20000
+	"Cooldown of the Cleaver weapon when using its active ability" = 1800
+	#Range: 0 ~ 20000
+	"Cooldown of the Khopesh weapon when using its active ability" = 500
+	#Range: 0 ~ 20000
+	"Cooldown of the Kukri weapon when using its active ability" = 300
+	#Range: 0 ~ 20000
+	"Cooldown of the Nail weapon when using its active ability" = 100
+	#Range: 0 ~ 20000
+	"Cooldown of the Paladin weapon when using its active ability" = 500
+	#Range: 0 ~ 20000
+	"Cooldown of the Uchigatana weapon when using its active ability" = 400
+	#Range: 0 ~ 6000
+	"Duration of the speed boost from the Kukri's active ability" = 120
+	#Range: 0 ~ 10000
+	"Number of freeze ticks applied by the Kukri per hit" = 125
+	#Range: 0 ~ 600
+	"Duration of invulnerability from the Paladin's active ability" = 100
+	#Range: 0.0 ~ 50.0
+	"Dash power of the nail (this should stay low unless you wanna go to the moon)" = 1.5
+	#Extra damage modifiers are measured as percentages: 0 means no extra damage, 1 means 100% extra base damage (resulting in 200% total).
+	#Range: 0.0 ~ 4.0
+	"Extra damage dealt by the Uchigatana when using its active ability" = 0.6
+	#Range: 0.0 ~ 4.0
+	"Extra damage dealt by the Uchigatana through its passive ability" = 0.2
+	#Range: 0.0 ~ 1.0
+	"Maximum health the opponent can have for the Uchigatana's passive ability to take effect" = 0.5
+	#Range: 0 ~ 1000
+	"Duration of the Khopesh's active ability (reflection)" = 160
+	#Range: 0.0 ~ 1.0
+	"Chance to burn the opponent with the Khopesh's passive ability" = 0.15
+	#Range: 0 ~ 400
+	"Interval (in ticks) at which the Paladin's passive ability regenerates health" = 30
+	#Range: 0.0 ~ 1.0
+	"Maximum percentage of health that the Paladin's passive ability can regenerate" = 0.5
+	#Range: 0 ~ 100
+	"Amount of health restored by the Paladin's passive ability" = 1
+	#Range: 0 ~ 4000
+	"Duration of the Cleaver's active ability" = 600
+	#Range: 0.0 ~ 4.0
+	"Extra damage dealt by the Cleaver through its passive ability" = 0.2
+	#Range: 0.0 ~ 1.0
+	"Minimum health the opponent must have for the Cleaver's passive ability to take effect" = 0.5
+
+["Weapon Enabler Configuration"]
+	"Enable Cleaver weapon abilities" = true
+	"Enable Khopesh weapon abilities" = true
+	"Enable Kukri weapon abilities" = true
+	"Enable Nail weapon abilities" = true
+	"Enable Paladin weapon abilities" = true
+	"Enable Uchigatana weapon abilities" = true
+
+["Ratman Configuration"]
+	#Range: 1.0 ~ 500.0
+	"Max health for Ratman" = 22.0
+
+["Bad Patch Configuration"]
+	#Range: 1.0 ~ 500.0
+	"Max health for Bad Patch" = 7.0
+
+["EldBomb Configuration"]
+	#Range: 1.0 ~ 500.0
+	"Max health for Eld Bomb" = 7.0
+
+["Fallen Knight Configuration"]
+	#Range: 1.0 ~ 500.0
+	"Max health for Fallen Knight" = 35.0
+
+["Lizzy Configuration"]
+	#Range: 1.0 ~ 500.0
+	"Max health for Lizzy" = 10.0
+

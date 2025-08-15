@@ -1,0 +1,195 @@
+{
+    "type": "lychee:item_burning",
+    "item_in": [
+        {
+            "item": "crystal_gems:red_gem"
+        }
+    ],
+    "post": [
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "type": "delay",
+            "s": 1
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": 2
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": -1
+        },
+        {
+            "type": "delay",
+            "s": 1
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": 2,
+            "offsetY": 1
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": -1,
+            "offsetY": 1
+        },
+        {
+            "type": "delay",
+            "s": 1
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": 2,
+            "offsetY": 2
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": -1,
+            "offsetY": 2
+        },
+        {
+            "type": "delay",
+            "s": 1
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": 2,
+            "offsetY": 3
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": -1,
+            "offsetY": 3
+        },
+        {
+            "type": "delay",
+            "s": 1
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": 2,
+            "offsetY": 4
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": -1,
+            "offsetY": 4
+        },
+        {
+            "type": "delay",
+            "s": 1
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetX": 1,
+            "offsetY": 4
+        },
+        {
+            "type": "place",
+            "block": "crying_obsidian",
+            "offsetZ": 1,
+            "offsetY": 4
+        },
+        {
+            "type": "delay",
+            "s": 1
+        },
+        {
+            "type": "explode",
+            "offsetZ": 1,
+            "offsetX": 1,
+            "offsetY": 2,
+            "fire": false,
+            "block_interaction": "keep",
+            "radius":2
+        },
+        {
+            "type": "delay",
+            "s": 0.25
+        },
+        {
+            "type": "place",
+            "block": "nether_portal",
+            "offsetZ": 1,
+            "offsetX": 1,
+            "offsetY": 3
+        },
+        {
+            "type": "place",
+            "block": "nether_portal",
+            "offsetZ": 1,
+            "offsetY": 3
+        },
+        {
+            "type": "place",
+            "block": "nether_portal",
+            "offsetZ": 1,
+            "offsetX": 1,
+            "offsetY": 2
+        },
+        {
+            "type": "place",
+            "block": "nether_portal",
+            "offsetZ": 1,
+            "offsetY": 2
+        },
+        {
+            "type": "place",
+            "block": "nether_portal",
+            "offsetZ": 1,
+            "offsetX": 1,
+            "offsetY": 1
+        },
+        {
+            "type": "place",
+            "block": "nether_portal",
+            "offsetZ": 1,
+            "offsetY": 1
+        },
+        {
+            "type": "execute",
+            "command": "summon alexsmobs:warped_mosco ~ 100 ~",
+            "hide": true
+        },
+        {
+            "type": "execute",
+            "command": "bloodmoon moon_event start",
+            "hide": true
+        }
+        
+    ]
+}
+
+

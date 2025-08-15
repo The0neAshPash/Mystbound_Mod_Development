@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:reflecting_shield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:amethyst_shield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:bound_soul_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:bound_soul_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:bound_soul_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": true,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "uniquedungeons:universal_ingredient"
+        }
+      ]
+    }
+  ]
+}

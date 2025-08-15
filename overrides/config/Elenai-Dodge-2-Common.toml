@@ -1,0 +1,15 @@
+
+["Elenai Dodge 2's Config"]
+	#How many ticks it takes after dodging before you can dodge again
+	"Dodge Cooldown" = 16
+	#How many ticks the player is invincible for after dodging
+	"Invincibility Ticks" = 6
+	#How many half feathers it costs to dodge
+	"Dodge Cost" = 2
+	#How far the player moves when dodging
+	"Dodge Strength" = 0.25
+	#How high the player moves when dodging
+	"Dodge Height" = 0.2
+	#Whether the player can dodge in mid-air
+	"Dodge Whilst Airborne" = false
+

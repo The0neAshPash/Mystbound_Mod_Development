@@ -1,0 +1,7 @@
+#Server config settings
+[server]
+
+    [server.backpackSettings]
+        #If true, backpack can only be worn by placing it in Curios or Accessories 'Back' slot
+        #WARNING - Remember to TAKE OFF BACKPACK BEFORE enabling or disabling this integration!! - if not you'll lose your backpack
+        backSlotIntegration = false

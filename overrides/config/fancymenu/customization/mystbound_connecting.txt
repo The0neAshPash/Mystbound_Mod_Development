@@ -1,0 +1,134 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = connect_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1724467959249
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:eece2ffa-1c32-48a9-9121-2a74aa87097f-1724467952232] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1017
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/bg_3.png
+  slide = false
+  repeat_texture = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/mystbound.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 6e92765f-6d9a-4b32-85b5-c0673682956c-1724356537095
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -111
+  y = -147
+  width = 223
+  height = 52
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = ff2f390a-de0e-4d6c-8fc0-fd236f1e7e08-1721753063875
+  [loading_requirement_container_meta:ff2f390a-de0e-4d6c-8fc0-fd236f1e7e08-1721753063875] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 71ec2cf2-6c93-4b6c-8b92-79d7e43d2c42-1724356535256
+  [executable_block:71ec2cf2-6c93-4b6c-8b92-79d7e43d2c42-1724356535256][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = status
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -100
+  y = -74
+  width = 200
+  height = 9
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 535f02b5-d45c-4829-a162-c2e7d2438d45-1724356535256
+  [loading_requirement_container_meta:535f02b5-d45c-4829-a162-c2e7d2438d45-1724356535256] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 8420c8de-34f5-495e-8660-8c7ee8878a70-1724356535256
+  [executable_block:8420c8de-34f5-495e-8660-8c7ee8878a70-1724356535256][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 400382
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 220
+  y = 216
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 9b502cb0-37ec-42da-b2c9-56904ae92292-1724356535256
+  [loading_requirement_container_meta:9b502cb0-37ec-42da-b2c9-56904ae92292-1724356535256] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

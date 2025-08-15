@@ -1,0 +1,416 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.8
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking",
+                "minecraft:vanishing_curse",
+                "minecraft:sweeping",
+                "minecraft:sharpness",
+                "minecraft:looting",
+                "minecraft:knockback",
+                "minecraft:fire_aspect"
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Found in the depths of a mysterious desert dungeon"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "Ancient Iron Sword"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking",
+                "minecraft:respiration",
+                "minecraft:protection",
+                "minecraft:projectile_protection",
+                "minecraft:fire_protection",
+                "minecraft:blast_protection",
+                "minecraft:binding_curse",
+                "minecraft:aqua_affinity"
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Found in the depths of a mysterious desert dungeon"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Iron Helmet"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking",
+                "minecraft:vanishing_curse",
+                "minecraft:thorns",
+                "minecraft:protection",
+                "minecraft:projectile_protection",
+                "minecraft:blast_protection",
+                "minecraft:binding_curse"
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Found in the depths of a mysterious desert dungeon"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Iron Chestplate"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking",
+                "minecraft:vanishing_curse",
+                "minecraft:protection",
+                "minecraft:projectile_protection",
+                "minecraft:frost_walker",
+                "minecraft:fire_protection",
+                "minecraft:feather_falling",
+                "minecraft:depth_strider",
+                "minecraft:blast_protection",
+                "minecraft:binding_curse"
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Found in the depths of a mysterious desert dungeon"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Iron Boots"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:vanishing_curse",
+                "minecraft:unbreaking",
+                "minecraft:protection",
+                "minecraft:projectile_protection",
+                "minecraft:fire_protection",
+                "minecraft:blast_protection"
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Found in the depths of a mysterious desert dungeon"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Iron Leggings"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking",
+                "minecraft:silk_touch",
+                "minecraft:fortune",
+                "minecraft:efficiency"
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Found in the depths of a mysterious desert dungeon"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Iron Pickaxe"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Found in the depths of a mysterious desert dungeon"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Iron Axe"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking",
+                "minecraft:efficiency"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Found in the depths of a mysterious desert dungeon"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking",
+                "minecraft:efficiency"
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Iron Shovel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:reflecting_shield}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:bound_soul_helmet}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:bound_soul_chestplate}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:bound_soul_leggings}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:amethyst_shield}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:universal_ingredient}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ceramic_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:clay_paste"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_root_item"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        }
+      ]
+    }
+  ]
+}

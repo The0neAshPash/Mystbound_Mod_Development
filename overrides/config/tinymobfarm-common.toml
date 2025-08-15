@@ -1,0 +1,40 @@
+# The durability of the lasso.
+# Allowed range: 1 ~ 2147483647 - Default: 256
+"Lasso Durability" = 256
+
+# Whether the looting enchantment will be taken into consideration when generating mob loot.
+# Allowed values: true, false - Default: true
+"Allow Lasso Looting" = true
+
+# The speed of the wood farm.
+# Allowed range: 0.001 ~ 1.7976931348623157E308 - Default: 50.0
+"Wood Farm Speed" = 50.0
+
+# The speed of the stone farm.
+# Allowed range: 0.001 ~ 1.7976931348623157E308 - Default: 40.0
+"Stone Farm Speed" = 40.0
+
+# The speed of the iron farm.
+# Allowed range: 0.001 ~ 1.7976931348623157E308 - Default: 30.0
+"Iron Farm Speed" = 30.0
+
+# The speed of the gold farm.
+# Allowed range: 0.001 ~ 1.7976931348623157E308 - Default: 20.0
+"Gold Farm Speed" = 20.0
+
+# The speed of the diamond farm.
+# Allowed range: 0.001 ~ 1.7976931348623157E308 - Default: 10.0
+"Diamond Farm Speed" = 10.0
+
+# The speed of the emerald farm.
+# Allowed range: 0.001 ~ 1.7976931348623157E308 - Default: 5.0
+"Emerald Farm Speed" = 5.0
+
+# The speed of the inferno farm.
+# Allowed range: 0.001 ~ 1.7976931348623157E308 - Default: 2.5
+"Inferno Farm Speed" = 2.5
+
+# The speed of the ultimate farm.
+# Allowed range: 0.001 ~ 1.7976931348623157E308 - Default: 0.5
+"Ultimate Farm Speed" = 0.5
+

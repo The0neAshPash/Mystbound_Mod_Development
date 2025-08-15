@@ -1,0 +1,20 @@
+{
+  "values": [
+    "minecraft:wheat_seeds",
+    "minecraft:sugar_cane",
+    "finallyfarmabledyes:magenta",
+    "finallyfarmabledyes:light_gray",
+    "finallyfarmabledyes:red",
+    "brewery:barley_seeds",
+    "brewery:hops_seeds",
+    "brewery:corn_seeds",
+    "bakery:strawberry_seeds",
+    "vinery:savanna_grape_seeds_red",
+    "vinery:savanna_grape_seeds_white",
+    "vinery:dark_cherry_sapling",
+    "vinery:dark_cherry_leaves",
+    "herbalbrews:rooibos_leaf",
+    "herbalbrews:yerba_mate_leaf",
+    "herbalbrews:tea_blossom"
+  ]
+}

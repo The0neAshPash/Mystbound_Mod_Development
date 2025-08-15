@@ -1,0 +1,7 @@
+{
+	// If enabled, allows players to drop their head on death.
+	"playerDropsHeadOnDeath": true,
+	// Sets the chance of a player dropping their head if 'playerDropsHeadOnDeath' is enabled.
+	// min: 1.0E-4, max: 1.0
+	"playerHeadDropChance": 1.0
+}

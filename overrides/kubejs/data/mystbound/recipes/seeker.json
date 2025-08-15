@@ -1,0 +1,18 @@
+{
+    "type": "lychee:item_burning",
+    "item_in": [
+        {
+            "item": "minecraft:recovery_compass"
+        }
+    ],
+    "post": [
+            {
+                "type": "execute",
+                "command": "give @p seeker_compass:seeker_compass",
+                "hide": true
+            }
+    ]
+}
+
+
+

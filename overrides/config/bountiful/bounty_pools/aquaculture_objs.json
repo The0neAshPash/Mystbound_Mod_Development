@@ -1,0 +1,382 @@
+{
+  "content": {
+    "aquaculture_piranha": {
+      "type": "item",
+      "content": "aquaculture:piranha",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_perch": {
+      "type": "item",
+      "content": "aquaculture:perch",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_jellyfish": {
+      "type": "item",
+      "content": "aquaculture:jellyfish",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_tuna": {
+      "type": "item",
+      "content": "aquaculture:tuna",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_gar": {
+      "type": "item",
+      "content": "aquaculture:gar",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_bayad": {
+      "type": "item",
+      "content": "aquaculture:bayad",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_fish_bones": {
+      "type": "item",
+      "content": "aquaculture:fish_bones",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_red_shrooma": {
+      "type": "item",
+      "content": "aquaculture:red_shrooma",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_boulti": {
+      "type": "item",
+      "content": "aquaculture:boulti",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_algae": {
+      "type": "item",
+      "content": "aquaculture:algae",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_pink_salmon": {
+      "type": "item",
+      "content": "aquaculture:pink_salmon",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_red_grouper": {
+      "type": "item",
+      "content": "aquaculture:red_grouper",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_sushi": {
+      "type": "item",
+      "content": "aquaculture:sushi",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_arapaima": {
+      "type": "item",
+      "content": "aquaculture:arapaima",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_atlantic_cod": {
+      "type": "item",
+      "content": "aquaculture:atlantic_cod",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_blackfish": {
+      "type": "item",
+      "content": "aquaculture:blackfish",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_brown_shrooma": {
+      "type": "item",
+      "content": "aquaculture:brown_shrooma",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_tambaqui": {
+      "type": "item",
+      "content": "aquaculture:tambaqui",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_arrau_turtle": {
+      "type": "item",
+      "content": "aquaculture:arrau_turtle",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_starshell_turtle": {
+      "type": "item",
+      "content": "aquaculture:starshell_turtle",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_synodontis": {
+      "type": "item",
+      "content": "aquaculture:synodontis",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_catfish": {
+      "type": "item",
+      "content": "aquaculture:catfish",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_brown_trout": {
+      "type": "item",
+      "content": "aquaculture:brown_trout",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_pacific_halibut": {
+      "type": "item",
+      "content": "aquaculture:pacific_halibut",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_bluegill": {
+      "type": "item",
+      "content": "aquaculture:bluegill",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_muskellunge": {
+      "type": "item",
+      "content": "aquaculture:muskellunge",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_minnow": {
+      "type": "item",
+      "content": "aquaculture:minnow",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_goldfish": {
+      "type": "item",
+      "content": "aquaculture:goldfish",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_atlantic_herring": {
+      "type": "item",
+      "content": "aquaculture:atlantic_herring",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_box_turtle": {
+      "type": "item",
+      "content": "aquaculture:box_turtle",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_leech": {
+      "type": "item",
+      "content": "aquaculture:leech",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_atlantic_halibut": {
+      "type": "item",
+      "content": "aquaculture:atlantic_halibut",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_rainbow_trout": {
+      "type": "item",
+      "content": "aquaculture:rainbow_trout",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_capitaine": {
+      "type": "item",
+      "content": "aquaculture:capitaine",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_carp": {
+      "type": "item",
+      "content": "aquaculture:carp",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_pollock": {
+      "type": "item",
+      "content": "aquaculture:pollock",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "aquaculture_smallmouth_bass": {
+      "type": "item",
+      "content": "aquaculture:smallmouth_bass",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_pufferfish": {
+      "type": "item",
+      "content": "minecraft:pufferfish",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 500
+    },
+    "minecraft_tropical_fish": {
+      "type": "item",
+      "content": "minecraft:tropical_fish",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 200
+    },
+    "minecraft_cod": {
+      "type": "item",
+      "content": "minecraft:cod",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 200
+    },
+    "minecraft_salmon": {
+      "type": "item",
+      "content": "minecraft:salmon",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 200
+    },
+    "aquaculture_worm": {
+      "type": "item",
+      "content": "aquaculture:worm",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 20
+    }
+  }
+}

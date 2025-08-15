@@ -1,0 +1,403 @@
+{
+  "requires": [
+    "irons_spellbooks"
+  ],
+  "content": {
+    "irons_spellbooks_ender_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:ender_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_holy_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:holy_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_blood_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:blood_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_arcane_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:arcane_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_cooldown_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:cooldown_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_protection_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:protection_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_nature_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:nature_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_eldritch_manuscript": {
+      "type": "item",
+      "content": "irons_spellbooks:eldritch_manuscript",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 500
+    },
+    "irons_spellbooks_ancient_knowledge_fragment": {
+      "type": "item",
+      "content": "irons_spellbooks:ancient_knowledge_fragment",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 6000
+    },
+    "irons_spellbooks_emerald_stoneplate_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:emerald_stoneplate_ring",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_fireward_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:fireward_ring",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_frostward_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:frostward_ring",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_poisonward_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:poisonward_ring",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_conjurers_talisman": {
+      "type": "item",
+      "content": "irons_spellbooks:conjurers_talisman",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_affinity_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:affinity_ring",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_concentration_amulet": {
+      "type": "item",
+      "content": "irons_spellbooks:concentration_amulet",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_amethyst_resonance_charm": {
+      "type": "item",
+      "content": "irons_spellbooks:amethyst_resonance_charm",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_invisibility_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:invisibility_ring",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_lesser_spell_slot_upgrade": {
+      "type": "item",
+      "content": "irons_spellbooks:lesser_spell_slot_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_fire_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:fire_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_ice_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:ice_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_lightning_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:lightning_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_holy_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:holy_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_ender_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:ender_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_blood_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:blood_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_evocation_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:evocation_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_nature_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:nature_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_mana_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:mana_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_cooldown_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:cooldown_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_protection_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:protection_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_permafrost_shard": {
+      "type": "item",
+      "content": "irons_spellbooks:permafrost_shard",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_furled_map": {
+      "type": "item",
+      "content": "irons_spellbooks:furled_map",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_evocation_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:evocation_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_ice_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:ice_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_lightning_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:lightning_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_fire_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:fire_rune",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_mana_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:mana_ring",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_silver_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:silver_ring",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_cooldown_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:cooldown_ring",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_cast_time_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:cast_time_ring",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_arcane_salvage": {
+      "type": "item",
+      "content": "irons_spellbooks:arcane_salvage",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 4000
+    },
+    "irons_spellbooks_netherward_tincture": {
+      "type": "item",
+      "content": "irons_spellbooks:netherward_tincture",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4000
+    },
+    "irons_spellbooks_heavy_chain_necklace": {
+      "type": "item",
+      "content": "irons_spellbooks:heavy_chain_necklace",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    }
+  }
+}

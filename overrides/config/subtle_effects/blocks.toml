@@ -1,0 +1,144 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+redstoneBlockDust = true
+redstoneBlockDustDensity = "DEFAULT"
+redstoneDustEmittingBlocks = [
+    "minecraft:redstone_block"
+]
+glowstoneBlockDust = true
+glowstoneBlockDustDensity = "DEFAULT"
+glowstoneDustEmittingBlocks = [
+    "minecraft:glowstone"
+]
+netherOnlyGlowstoneBlockDust = false
+beehivesHaveSleepingZs = true
+torchflowerSmoke = "DEFAULT"
+torchflowerFlames = true
+dragonEggParticles = true
+replaceEndPortalSmoke = true
+pumpkinCarvedParticles = true
+anvilBreakParticles = true
+anvilUseParticles = true
+grindstoneUseParticles = true
+smithingTableUseParticles = true
+stonecutterUseParticles = true
+cauldronUseParticles = true
+cauldronCleanItemSounds = true
+compostingCompostParticles = true
+compostingItemParticles = true
+commandBlockParticles = "ON"
+commandBlockParticlesDensity = 1.0
+slimeBlockBounceSounds = true
+beaconParticlesDisplayType = "ON"
+beaconParticlesDensity = 10
+beaconParticlesSpeed = 1.0
+respawnAnchorParticles = true
+beehiveShearParticles = true
+endPortalParticles = true
+leavesDecayEffects = true
+farmlandDestroyEffects = true
+amethystSparkleDisplayType = "ON"
+amethystSparkleEmittingBlocks = [
+    "minecraft:amethyst_block",
+    "minecraft:budding_amethyst"
+]
+amethystSparkleSounds = true
+floweringAzaleaPetals = true
+sculkBlockSculkDust = true
+sculkVeinSculkDust = true
+sculkShriekerDestroySouls = true
+sculkCatalystDestroySouls = true
+calibratedSculkSensorAmethystSparkle = true
+campfireSizzlingSoundVolume = 0.5
+replacePowderSnowFlakes = true
+lavaCauldronEffects = true
+enderEyePlacedRings = true
+enderEyePlacedRingsDuration = 10
+enderEyePlacedParticlesDisplayType = "BOTH"
+eyeColors = [
+    [ "minecraft:ender_eye", { r = 122, g = 186, b = 171 } ],
+    [ "endrem:evil_eye", { r = 74, g = 59, b = 200 } ],
+    [ "endrem:nether_eye", { r = 107, g = 72, b = 46 } ],
+    [ "endrem:undead_eye", { r = 192, g = 213, b = 197 } ],
+    [ "endrem:rogue_eye", { r = 15, g = 234, b = 85 } ],
+    [ "endrem:cursed_eye", { r = 60, g = 13, b = 106 } ],
+    [ "endrem:magical_eye", { r = 0, g = 124, b = 134 } ],
+    [ "endrem:witch_eye", { r = 194, g = 141, b = 204 } ],
+    [ "endrem:cold_eye", { r = 64, g = 181, b = 192 } ],
+    [ "endrem:wither_eye", { r = 197, g = 207, b = 229 } ],
+    [ "endrem:exotic_eye", { r = 185, g = 236, b = 247 } ],
+    [ "endrem:guardian_eye", { r = 220, g = 140, b = 140 } ],
+    [ "endrem:lost_eye", { r = 166, g = 8, b = 40 } ],
+    [ "endrem:old_eye", { r = 203, g = 154, b = 24 } ],
+    [ "endrem:cryptic_eye", { r = 183, g = 228, b = 90 } ],
+    [ "endrem:corrupted_eye", { r = 87, g = 95, b = 91 } ],
+    [ "endrem:black_eye", { r = 2, g = 12, b = 38 } ]
+]
+endPortalFrameParticlesDisplayType = "SMOKE"
+endPortalFrameParticlesDensity = 1.0
+replaceOminousVaultConnection = true
+cobwebMovementSounds = true
+
+[sparks]
+removeVanillaCampfireSparks = true
+candleSparks = true
+furnaceSparks = true
+fireSparks = true
+campfireSparks = true
+torchSparks = true
+lanternSparksDensity = 5
+lavaSparksDisplayType = "ON"
+lavaSparksDensity = 1.0
+brewingStandSparks = true
+
+[updatedSmoke]
+candleSmoke = true
+furnaceSmoke = true
+fireSmoke = true
+torchSmoke = true
+campfireDowseSmoke = true
+
+[steam]
+lavaFizzSteam = true
+replaceCampfireFoodSmoke = true
+spongeDryingOutSteam = true
+replaceRainEvaporationSteam = true
+lavaCauldronsEvaporateRain = true
+spawnLogic = "BRIGHTNESS"
+steamingWater = false
+boilingWater = false
+steamingWaterCauldron = false
+boilingWaterCauldron = false
+steamingThreshold = 11
+boilingThreshold = 13
+
+[fallingBlocks]
+dustyBlocks = [
+    "minecraft:sand",
+    "minecraft:suspicious_sand",
+    "minecraft:red_sand",
+    "minecraft:gravel",
+    "minecraft:suspicious_gravel",
+    "minecraft:white_concrete_powder",
+    "minecraft:orange_concrete_powder",
+    "minecraft:magenta_concrete_powder",
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:yellow_concrete_powder",
+    "minecraft:lime_concrete_powder",
+    "minecraft:pink_concrete_powder",
+    "minecraft:gray_concrete_powder",
+    "minecraft:light_gray_concrete_powder",
+    "minecraft:cyan_concrete_powder",
+    "minecraft:purple_concrete_powder",
+    "minecraft:blue_concrete_powder",
+    "minecraft:brown_concrete_powder",
+    "minecraft:green_concrete_powder",
+    "minecraft:red_concrete_powder",
+    "minecraft:black_concrete_powder"
+]
+whileFallingDust = true
+whileFallingDustStartDistance = 3
+onLandDust = true
+onLandSound = true
+weakSupportDust = true
+weakSupportDustDensity = 1

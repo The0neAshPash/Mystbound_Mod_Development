@@ -1,0 +1,35 @@
+[
+    {
+      "dimension": "minecraft:overworld",
+      "name": "spawn",
+      "type": "box",
+      "x": 0,
+      "y": 60,
+      "z": 0,
+      "dimx": 100,
+      "dimy": 115,
+      "dimz": 100
+    },
+    {
+      "dimension": "minecraft:overworld",
+      "name": "threeK",
+      "type": "box",
+      "x": 0,
+      "y": 60,
+      "z": 0,
+      "dimx": 3000,
+      "dimy": 115,
+      "dimz": 3000
+    },
+    {
+      "dimension": "minecraft:overworld",
+      "name": "fiveK",
+      "type": "box",
+      "x": 0,
+      "y": 60,
+      "z": 0,
+      "dimx": 5000,
+      "dimy": 115,
+      "dimz": 5000
+    }
+  ]

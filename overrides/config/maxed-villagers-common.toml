@@ -1,0 +1,20 @@
+
+#Maxed Villager Enchants
+[general]
+	#If this value is true, the default functionality (maxed enchants) will be on. If it is false, the enchants will always be the minimum value.
+	maxed = true
+	#If this value is true, "Decapitation Mode" will be on. All enchants will be capable of being selected, with the exception of the maximum enchant, which can not be selected. If the maximum level is 1, that level can still be chosen. This overrides the min/max option.
+	decapitation = false
+	#If this value is false, then all behavior is as normal. If it is true, then the x3 price increase for treasure enchants is removed.
+	price_waiver = false
+	#If this value is false, then all behavior is normal. If it is true, then no treasure enchantments may be traded.
+	no_treasure = false
+	#If this value is false, then all behavior is normal. If it is true, then all enchantment books will spawn with a curse on them.
+	cursed_books = false
+	#If this value is false, then all behavior is normal. If it is true, then all enchantments will be tradable, even those locked off normally (such as Soul Speed). This does not override the other options, however; if treasure enchants are disabled, they will not spawn.
+	all_allowed = false
+	#This value determines how chest loot behaves: 0 is normal, 1 is all maximum, 2 is all minimum, and 3 is decapitation mode.
+	loot_mode = 0
+	#This value determines if curses will always be added to loot: false is normal vanilla behavior
+	loot_curses = false
+

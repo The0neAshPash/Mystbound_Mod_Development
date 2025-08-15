@@ -1,0 +1,7 @@
+
+[Client]
+	#Should collars for cats and dogs have a small, colored gender indicator?
+	"Collar Gender Indicators" = true
+	#Should collars for cats and dogs be visible?
+	"Render Collars" = true
+

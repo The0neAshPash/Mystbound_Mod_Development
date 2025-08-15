@@ -1,0 +1,18 @@
+{
+    "type": "lychee:item_burning",
+    "item_in": [
+        {
+            "item": "irons_spellbooks:weapon_parts"
+        }
+    ],
+    "post": [
+            {
+                "type": "execute",
+                "command": "give @p irons_spellbooks:magehunter",
+                "hide": true
+            }
+    ]
+}
+
+
+

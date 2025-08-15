@@ -1,0 +1,325 @@
+
+{
+	"replace": true,
+	"content": {
+
+		"butcher_obj_chicken": {
+			"type": "item",
+			"content": "minecraft:chicken",
+			"amount": {
+				"min": 2,
+				"max": 16
+			},
+			"unitWorth": 50
+		},
+
+		"butcher_obj_egg": {
+			"type": "item",
+			"content": "minecraft:egg",
+			"amount": {
+				"min": 4,
+				"max": 32
+			},
+			"unitWorth": 20
+		},
+
+		"butcher_obj_porkchop": {
+			"type": "item",
+			"content": "minecraft:porkchop",
+			"amount": {
+				"min": 2,
+				"max": 16
+			},
+			"unitWorth": 100
+		},
+
+		"butcher_obj_rabbit": {
+			"type": "item",
+			"content": "minecraft:rabbit",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 250
+		},
+
+		"butcher_obj_tbone": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_tbone_steak",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 300
+		},
+		"butcher_obj_sirloin": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_sirloin_steak",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 300
+		},
+		"butcher_obj_ribeye": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_ribeye_steak",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 300
+		},
+		"butcher_obj_lsirloin": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_lamb_sirloin",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 300
+		},
+		"butcher_obj_rumpsteak": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_rump_steak",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 200
+		},
+		"butcher_obj_ploin": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_pork_loin",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 200
+		},
+
+		"butcher_obj_lleg": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_leg_of_lamb",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 300
+		},
+		"butcher_obj_pleg": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_pork_leg",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 300
+		},
+		"butcher_obj_lshoulder": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_lamb_shoulder",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 250
+		},
+		"butcher_obj_pshoulder": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_pork_shoulder",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 250
+		},
+		"butcher_obj_ham": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_pork_ham",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 250
+		},
+		"butcher_obj_llama": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:rawllamameat",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 350
+		},
+		"butcher_obj_pbelly": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "butcher:raw_pork_belly",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 300
+		},
+
+		"butcher_obj_mutton": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:mutton",
+			"amount": {
+				"min": 3,
+				"max": 16
+			},
+			"unitWorth": 145
+		},
+
+		"butcher_obj_beef": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:beef",
+			"amount": {
+				"min": 2,
+				"max": 24
+			},
+			"unitWorth": 100
+		},
+
+		"butcher_obj_panda": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "butcher:rawpandameat",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 500
+		},
+		"butcher_obj_fox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "butcher:rawfoxmeat",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 500
+		},
+		"butcher_obj_chuck": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "butcher:raw_chuck_steak",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 500
+		},
+		"butcher_obj_dolphinfin": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "butcher:dolphinfin",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 400
+		},
+		"butcher_obj_rawdolphinmeat": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "butcher:rawdolphinmeat",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 400
+		},
+		"butcher_obj_bat": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "butcher:batmeat",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 400
+		},
+		"butcher_obj_camel": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "butcher:rawcamelmeat",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 400
+		},
+		"butcher_obj_bear": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "butcher:rawbearmeat",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 400
+		},
+		"butcher_obj_turtle": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "butcher:turtle_meat",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 400
+		},
+		"butcher_obj_spider_legs": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "butcher:cavespiderleg",
+			"amount": {
+				"min": 2,
+				"max": 24
+			},
+			"unitWorth": 500
+		},
+		"butcher_obj_creeperm": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "butcher:rawcreepermeat",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 300
+		},
+		"butcher_obj_eguardian": {
+			"type": "item",
+			"rarity": "LEGENDARY",
+			"content": "butcher:raweldermeat",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 2000
+		}
+		
+
+	}
+
+
+}

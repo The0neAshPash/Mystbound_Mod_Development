@@ -1,0 +1,14 @@
+
+[ITEMS]
+	#Defines whether tooltips have a visual rework or not.
+	#If false, some features regarding tooltip modification may break.
+	tooltipRework = true
+	#List of items that will not occur during gameplay.
+	#Specify item IDs to ban.
+	#May require a restart.
+	bannedItems = ["minecraft:example"]
+	#List of items that will not occur in the creative menus.
+	#Specify item IDs to hide.
+	#May require a restart.
+	hiddenItems = ["minecraft:example"]
+

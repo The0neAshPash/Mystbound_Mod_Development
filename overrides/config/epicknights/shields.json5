@@ -1,0 +1,12 @@
+{
+	"enableHeaterShield": true,
+	"enableTarget": false,
+	"enableBuckler": true,
+	"enableRondache": true,
+	"enableTartsche": true,
+	"enableEllipticalShield": false,
+	"enableRoundShield": true,
+	"enablePavese": true,
+	"enableKiteShield": true,
+	"enableCorruptedRoundShield": true
+}

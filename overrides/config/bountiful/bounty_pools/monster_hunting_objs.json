@@ -1,0 +1,310 @@
+{
+	"content": {
+
+		"monster_hunting_creeper": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "minecraft:creeper",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 550,
+			"weightMult": 0.1
+		},
+		"monster_hunting_tank": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "majruszsdifficulty:tank",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 4000
+		},
+		"monster_hunting_illusioner": {
+			"type": "entity",
+			"timeMult": 10.0,
+			"content": "majruszsdifficulty:illusioner",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000
+		},
+		"monster_hunting_archer": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "takesapillage:archer",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 1500
+		},
+		"monster_hunting_skirmisher": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "takesapillage:skirmisher",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 1500
+		},
+		"monster_hunting_legioner": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "takesapillage:legioner",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 2000
+		},
+		"monster_hunting_inecromancer": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "illagerinvasion:necromancer",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 2500
+		},
+		"monster_hunting_alchemist": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "illagerinvasion:alchemist",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 1500
+		},
+		"monster_hunting_archivist": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "illagerinvasion:archivist",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 1500
+		},
+		"monster_hunting_basher": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "illagerinvasion:basher",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 2000
+		},
+		"monster_hunting_firecaller": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "illagerinvasion:firecaller",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 2000
+		},
+		"monster_hunting_inquisitor": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "illagerinvasion:inquisitor",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 2500
+		},
+		"monster_hunting_marauder": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "illagerinvasion:marauder",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 2500
+		},
+		"monster_hunting_provoker": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "illagerinvasion:provoker",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 2500
+		},
+		"monster_hunting_sorcerer": {
+			"type": "entity",
+			"timeMult": 20.0,
+			"content": "illagerinvasion:sorcerer",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 2500
+		},
+		"monster_hunting_badpatch": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "knightquest:bad_patch",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 700
+		},
+		"monster_hunting_lizzy": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "knightquest:lizzy",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 700
+		},
+		"monster_hunting_ghastling": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "knightquest:ghastling",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 700
+		},
+		"monster_hunting_samhain": {
+			"type": "entity",
+			"timeMult": 10.0,
+			"content": "knightquest:samhain",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 1000
+		},
+		"monster_hunting_swampman": {
+			"type": "entity",
+			"timeMult": 10.0,
+			"content": "knightquest:swampman",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 1000
+		},
+		"monster_hunting_ratman": {
+			"type": "entity",
+			"timeMult": 10.0,
+			"content": "knightquest:ratman",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 1000
+		},
+		"monster_hunting_momma_lizzy": {
+			"type": "entity",
+			"timeMult": 10.0,
+			"content": "knightquest:momma_lizzy",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 3000
+		},
+		"monster_hunting_miner_sapper": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "resource_ghouls:miner_sapper",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 700
+		},
+		"monster_hunting_copper_stonebore": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "resource_ghouls:copper_stonebore",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 700
+		},
+		"monster_hunting_coal_stonebore": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "resource_ghouls:coal_stonebore",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 500
+		},
+		"monster_hunting_lapis_stonebore": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "resource_ghouls:lapis_stonebore",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 1000
+		},
+		"monster_hunting_redstone_stonebore": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "resource_ghouls:redstone_stonebore",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 1000
+		},
+		"monster_hunting_gold_stonebore": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "resource_ghouls:gold_stonebore",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 2000
+		},
+		"monster_hunting_diamond_stonebore": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "resource_ghouls:diamond_stonebore",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 3000
+		},
+		"monster_hunting_emerald_stonebore": {
+			"type": "entity",
+			"timeMult": 7.0,
+			"content": "resource_ghouls:emerald_stonebore",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 3000
+		}
+
+
+	}
+
+
+}

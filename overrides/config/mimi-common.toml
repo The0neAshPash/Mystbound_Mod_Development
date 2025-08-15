@@ -1,0 +1,15 @@
+
+["World Generation"]
+	#Toggles whether Instrumentalist shops should generate in villages.
+	enableInstrumentalistShop = true
+	#Comma-separated list of mobs that can be given instruments to hold.
+	allowedInstrumentMobs = "minecraft:zombie,minecraft:husk,minecraft:skeleton,minecraft:stray,minecraft:wither_skeleton"
+	#Toggles wheter to give players the MIMI Guide Book on first join.
+	doGiveBookOnFirstJoin = true
+
+[Other]
+	#Toggles whether MIMI should log when the server fails to timely execute a MIDI command which usually just indiciates server performance trouble.
+	doLogMidiTaskErrors = true
+	#The number of milliseconds a MIDI thread task should wait before timing out. Longer times may reduce instances of tasks failing but also reduce responsiveness of Transmitters.
+	midiTaskTimeoutMillis = 15000
+

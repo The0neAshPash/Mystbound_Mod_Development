@@ -1,0 +1,68 @@
+
+["Configs for Snowy City dungeon of UniqueDungeons, gen biomes configurable in biome tag #has_city_snow"]
+	#max terrain slope in blocks that allows for a valid generation point, 
+	# increasing this will make more locations viable and therefor reduce the distance between instances, 
+	# increasing this will make treasure maps load faster,
+	# increasing this will cause the center building of the city look more out of place, with noticeable cutoffs at the edges
+	"Terrain slope" = 5
+	#
+	# Blocks above sea level of a valid generation point, 
+	# reducing this will make more locations viable and therefor reduce the distance between instances, 
+	# reducing this will make treasure maps load faster, 
+	# reducing this will cause cities to generate in more boring places where the gen algorithm can't take advantage of the topography
+	"Min center height" = 100
+	#
+	# Distance between buildings on the axis between center and edge of a city, 
+	# note that space between buildings can be filled in higher iterations when angle limit allows back gen,
+	# increasing this will make cities larger in diameter with the same rough amount of buildings per city
+	"Building radius spacing factor" = 25
+	#
+	# Distance between buildings of a city orthogonal to the axis from center to edge, 
+	# note that space between buildings can be filled in higher iterations when angle limit allows back gen,
+	# increasing this will make cities less dense on average,
+	# increasing this will slightly lower generation time
+	"Building radial spacing factor" = 35
+	#
+	# Density of gen scan for viable spaces, 
+	# increasing this will severely increase generation time,
+	# increasing this will make cities denser on avarage, 
+	# increasing this will raise the average building count per city
+	"Building scan density" = 90
+	#
+	# number of recursions for gen, 
+	# increasing this by 1 will make the overall city diameter larger by about 1 building without making the city less dense,
+	# increasing this will make city gen slower
+	"Recursive gen depth" = 3
+	#
+	# Backgen angle limitation increase per recursion added to fixed value, 
+	# this value is effectively doubled as it is applied for each side of the center to edge axis
+	# high values allow for filling gaps between buildings in later generation iterations
+	# low values will make cities less dense and more stringy
+	# increasing this will make generation slower
+	"Angle limit per recursion" = 15
+	#
+	# Backgen angle limitation applied as a fixed value for each iteration, 
+	# this value is effectively doubled as it is applied for each side of the center to edge axis
+	# high values allow for filling gaps between buildings in later generation iterations
+	# low values will make cities less dense and more stringy
+	# increasing this will make generation slower
+	"fixed angle limit" = 20
+	#
+	# if estimated heights should be kept in mem and treated as real heights, and how much neighbor estimation confidence needed to do so
+	# higher values mean a worse but faster approximation of the world surface and result in faster gen, but more out of place buildings
+	"y est carryover confidence" = 0.6
+	#
+	# if estimated heights should be used to place buildings, and how much neighbor estimation confidence needed to do so
+	# higher values mean a worse but faster approximation of the world surface and result in faster gen, but more out of place buildings
+	"y est use confidence" = 0.3
+	#
+	# how far away on x and z a gen pos with an estimated y is allowed to be from a gen pos with calculated y
+	# higher values means more values are used to estimate a y cord, meaning the estimation gets slower
+	# we recommend you don't change this value
+	"y est dist from real y" = 5
+	#
+	# how many recursions of estimation are allowed to estimate a y cord
+	# higher values mean it is more likely a estimation in the confidence interval is found, but estimation gets slower
+	# we recommend you don't change this value
+	"y est recursion depth" = 1
+

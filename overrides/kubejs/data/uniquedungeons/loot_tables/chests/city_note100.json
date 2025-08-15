@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:reflecting_shield}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:bound_soul_helmet}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:bound_soul_chestplate}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:bound_soul_leggings}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:amethyst_shield}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:universal_ingredient}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

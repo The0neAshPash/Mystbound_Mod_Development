@@ -1,0 +1,351 @@
+{
+  "requires": [
+    "alexsmobs"
+  ],
+  "content": {
+    "alexsmobs_unsettling_kimono": {
+      "type": "item",
+      "content": "alexsmobs:unsettling_kimono",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000
+    },
+    "alexsmobs_stink_ray": {
+      "type": "item",
+      "content": "alexsmobs:stink_ray",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8000
+    },
+    "alexsmobs_music_disc_thime": {
+      "type": "item",
+      "content": "alexsmobs:music_disc_thime",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_mosquito_repellent_stew": {
+      "type": "item",
+      "content": "alexsmobs:mosquito_repellent_stew",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 300
+    },
+    "alexsmobs_music_disc_daze": {
+      "type": "item",
+      "content": "alexsmobs:music_disc_daze",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_gustmaker": {
+      "type": "item",
+      "content": "alexsmobs:gustmaker",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000
+    },
+    "alexsmobs_sculk_boomer": {
+      "type": "item",
+      "content": "alexsmobs:sculk_boomer",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 2000
+    },
+    "alexsmobs_tendon_whip": {
+      "type": "item",
+      "content": "alexsmobs:tendon_whip",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3000
+    },
+    "alexsmobs_ghostly_pickaxe": {
+      "type": "item",
+      "content": "alexsmobs:ghostly_pickaxe",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_skreecher_soul": {
+      "type": "item",
+      "content": "alexsmobs:skreecher_soul",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_novelty_hat": {
+      "type": "item",
+      "content": "alexsmobs:novelty_hat",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_skelewag_sword": {
+      "type": "item",
+      "content": "alexsmobs:skelewag_sword",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_flying_fish_boots": {
+      "type": "item",
+      "content": "alexsmobs:flying_fish_boots",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+
+    "alexsmobs_squid_grapple": {
+      "type": "item",
+      "content": "alexsmobs:squid_grapple",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 90000
+    },
+    "alexsmobs_rocky_chestplate": {
+      "type": "item",
+      "content": "alexsmobs:rocky_chestplate",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 10000
+    },
+
+    "alexsmobs_froststalker_helmet": {
+      "type": "item",
+      "content": "alexsmobs:froststalker_helmet",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_shield_of_the_deep": {
+      "type": "item",
+      "content": "alexsmobs:shield_of_the_deep",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 4000
+    },
+    "alexsmobs_falconry_hood": {
+      "type": "item",
+      "content": "alexsmobs:falconry_hood",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 400
+    },
+    "alexsmobs_falconry_glove": {
+      "type": "item",
+      "content": "alexsmobs:falconry_glove",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 400
+    },
+    "alexsmobs_leafcutter_ant_pupa": {
+      "type": "item",
+      "content": "alexsmobs:leafcutter_ant_pupa",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_gongylidia": {
+      "type": "item",
+      "content": "alexsmobs:gongylidia",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_echolocator": {
+      "type": "item",
+      "content": "alexsmobs:echolocator",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_fedora": {
+      "type": "item",
+      "content": "alexsmobs:fedora",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_boiled_emu_egg": {
+      "type": "item",
+      "content": "alexsmobs:boiled_emu_egg",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_pocket_sand": {
+      "type": "item",
+      "content": "alexsmobs:pocket_sand",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_spiked_turtle_shell": {
+      "type": "item",
+      "content": "alexsmobs:spiked_turtle_shell",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 2000
+    },
+    "alexsmobs_kangaroo_burger": {
+      "type": "item",
+      "content": "alexsmobs:kangaroo_burger",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 300
+    },
+    "alexsmobs_maraca": {
+      "type": "item",
+      "content": "alexsmobs:maraca",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_sombrero": {
+      "type": "item",
+      "content": "alexsmobs:sombrero",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_roadrunner_boots": {
+      "type": "item",
+      "content": "alexsmobs:roadrunner_boots",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_crocodile_chestplate": {
+      "type": "item",
+      "content": "alexsmobs:crocodile_chestplate",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_ancient_dart": {
+      "type": "item",
+      "content": "alexsmobs:ancient_dart",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 200
+    },
+    "alexsmobs_shark_tooth_arrow": {
+      "type": "item",
+      "content": "alexsmobs:shark_tooth_arrow",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+    "alexsmobs_moose_headgear": {
+      "type": "item",
+      "content": "alexsmobs:moose_headgear",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 2000
+    },
+    "alexsmobs_sopa_de_macaco": {
+      "type": "item",
+      "content": "alexsmobs:sopa_de_macaco",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 500
+    },
+    "alexsmobs_centipede_leggings": {
+      "type": "item",
+      "content": "alexsmobs:centipede_leggings",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_frontier_cap": {
+      "type": "item",
+      "content": "alexsmobs:frontier_cap",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_blobfish_bucket": {
+      "type": "item",
+      "content": "alexsmobs:blobfish_bucket",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    }
+  }
+}

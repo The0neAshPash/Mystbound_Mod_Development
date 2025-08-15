@@ -1,0 +1,18 @@
+{
+    "type": "lychee:item_burning",
+    "item_in": [
+        {
+            "item": "betterbeekeeping:lively_honey_bottle"
+        }
+    ],
+    "post": [
+            {
+                "type": "execute",
+                "command": "give @p ars_nouveau:ritual_overgrowth",
+                "hide": true
+            }
+    ]
+}
+
+
+

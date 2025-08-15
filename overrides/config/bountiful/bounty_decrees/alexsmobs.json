@@ -1,0 +1,12 @@
+{
+  "objectives": [
+    "treasures",
+    "resources",
+    "alexsmobs_any"
+  ],
+  "rewards": [
+    "decree",
+    "butcher_rews",
+    "alexsmobs_rews"
+  ]
+}

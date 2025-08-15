@@ -1,0 +1,21 @@
+
+[Config]
+	#Amount of Experience obtained from brushing a Suspicious Block
+	"Experience Drop" = 3.0
+	#The amount of time the Spider Amulet will be cooldowned for when used (in seconds)
+	"Spider Amulet Cooldown" = 30.0
+	#The level of Poison that will be applied to targets hit by a Player with the Poisonous effect.
+	"Poisonous Level" = 2.0
+	#The amount of time Poison will be applied for to targets hit by a Player with the Poisonous effect (in seconds)
+	"Poisonous Duration" = 5.0
+	#The duration of Poisounous granted when eating Ancient Berries (in seconds)
+	"Poisonous Duration Granted" = 1200.0
+	#The amount of time the Broken Clock will delay yout death by (in seconds)
+	"Death Delay Duration" = 15.0
+	#Whether the Broken Clock should grant Weakness V (preventing players from abusing it to kill a boss)
+	"Broken Clock Weakness" = false
+	#Whether the Broken Clock should grant Speed
+	"Broken Clock Speed" = true
+	#The amount of time Weather Idols will be cooldowned for when used (in seconds)
+	"Weather Idols Cooldown" = 5.0
+

@@ -1,0 +1,17 @@
+
+["Iron's Spells 'n Spellbooks"]
+	#Allow level increases for spells with a max. level of 1
+	allow_max_level_one_increase = false
+	#Innate eldritch spells will be unlocked by default if enabled
+	innate_unlocks_eldritch = false
+
+[Apotheosis]
+	#Max. rarity that can be crafted (6 = ancient)
+	#Range: 0 ~ 10
+	max_craftable_rarity = 4
+	#Shifts the min. rarity downwards by this value
+	#Example with a value of 2 and attribute value of 3.5: Chance between common and epic rarity
+	#(Without a shift this would be a chance between rare and epic rarity)
+	#Range: 0 ~ 10
+	shift_min_rarity = 0
+

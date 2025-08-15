@@ -1,0 +1,376 @@
+
+# This category holds configs that affect bug fixes.
+["Bug Fix Config Options"]
+	#Fix MC-147694 (shield not knocking back attackers).
+	#For vanilla, this value is false.
+	#
+	fix_shield_attacker_knockback = false
+	#Fix MC-223238 and MC-248310 (shield users blocking all knockback).
+	#For vanilla, this value is false.
+	#
+	fix_shield_user_knockback = false
+
+# This category holds configs that affect general combat.
+["General Combat Config Options"]
+	#Toggles melee and ranged attacks from players or mobs interrupting eating and drinking.
+	#For vanilla, this value is false.
+	#
+	attacks_interrupt_consumption = true
+	#Adjusts the time in ticks (1/20 seconds) it takes to consume a drink when used.
+	#For vanilla, this value is 32 for stews, milk buckets and potions, and 40 for honey bottles.
+	#
+	#Range: 0 ~ 40
+	drink_use_duration_ticks = 20
+	#Adjust the number of i-frames (invulnerable frames) left before full damage can be taken.
+	#Hitting a target when the number of i-frames is greater than this will only result in partial or zero damage.
+	#For vanilla, this value is 10.
+	#
+	#Range: 0 ~ 20
+	i_frames_left_before_damageable = 10
+	#Toggles the change to the Impaling enchantment to allow it to grant bonus damage against a target in water or rain.
+	#For vanilla, this value is false.
+	#
+	impaling_change = true
+	#Which type of hitbox adjustment should be used.
+	#Base CN hitbox increase expands all dimensions to the minimum value.
+	#CTS hitbox increase only applies if the largest dimension of the entity is less than the minimum.
+	#If CTS does apply to the entity, it inflates all dimensions by the value (minimum - largestDim).
+	#For vanilla, this value is OFF.
+	#For CN, this value is CN.
+	#For CTS, this value is CTS.
+	#
+	#Allowed Values: OFF, CN, CTS
+	hitbox_adjustment_type = "CTS"
+	#Adjusts the minimum size an entity's hitbox can be, in blocks, for hitscan detection.
+	#An entity's hitbox with a size smaller than this value will be inflated to it during the hitscan.
+	#For vanilla, this value is 0.0.
+	#
+	#Range: 0.0 ~ 2.0
+	hitbox_min_size_for_hitscan = 0.9
+	#Toggles Players triggering hurt logic even when received damage is zero.
+	#For vanilla, this value is false.
+	#
+	players_always_hurt = true
+
+# This category holds configs that affect hunger.
+["Hunger Config Options"]
+	#Toggles exhaustion not being added during (normal) natural healing.
+	#For vanilla, this value is false.
+	#
+	natural_healing_exhaustion_prevented = false
+	#Adjusts the minimum food level (in half-drumsticks) that will allow natural healing.
+	#For vanilla, this value is 18.
+	#
+	#Range: 0 ~ 20
+	natural_healing_min_food_level = 7
+	#Toggles the prevention of fast natural healing when at maximum food level of 20 (in half-drumsticks).
+	#For vanilla, this value is false.
+	#
+	natural_healing_fast_healing_prevented = false
+	#Adjusts the time in ticks (1/20 seconds) before food level is decreased by 1 during natural healing.
+	#Note: The "natural_healing_exhaustion_prevented" config value must be set to true.
+	#
+	#Range: 0 ~ 20
+	natural_healing_ticks_before_food_level_decrease = 2
+	#Adjusts the time in ticks (1/20 seconds) between natural healing events.
+	#For vanilla, this value is 80.
+	#
+	#Range: 0 ~ 600
+	natural_healing_ticks_before_heal = 40
+
+# This category holds configs that affect magic combat.
+["Magic Combat Config Options"]
+	#Toggles the change of instant effects on tipped arrows being scaled by the "arrow_instant_effect_scale" config value.
+	#For vanilla, this value is false.
+	#
+	arrow_instant_effect_change = false
+	#Adjusts the amount an instant effect is scaled by when applied from a tipped arrow.
+	#Note: The "arrow_instant_effect_change" config value must be set to true.
+	#For vanilla, non-instant effects are scaled by 1/8 (0.375).
+	#
+	#Range: 0.0 ~ 1.0
+	arrow_instant_effect_scale = 0.375
+	#Adjusts the base amount of health healed (in half-hearts) by instant effects (Instant Health, Instant Damage) before amplification.
+	#For vanilla, this value is 4.
+	#
+	#Range: 1 ~ 20
+	instant_effect_base_heal_amount = 6
+	#Adjusts the max number of potions (excluding splash and lingering ones) that can be held in a single stack.
+	#For vanilla, this value is 1.
+	#
+	#Range: 1 ~ 64
+	potion_max_stack_size = 16
+	#Toggles the change of the Strength effect's modifier from an additive one to a multiplicative one.
+	#For vanilla, this value is false.
+	#
+	strength_effect_change_enabled = false
+	#Adjusts the multiplier of the attack damage attribute modifier the Strength effect applies, per level of Strength.
+	#Note: The "strength_effect_change_enabled" config value must be set to true.
+	#Note: A value of "0.2", for example, means total attack damage will be increased by 20%.
+	#
+	#Range: 0.0 ~ 1.0
+	strength_effect_modifier_value = 0.2
+
+# This category holds configs that affect melee combat.
+["Melee Combat Config Options"]
+	#Toggles the prevention of switching weapons triggering attack cooldown.
+	#For vanilla, this value is false.
+	#
+	attack_cooldown_when_switching_prevented = false
+	#Toggles the removal of attacking too early changing damage and disabling crits
+	#For vanilla, this value is true.
+	#
+	attack_cooldown_impact_on_damage = false
+	#Toggles attacks being able to become critical when sprinting.
+	#For vanilla, this value is false.
+	#
+	attack_critical_when_sprinting = false
+	#Toggles the prevention of attacking while on attack cooldown.
+	#For vanilla, this value is false.
+	#
+	attack_during_cooldown_prevented = false
+	#Toggles the adjustment of the attack duration to make attack times more accurate to CTS.
+	#For vanilla, this value is false.
+	#
+	attack_duration_adjustment = false
+	#Toggles the "grace period" where if you attack before 100% when you shouldn't be able to, but are between the percentage value of attack_grace_period_time and 100%, the attack is delayed until one tick after 100%.
+	#For vanilla, this value is false.
+	#
+	attack_grace_period = false
+	#Determines the grace period time, between 0 and 1, default is 0.8, representing the 80%-100% window normally present.
+	#For vanilla, this value is 1.
+	#
+	#Range: 0.0 ~ 1.0
+	attack_grace_period_time = 0.8
+	#Adjusts the minimum delay in ticks (1/20 seconds) between attacks when holding the attack key.
+	#Note: The higher this value is, the more it may negatively affect weapons with a high attack speed.
+	#
+	#Range: 0 ~ 20
+	attack_held_delay_ticks = 4
+	#Adjusts the attack cooldown ticks (1/20 seconds) given when missing an attack.
+	#Note: The "attack_miss_reduced_cooldown" config value must be set to true.
+	#
+	#Range: 0 ~ 20
+	attack_miss_cooldown_ticks = 4
+	#Toggles missed attacks no longer triggering the full attack strength cooldown.
+	#It will instead set the cooldown to the "attack_miss_cooldown_ticks" config value.
+	#For vanilla, this value is false.
+	#
+	attack_miss_reduced_cooldown = false
+	#Toggles missed attacks still triggering sweep attacks in front of the player.
+	#For vanilla, this value is false.
+	#
+	attack_miss_sweep_attack = false
+	#Adjusts the bonus attack reach given when the held weapon is "supercharged", in blocks.
+	#Note: The "attack_supercharge" config value must be set to true.
+	#
+	#Range: 0.0 ~ 3.0
+	attack_reach_bonus_when_supercharged = 1.0
+	#Adjusts the threshold at which the player's attack strength scale is considered "supercharged".
+	#Note: The "attack_supercharge" config value must be set to true.
+	#
+	#Range: 1.0 ~ 4.0
+	attack_strength_scale_supercharge_threshold = 2.0
+	#Toggles attacks becoming "supercharged", granting the player bonus attack reach.
+	#The attack strength scale will be checked against the "attack_strength_scale_supercharge_threshold" config value.
+	#Note: Bonus attack reach is not given if the player is crouching.
+	#For vanilla, this value is false.
+	#
+	attack_supercharge = false
+	#Toggles attacking through non-solid blocks, such as grass and vines.
+	#For vanilla, this value is false.
+	#
+	attack_through_non_solid_blocks = false
+	#Toggles attacking automatically when holding the attack key.
+	#For vanilla, this value is false.
+	#
+	attack_when_key_held = false
+	#Toggles Axes taking taking less durability damage when hitting an enemy.
+	#For vanilla, this value is false.
+	#
+	axe_hit_enemy_change = false
+	#Toggles weapon enchantment damage being scaled by the critical hit multiplier.
+	#For vanilla, this value is false.
+	#
+	enchantment_damage_scales_with_critical_hits = false
+	#Toggles weapon enchantment damage being scaled by multiplicative Attack Damage attribute modifiers.
+	#For vanilla, this value is false.
+	#
+	enchantment_damage_scales_with_modifiers = false
+	#Toggles the number of a target's i-frames (invulnerable frames) given when attacked being based on the attack cooldown of the attacker's weapon.
+	#A faster weapon, with a lower attack cooldown, means the target will have less i-frames given.
+	#For vanilla, this value is false.
+	#
+	i_frames_by_weapon_attack_cooldown = false
+	#Toggles the increase of a player's Attack Damage base value to 2 from 1 (in half-hearts).
+	#Note: The "player_attribute_change" config value must be set to true.
+	#For vanilla, this value is false.
+	#
+	player_attack_damage_base_change = false
+	#Toggles the decrease of a player's Attack Range base value to 2.5 from 3 (in blocks).
+	#Note: The "player_attribute_change" config value must be set to true.
+	#For vanilla, this value is false.
+	#
+	player_attack_reach_base_change = false
+	#Toggles players having their Attack Damage and Attack Range base values changed upon login.
+	#For vanilla, this value is false.
+	#
+	player_attribute_change = false
+	#Toggles players having Attack Damage and Attack Range base values changed ONLY upon first login to world.
+	#If false, any previously saved Attack Damage and Attack Range base values will be overwritten.
+	#Note: The "player_attribute_change" config value must be set to true.
+	#
+	player_attribute_change_first_login = false
+	#Toggles sweep attacks being triggered only if the weapon is enchanted with Sweeping Edge.
+	#For vanilla, this value is false.
+	#
+	sweep_attack_change = false
+	#Adjusts how much sweeping damage is scaled by during a sweep attack.
+	#For vanilla, this value is 1.0 (unscaled).
+	#
+	#Range: 0.0 ~ 1.0
+	sweeping_damage_scale = 0.5
+	#Toggles Axes being able to receive the Sweeping Edge enchantment in Survival via Anvils.
+	#For vanilla, this value is false.
+	#
+	sweeping_edge_on_axes = false
+	#A list of weapon item ids mapped to their corresponding Attack Damage value, in half-hearts.
+	#Format each entry as a namespaced id (ex. for the Wooden Sword, "minecraft:wooden_sword"), follow by a "#", follow by a non-negative decimal value (ex. 5.0).
+	#Note: Make sure you are surrounding each entry with quotation (") marks, and separate each entry by a comma (,).
+	#
+	weapon_attack_damage_entries = ["minecraft:stone_shovel#2.0", "minecraft:diamond_pickaxe#5.0", "minecraft:wooden_pickaxe#3.0", "minecraft:trident#7.0", "minecraft:golden_axe#5.0", "minecraft:netherite_axe#8.0", "minecraft:wooden_sword#4.0", "minecraft:stone_hoe#2.0", "minecraft:diamond_sword#6.0", "minecraft:diamond_hoe#4.0", "minecraft:wooden_hoe#2.0", "minecraft:diamond_shovel#4.0", "minecraft:stone_sword#4.0", "minecraft:stone_pickaxe#3.0", "minecraft:netherite_sword#7.0", "minecraft:golden_shovel#2.0", "minecraft:iron_sword#5.0", "minecraft:iron_axe#6.0", "minecraft:diamond_axe#7.0", "minecraft:netherite_pickaxe#6.0", "minecraft:wooden_axe#5.0", "minecraft:golden_sword#4.0", "minecraft:iron_pickaxe#4.0", "minecraft:wooden_shovel#2.0", "minecraft:golden_pickaxe#3.0", "minecraft:iron_hoe#3.0", "minecraft:iron_shovel#3.0", "minecraft:golden_hoe#2.0", "minecraft:netherite_hoe#5.0", "minecraft:netherite_shovel#5.0", "minecraft:stone_axe#5.0"]
+	#A list of weapon item ids mapped to their corresponding Attack Range value, in blocks.
+	#Format each entry as a namespaced id (ex. for the Wooden Sword,, "minecraft:wooden_sword"), follow by a "#", follow by a non-negative decimal value (ex. 3.0).
+	#Note: Make sure you are surrounding each entry with quotation (") marks, and separate each entry by a comma (,).
+	#
+	weapon_attack_range_entries = ["minecraft:stone_shovel#2.5", "minecraft:diamond_pickaxe#2.5", "minecraft:wooden_pickaxe#2.5", "minecraft:trident#3.5", "minecraft:golden_axe#2.5", "minecraft:netherite_axe#2.5", "minecraft:wooden_sword#3.0", "minecraft:stone_hoe#3.5", "minecraft:diamond_sword#3.0", "minecraft:diamond_hoe#3.5", "minecraft:wooden_hoe#3.5", "minecraft:diamond_shovel#2.5", "minecraft:stone_sword#3.0", "minecraft:stone_pickaxe#2.5", "minecraft:netherite_sword#3.0", "minecraft:golden_shovel#2.5", "minecraft:iron_sword#3.0", "minecraft:iron_axe#2.5", "minecraft:diamond_axe#2.5", "minecraft:netherite_pickaxe#2.5", "minecraft:wooden_axe#2.5", "minecraft:golden_sword#3.0", "minecraft:iron_pickaxe#2.5", "minecraft:wooden_shovel#2.5", "minecraft:golden_pickaxe#2.5", "minecraft:iron_hoe#3.5", "minecraft:iron_shovel#2.5", "minecraft:golden_hoe#3.5", "minecraft:netherite_hoe#3.5", "minecraft:netherite_shovel#2.5", "minecraft:stone_axe#2.5"]
+	#A list of weapon item ids mapped to their corresponding Attack Speed value, in attacks per second.
+	#Format each entry as a namespaced id (ex. for the Wooden Sword,, "minecraft:wooden_sword"), follow by a "#", follow by a non-negative decimal value (ex. 3.0).
+	#Note: Make sure you are surrounding each entry with quotation (") marks, and separate each entry by a comma (,).
+	#
+	weapon_attack_speed_entries = ["minecraft:stone_shovel#2.5", "minecraft:diamond_pickaxe#2.0", "minecraft:wooden_pickaxe#2.0", "minecraft:trident#2.0", "minecraft:golden_axe#2.0", "minecraft:netherite_axe#2.0", "minecraft:wooden_sword#3.0", "minecraft:stone_hoe#2.5", "minecraft:diamond_sword#3.0", "minecraft:diamond_hoe#3.5", "minecraft:wooden_hoe#2.0", "minecraft:diamond_shovel#2.5", "minecraft:stone_sword#3.0", "minecraft:stone_pickaxe#2.0", "minecraft:netherite_sword#3.0", "minecraft:golden_shovel#2.5", "minecraft:iron_sword#3.0", "minecraft:iron_axe#2.0", "minecraft:diamond_axe#2.0", "minecraft:netherite_pickaxe#2.0", "minecraft:wooden_axe#2.0", "minecraft:golden_sword#3.0", "minecraft:iron_pickaxe#2.0", "minecraft:wooden_shovel#2.5", "minecraft:golden_pickaxe#2.0", "minecraft:iron_hoe#3.0", "minecraft:iron_shovel#2.5", "minecraft:golden_hoe#3.5", "minecraft:netherite_hoe#3.5", "minecraft:netherite_shovel#2.5", "minecraft:stone_axe#2.0"]
+	#Toggles the re-balancing of the Attack Damage, Attack Speed and Attack Range modifiers for specific weapons.
+	#Each weapon's Attack Damage will be their Attack Damage value obtained from the "weapon_attack_damage_entries" config value.
+	#Each weapon's Attack Speed will be their Attack Speed value obtained from the "weapon_attack_speed_entries" config value.
+	#Each weapon's Attack Range will be their Attack Range value obtained from the "weapon_attack_range_entries" config value.
+	#For vanilla, this value is false.
+	#
+	weapon_rebalancing = false
+
+# This category holds configs that affect ranged combat.
+["Ranged Combat Config Options"]
+	#Toggles bows being capable of becoming "overdrawn", preventing crits and causing inaccuracy.
+	#For vanilla, this value is false.
+	#
+	bow_overdrawing = true
+	#Adjusts the minimum inaccuracy factor for an arrow shot by an overdrawn bow.
+	#Note: The "bow_overdrawing" config value must be set to true.
+	#Note: In vanilla, an inaccuracy factor of 1.0 is applied to all arrows shot from bows.
+	#
+	#Range: 0.0 ~ 1.0
+	bow_overdrawn_arrow_inaccuracy_default = 0.25
+	#Adjusts the maximum inaccuracy multiplier for an arrow shot by an overdrawn bow.
+	#Note: The "bow_overdrawing" config value must be set to true.
+	#
+	#Range: 0.0 ~ 100.0
+	bow_overdrawn_arrow_inaccuracy_max = 40.5
+	#Adjusts the amount of ticks (1/20 seconds) a bow can be charged before it is fatigue, preventing crits and causing inaccuracy.
+	#Note: The "bow_overdrawing" config value must be set to true.
+	#
+	#Range: 0 ~ 200
+	bow_ticks_before_overdrawn = 60
+	#Toggles the number of i-frames (invulnerable frames) given to a target when being struck by a projectile.
+	#Setting the value to 0 allows for things like Multishot arrows being able to damage the same target.
+	#For vanilla, this value is 20.
+	#
+	#Range: 0 ~ 20
+	projectile_i_frames = 0
+	#Adjusts the amount of ticks (1/20 seconds) a throwable item (eggs, snowballs, etc) is put on cooldown for after being thrown.
+	#For vanilla, this value is 0 (no cooldown).
+	#
+	#Range: 0 ~ 20
+	throwable_item_cooldown = 4
+	#Toggles tridents enchanted with Loyalty being able to return from the void.
+	#For vanilla, this value is false.
+	#
+	trident_loyalty_return_from_void = true
+	#Toggles vanilla tridents being able to be shot out of Dispensers.
+	#For vanilla, this value is false.
+	#
+	trident_shoot_from_dispenser = true
+	#Adjusts the max number of snowballs that can be held in a single stack.
+	#For vanilla, this value is 64.
+	#
+	#Range: 1 ~ 64
+	snowball_max_stack_size = 64
+
+# This category holds configs that affect shield combat.
+["Shield Combat Config Options"]
+	#Toggles being able to attack while crouch-shielding.
+	#For vanilla, this value is false.
+	#
+	shield_attack_while_crouch_shielding = false
+	#Toggles the vanilla shield disable logic being changed to utilize the Cleaving enchantment.
+	#If true, the base number of ticks (1/20 seconds) a shield will be disabled for will be equal to their disable time base value obtained from the "shield_disable_time_base_entries" config value.
+	#An additional number of ticks (1/20 seconds) will be added by multiplying the "shield_disable_time_cleaving" config value by the attacking weapon's Cleaving level.
+	#For vanilla, this value is false.
+	#
+	shield_disable_change = false
+	#A list of shield item ids mapped to their corresponding disable time base value, in ticks (1/20 seconds).
+	#Format each entry as a namespaced id (ex. for the Shield, "minecraft:shield"), follow by a "#", follow by a non-negative integer (ex. 32).
+	#Note: Make sure you are surrounding each entry with quotation (") marks, and separate each entry by a comma (,).
+	#
+	shield_disable_time_base_entries = ["minecraft:shield#32"]
+	#Adjusts the additional amount of ticks (1/20 seconds) a shield is disabled for when hit by an axe, per level of Cleaving.
+	#Note: The "shield_disable_change" config value must be set to true.
+	#
+	#Range: 0 ~ 20
+	shield_disable_time_cleaving = 10
+	#Toggles ramming Goats applying full knockback to a target, regardless of whether or not they are shielded.
+	#Note: If false, Goat ram knockback is reduced by 50% if shielded, and stacks with the "shield_knockback_scale" config value.
+	#For vanilla, this value is false.
+	#
+	shield_goat_ram_full_knockback = false
+	#A list of shield item ids mapped to their corresponding Knockback Resistance value.
+	#Format each entry as a namespaced id (ex. for the Shield, "minecraft:shield"), follow by a "#", follow by a decimal number between 0.0 and 1.0 (ex. 0.5).
+	#Note: Make sure you are surrounding each entry with quotation (") marks, and separate each entry by a comma (,).
+	#
+	shield_knockback_resistance_entries = ["minecraft:shield#0.5"]
+	#Toggles shields having a custom arc of protection.
+	#If true, the arc of protection they provide will be their Protection Arc value obtained from the "shield_protection_arc_entries" config value.
+	#If false, all shields will have an arc of protection of 180 degrees.
+	#For vanilla, this value is false.
+	#
+	shield_protection_arc_change = false
+	#A list of shield item ids mapped to their corresponding arc of protection value, in degrees.
+	#Format each entry as a namespaced id (ex. for the Shield, "minecraft:shield"), follow by a "#", follow by a decimal number between 0.0 and 180.0 (ex. 100.0).
+	#Note: Make sure you are surrounding each entry with quotation (") marks, and separate each entry by a comma (,).
+	#In vanilla, the Shield's arc of protection is 180 degrees.
+	#
+	shield_protection_arc_entries = ["minecraft:shield#100.0"]
+	#Toggles shields no longer blocking all non-projectile and non-explosive damage.
+	#Instead, the max damage they can block will be their Shield Strength value obtained from the "shield_shield_strength_entries" config value.
+	#For vanilla, this value is false.
+	#
+	shield_reduce_damage_blocked = false
+	#Toggles shields reducing received knockback.
+	#If true, they will reduce received knockback by their Knockback Resistance value obtained from the "shield_knockback_resistance_entries" config value.
+	#For vanilla, this value is false.
+	#
+	shield_reduce_knockback = false
+	#A list of shield item ids mapped to their corresponding Shield Strength value, in half-hearts.
+	#Format each entry as a namespaced id (ex. for the Shield, "minecraft:shield"), follow by a "#", follow by a non-negative integer (ex. 5).
+	#Note: Make sure you are surrounding each entry with quotation (") marks, and separate each entry by a comma (,).
+	#
+	shield_shield_strength_entries = ["minecraft:shield#5"]
+	#Toggles shields having a custom warm up delay, in ticks (1/20 seconds).
+	#if true, the time it takes for a shield to fully activate will be their warm up delay value obtained from the "shield_warm_up_delay_entries" config value.
+	#For vanilla, this value is false.
+	#
+	shield_warmup_delay_change = false
+	#A list of shield item ids mapped to their corresponding warm up delay value, in ticks (1/20 seconds) .
+	#Format each entry as a namespaced id (ex. for the Shield, "minecraft:shield"), follow by a "#", follow by a non-negative integer (ex. 0).
+	#Note: Make sure you are surrounding each entry with quotation (") marks, and separate each entry by a comma (,).
+	#
+	shield_warm_up_delay_entries = ["minecraft:shield#0"]
+

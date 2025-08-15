@@ -1,0 +1,14 @@
+{
+  "objectives": [
+    "armorer_objs",
+    "toolsmith_objs",
+    "fletcher_objs"
+  ],
+  "rewards": [
+    "decree",
+    "armorer_rews",
+    "librarian_rews",
+    "toolsmith_rews",
+    "shepherd_rews"
+  ]
+}

@@ -1,0 +1,23 @@
+
+["Configs for desert dungeon of UniqueDungeons, gen biomes configurable in biome tag #has_desert_dungeon"]
+	#How many pieces a dungeon can have max per recursion-tree branch
+	"Num pieces per rec" = 30
+	#How many rooms a dungeon can have max per recursion-tree branch
+	"Num rooms per rec" = 8
+	#How many junctions a dungeon can have max per recursion-tree branch
+	"Num junctions per rec" = 2
+	#The chance for a piece to be a corridor
+	"corridor chance" = 0.2
+	#The chance for a piece to be a room
+	"room chance" = 0.6
+	#the chance for a piece to be a junction
+	"junction chance" = 0.2
+	#The percentage of dungeon from the start without rooms (to avoid surface clipping and make deep exploration more rewarding)
+	"roomless start percentage" = 0.7
+	#how many times a section of dungeon can be regenerated before aborting if collision is detected. High numbers severally impact generation performance
+	"collision check limiter" = 10
+	#How sloped the Terrain at a possible generation point can be
+	"terrain slope" = 10
+	#Lowest y a dungeon start can spawn at
+	"min gen hight" = 60
+

@@ -1,0 +1,170 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:crystal_shard"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_gold"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:reflecting_shield}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:bound_soul_helmet}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:bound_soul_chestplate}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:bound_soul_leggings}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:amethyst_shield}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniquedungeons:ancient_note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{uniquedungeons.artifact:universal_ingredient}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

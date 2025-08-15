@@ -1,0 +1,9 @@
+{
+  "objectives": [
+    "farmersdelight_objs",
+    "cooking_objs"
+  ],
+  "rewards": [
+    "moneys_rews"
+  ]
+}

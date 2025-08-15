@@ -1,0 +1,24 @@
+{
+  "values": [
+    "#minecraft:is_savanna",
+    "regions_unexplored:bamboo_forest",
+    "regions_unexplored:bayou",
+    "regions_unexplored:old_growth_bayou",
+    "regions_unexplored:tropical_river",
+    "regions_unexplored:tropics",
+    "regions_unexplored:baobab_savanna",
+    "regions_unexplored:ancient_delta",
+    "terralith:amethyst_canyon",
+    "terralith:amethyst_rainforest",
+    "terralith:ashen_savanna",
+    "terralith:blooming_plateau",
+    "terralith:blooming_valley",
+    "terralith:fractured_savanna",
+    "terralith:jungle_mountains",
+    "terralith:orchid_swamp",
+    "terralith:rocky_jungle",
+    "terralith:savanna_badlands",
+    "terralith:savanna_slopes",
+    "terralith:siberian_taiga"
+  ]
+}

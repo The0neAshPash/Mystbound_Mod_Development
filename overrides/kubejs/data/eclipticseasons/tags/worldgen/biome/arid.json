@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#forge:is_desert",
+    "regions_unexplored:joshua_desert", 
+    "regions_unexplored:saguaro_desert",
+    "regions_unexplored:arid_mountains",
+    "regions_unexplored:smouldering_woodland",
+    "regions_unexplored:dry_bushland",
+    "regions_unexplored:outback",
+    "regions_unexplored:steppe",
+    "regions_unexplored:spires",
+    "terralith:ancient_sands",
+    "terralith:bryce_canyon",
+    "terralith:cold_shrubland",
+    "terralith:desert_canyon",
+    "terralith:lush_desert",
+    "terralith:rocky_shrubland",
+    "terralith:shrubland",
+    "terralith:white_mesa"
+  ]
+}

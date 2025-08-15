@@ -1,0 +1,472 @@
+{
+  "content": {
+    "alexsmobs_fish_bones": {
+      "type": "item",
+      "content": "alexsmobs:fish_bones",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_flying_fish": {
+      "type": "item",
+      "content": "alexsmobs:flying_fish",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_lost_tentacle": {
+      "type": "item",
+      "content": "alexsmobs:lost_tentacle",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_emu_feather": {
+      "type": "item",
+      "content": "alexsmobs:emu_feather",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_fish_oil": {
+      "type": "item",
+      "content": "alexsmobs:fish_oil",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_cockroach_ootheca": {
+      "type": "item",
+      "content": "alexsmobs:cockroach_ootheca",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_soul_heart": {
+      "type": "item",
+      "content": "alexsmobs:soul_heart",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_ambergris": {
+      "type": "item",
+      "content": "alexsmobs:ambergris",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_blobfish": {
+      "type": "item",
+      "content": "alexsmobs:blobfish",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_mimicream": {
+      "type": "item",
+      "content": "alexsmobs:mimicream",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_moose_antler": {
+      "type": "item",
+      "content": "alexsmobs:moose_antler",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_mosquito_larva": {
+      "type": "item",
+      "content": "alexsmobs:mosquito_larva",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_centipede_leg": {
+      "type": "item",
+      "content": "alexsmobs:centipede_leg",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_bear_fur": {
+      "type": "item",
+      "content": "alexsmobs:bear_fur",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_crocodile_scute": {
+      "type": "item",
+      "content": "alexsmobs:crocodile_scute",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_gazelle_horn": {
+      "type": "item",
+      "content": "alexsmobs:gazelle_horn",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_rocky_shell": {
+      "type": "item",
+      "content": "alexsmobs:rocky_shell",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_shed_snake_skin": {
+      "type": "item",
+      "content": "alexsmobs:shed_snake_skin",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_pigshoes": {
+      "type": "item",
+      "content": "alexsmobs:pigshoes",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_maggot": {
+      "type": "item",
+      "content": "alexsmobs:maggot",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_blood_sac": {
+      "type": "item",
+      "content": "alexsmobs:blood_sac",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_cockroach_wing": {
+      "type": "item",
+      "content": "alexsmobs:cockroach_wing",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_hemolymph_sac": {
+      "type": "item",
+      "content": "alexsmobs:hemolymph_sac",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_rainbow_jelly": {
+      "type": "item",
+      "content": "alexsmobs:rainbow_jelly",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_mungal_spores": {
+      "type": "item",
+      "content": "alexsmobs:mungal_spores",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_potted_flutter": {
+      "type": "item",
+      "content": "alexsmobs:potted_flutter",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_raccoon_tail": {
+      "type": "item",
+      "content": "alexsmobs:raccoon_tail",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_guster_eye": {
+      "type": "item",
+      "content": "alexsmobs:guster_eye",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_spiked_scute": {
+      "type": "item",
+      "content": "alexsmobs:spiked_scute",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_caiman_egg": {
+      "type": "item",
+      "content": "alexsmobs:caiman_egg",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_terrapin_egg": {
+      "type": "item",
+      "content": "alexsmobs:terrapin_egg",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_platypus_egg": {
+      "type": "item",
+      "content": "alexsmobs:platypus_egg",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_crocodile_egg": {
+      "type": "item",
+      "content": "alexsmobs:crocodile_egg",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_banana_slug_slime": {
+      "type": "item",
+      "content": "alexsmobs:banana_slug_slime",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_stink_bottle": {
+      "type": "item",
+      "content": "alexsmobs:stink_bottle",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_cachalot_whale_tooth": {
+      "type": "item",
+      "content": "alexsmobs:cachalot_whale_tooth",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_tarantula_hawk_wing_fragment": {
+      "type": "item",
+      "content": "alexsmobs:tarantula_hawk_wing_fragment",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_tarantula_hawk_wing": {
+      "type": "item",
+      "content": "alexsmobs:tarantula_hawk_wing",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_serrated_shark_tooth": {
+      "type": "item",
+      "content": "alexsmobs:serrated_shark_tooth",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_froststalker_horn": {
+      "type": "item",
+      "content": "alexsmobs:froststalker_horn",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_triops_eggs": {
+      "type": "item",
+      "content": "alexsmobs:triops_eggs",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_warped_muscle": {
+      "type": "item",
+      "content": "alexsmobs:warped_muscle",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_straddlite": {
+      "type": "item",
+      "content": "alexsmobs:straddlite",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_elastic_tendon": {
+      "type": "item",
+      "content": "alexsmobs:elastic_tendon",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_bone_serpent_tooth": {
+      "type": "item",
+      "content": "alexsmobs:bone_serpent_tooth",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_cockroach_wing_fragment": {
+      "type": "item",
+      "content": "alexsmobs:cockroach_wing_fragment",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_komodo_spit": {
+      "type": "item",
+      "content": "alexsmobs:komodo_spit",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_roadrunner_feather": {
+      "type": "item",
+      "content": "alexsmobs:roadrunner_feather",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_shark_tooth": {
+      "type": "item",
+      "content": "alexsmobs:shark_tooth",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_rattlesnake_rattle": {
+      "type": "item",
+      "content": "alexsmobs:rattlesnake_rattle",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_mosquito_proboscis": {
+      "type": "item",
+      "content": "alexsmobs:mosquito_proboscis",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "alexsmobs_bison_fur": {
+      "type": "item",
+      "content": "alexsmobs:bison_fur",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    }
+  }
+}
