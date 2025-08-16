@@ -1,0 +1,9 @@
+
+[general]
+	#Enable logging of allowed structures. This is on by default. If you use this on a server and dont want to waste space with constant spam turn it off.
+	log-allowed-structures = true
+	#Enable logging of prevented structures. This is on by default. If you use this on a server and dont want to waste space with constant spam turn it off.
+	log-prevented-structures = true
+	#Enable debug logging. This is on by default. If you use this on a server and dont want to waste space with constant spam turn it off.
+	debug = true
+

@@ -101,6 +101,8 @@
 	RegisterCropDefaultValue = false
 	#Force all crops to use compatibility mode for growth control, not just those tagged as eclipticseasons:natural_plants.
 	ForceCompatMode = false
+	#Save environmental humidity modifiers to chunk file.
+	SaveChunkEnvironmentalHumidity = true
 
 [Animal]
 	#Enable seasonal animal breed.
@@ -109,6 +111,8 @@
 	EnableSeasonalBee = true
 	#Enable seasonal fishing behavior, let enjoy summer.
 	EnableSeasonalFishing = false
+	#Greenhouse core would also work for animal check but not need a greenhouse.
+	EnableCoreWork = true
 
 [Compat]
 	#Compatible with mods using SereneSeasons' CropTag.

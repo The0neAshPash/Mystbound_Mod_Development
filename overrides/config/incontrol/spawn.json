@@ -91,7 +91,7 @@
     "majruszsdifficulty:giant",
     "majruszsdifficulty:illusioner"
     ],
-    "when": "onjoin",
+    "spawntype": "natural",
     "result": "deny"
   },
   {
@@ -138,7 +138,7 @@
     "born_in_chaos_v1:senor_pumpkin"
     ],
     "area": "threeK",
-    "when": "onjoin",
+    "spawntype": "natural",
     "result": "deny"
   },
   {
@@ -162,7 +162,7 @@
     "born_in_chaos_v1:supreme_bonescaller"
     ],
     "area": "fiveK",
-    "when": "onjoin",
+    "spawntype": "natural",
     "result": "deny"
   },
   {

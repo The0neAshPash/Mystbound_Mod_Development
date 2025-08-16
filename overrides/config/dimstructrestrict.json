@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "id": "minecraft:village_plains",
+      "whitelist": [
+        "minecraft:overworld"
+      ],
+      "false_place": false,
+      "active": true
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "minecraft:overworld",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    }
+  ]
+}

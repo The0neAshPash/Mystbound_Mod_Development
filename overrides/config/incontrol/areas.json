@@ -6,9 +6,9 @@
       "x": 0,
       "y": 60,
       "z": 0,
-      "dimx": 100,
-      "dimy": 115,
-      "dimz": 100
+      "dimx": 200,
+      "dimy": 120,
+      "dimz": 200
     },
     {
       "dimension": "minecraft:overworld",
@@ -18,7 +18,7 @@
       "y": 60,
       "z": 0,
       "dimx": 3000,
-      "dimy": 115,
+      "dimy": 120,
       "dimz": 3000
     },
     {
@@ -29,7 +29,7 @@
       "y": 60,
       "z": 0,
       "dimx": 5000,
-      "dimy": 115,
+      "dimy": 120,
       "dimz": 5000
     }
   ]
