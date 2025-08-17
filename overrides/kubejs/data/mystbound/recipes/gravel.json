@@ -1,0 +1,15 @@
+{
+    "type": "lychee:block_crushing",
+    "item_in": [
+        {
+            "item": "cobblestone"
+        }
+    ],
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "gravel",
+            "count": 2
+        }
+    ]
+}
