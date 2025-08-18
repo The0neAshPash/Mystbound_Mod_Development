@@ -1,17 +1,85 @@
 {
   "structures": [
     {
-      "id": "minecraft:village_plains",
-      "whitelist": [
-        "minecraft:overworld"
-      ],
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "born_in_chaos_v1:dark_tower_plain",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "terralith:rubble_desert",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "terralith:rubble_taiga",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "terralith:rubble_forest",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "terralith:rubble_jungle",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "terralith:rubble_plains",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "born_in_chaos_v1:clown_caravan_plains",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "born_in_chaos_v1:clown_caravan_taiga",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "born_in_chaos_v1:clown_caravan_savanna",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "minecraft:stronghold",
+      "whitelist": [],
       "false_place": false,
       "active": true
     }
-  ],
-  "dimensions": [
     {
-      "id": "minecraft:overworld",
+      "id": "illagerinvasion:labyrinth",
       "whitelist": [],
       "false_place": false,
       "active": true
