@@ -31,7 +31,7 @@
 	#Should cod be replaced by O-Cod?
 	"Replace Cod" = false
 	#Should bees be replaced by O-Bees?
-	"Replace Bees" = true
+	"Replace Bees" = false
 	#Should camels be replaced by O-Camels?
 	"Replace Camels" = true
 	#Should goats be replaced by O-Goats?

@@ -7,7 +7,8 @@
     "born_in_chaos_v1:swarmer",
     "born_in_chaos_v1:diamond_termite",
     "vinery:mule",
-    "crittersandcompanions:leaf_insect"
+    "crittersandcompanions:leaf_insect",
+    "minecraft:trader_llama"
     ],
     "when": "onjoin",
     "result": "deny"

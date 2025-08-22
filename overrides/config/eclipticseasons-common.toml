@@ -39,6 +39,8 @@
 	NotSnowyNearGlowingBlockLevel = 10
 	#Specify block IDs here to prevent those blocks from being covered by snow.
 	ForceBlocksNotSnowy = ["minecraft:dirt_path"]
+	#The timing of snowfall now varies within a certain range each year.
+	DynamicSnowTerm = true
 
 [Weather]
 	#Enable solar term weather system with biome.
