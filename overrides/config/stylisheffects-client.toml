@@ -8,12 +8,12 @@
 		hovering_tooltip = true
 		#Minimum screen border distance for effect widgets.
 		#Range: > 0
-		screen_border_distance = 3
+		screen_border_distance = 1
 		#Show remaining status effect duration on tooltip.
-		tooltip_duration = true
+		tooltip_duration = false
 		#Maximum amount of status effects rendered in a single row.
 		#Range: 1 ~ 255
-		max_columns = 5
+		max_columns = 3
 		#Space between individual effect widgets on y-axis.
 		#Range: > 0
 		widget_space_y = 1
@@ -41,7 +41,7 @@
 		allow_fallback = true
 		#Screen side to render status effects on.
 		#Allowed Values: LEFT, RIGHT
-		screen_side = "LEFT"
+		screen_side = "RIGHT"
 		#Effect renderer to be used.
 		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
 		#Allowed Values: NONE, GUI_SMALL, GUI_COMPACT, INVENTORY_COMPACT, INVENTORY_FULL_SIZE

@@ -25,7 +25,7 @@
   },
   "spacingSeparationModifier": {
     "desc:": "Adjusts the structure spacing (average spawn distance) and separation (minimum spawn distance). Increasing the value makes structures spawn farther apart, while decreasing it makes them spawn closer together. Vanilla Default: 1.0",
-    "spacingSeparationModifier": 1.4
+    "spacingSeparationModifier": 1.2
   },
   "logDuplicatedSalt": {
     "desc:": "Structure sets use a salt value to determine the randomness of their placement. Duplicated use of the same salt value can cause structures to spawn on the same place, this config enables logging duplicated salt values. Default: true",
