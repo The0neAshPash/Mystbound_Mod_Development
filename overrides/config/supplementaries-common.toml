@@ -130,21 +130,21 @@
 		#Allows all entities to be captured by cages and jars. Not meant for survival
 		allow_all_mobs = false
 		#Allows all baby mobs to be captured by cages
-		cage_allow_all_babies = false
+		cage_allow_all_babies = true
 		#Dynamically allows all small mobs inside cages depending on their hitbox size
-		cage_auto_detect = false
+		cage_auto_detect = true
 		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
 		persistent_mobs = false
 		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
 		#Range: 1 ~ 100
 		health_threshold = 100
 		#When on, if a mob is tameable, it will only be capturable when tamed.
-		require_taming = true
+		require_taming = false
 
 	[functional.safe]
 		enabled = true
 		#Makes safes only breakable by their owner or by a player in creative
-		prevent_breaking = false
+		prevent_breaking = true
 		#Make safes simpler so they do not require keys:
 		#they will be bound to the first person that opens one and only that person will be able to interact with them
 		simple_safes = false
@@ -155,10 +155,10 @@
 		sack_penalty = true
 		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
 		#Range: 0 ~ 50
-		sack_increment = 2
+		sack_increment = 5
 		#How many slots should a sack have
 		#Range: 1 ~ 27
-		slots = 9
+		slots = 27
 
 	[functional.bamboo_spikes]
 		enabled = true
@@ -168,7 +168,7 @@
 		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
 		only_allow_harmful_effects = true
 		#Populate the creative inventory with all tipped spikes variations
-		populate_creative_tab = true
+		populate_creative_tab = false
 
 	[functional.urn]
 		enabled = true
@@ -190,7 +190,7 @@
 			"quark:dirty_glass" = "minecraft:glass"
 
 	[functional.cannon]
-		enabled = true
+		enabled = false
 		#Cannon fire power multiplier
 		#Range: 0.0 ~ 5.0
 		fire_power = 0.6
@@ -205,7 +205,7 @@
 		explode_tnt = true
 
 		[functional.cannon.cannonball]
-			enabled = true
+			enabled = false
 			#Cannonball power scaling. Higher values will make cannonballs have more energy. Reminder that the damage and breaking power of a cannonball is proportional to its energy (speed squared) times this constant
 			#Range: 0.0 ~ 100.0
 			power_scaling = 3.5

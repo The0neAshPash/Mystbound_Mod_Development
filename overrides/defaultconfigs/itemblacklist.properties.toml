@@ -15,5 +15,5 @@
 
 [miscProperties]
 	#Should non-ops be able to see the banned items
-	showMessages = true
+	showMessages = false
 

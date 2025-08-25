@@ -26,7 +26,7 @@
           "item": "bakery:toast"
         }
       ],
-      "max_time": 360,
+      "max_time": 1800,
       "min_time": 300,
       "nutrition": 8,
       "overcook_penalty": 0.5,
@@ -84,8 +84,8 @@
           "item": "netherexp:cerebrage"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 5,
       "overcook_penalty": 0.2,
       "raw_penalty": 0.0,
@@ -148,8 +148,8 @@
           "item": "regions_unexplored:hanging_earlight_fruit"
         }
       ],
-      "max_time": 240,
-      "min_time": 0,
+      "max_time": 3000,
+      "min_time": 500,
       "nutrition": 5,
       "overcook_penalty": 0.2,
       "raw_penalty": 0.0,
@@ -168,8 +168,8 @@
       "ingredient": {
         "item": "sweety_archaeology:ancient_berries"
       },
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 100,
       "nutrition": 4,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.0,
@@ -190,13 +190,13 @@
           "item": "caupona:asafoetida"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 300,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -212,13 +212,13 @@
           "item": "netherexp:glowcheese"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -240,8 +240,8 @@
           "item": "dragnlivestock:goat_cheese"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 100,
       "nutrition": 1,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.0,
@@ -262,13 +262,13 @@
           "item": "vinery:aegis_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -284,13 +284,13 @@
           "item": "vinery:apple_cider"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -306,13 +306,13 @@
           "item": "vinery:apple_juice"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -328,13 +328,13 @@
           "item": "vinery:apple_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -350,13 +350,13 @@
           "item": "vinery:bolvar_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -372,13 +372,13 @@
           "item": "vinery:bottle_mojang_noir"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -394,13 +394,13 @@
           "item": "vinery:chenet_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -416,13 +416,13 @@
           "item": "vinery:cherry_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -438,13 +438,13 @@
           "item": "vinery:chorus_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -460,13 +460,13 @@
           "item": "vinery:clark_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -482,13 +482,13 @@
           "item": "vinery:creepers_crush"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -504,13 +504,13 @@
           "item": "vinery:cristel_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -526,13 +526,13 @@
           "item": "vinery:eiswein"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -548,13 +548,13 @@
           "item": "vinery:jellie_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -570,13 +570,13 @@
           "item": "vinery:glowing_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -592,13 +592,13 @@
           "item": "vinery:jo_special_mixture"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -614,13 +614,13 @@
           "item": "vinery:kelp_cider"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -636,13 +636,13 @@
           "item": "vinery:lilitu_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -658,13 +658,13 @@
           "item": "vinery:magnetic_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -680,13 +680,13 @@
           "item": "vinery:mead"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -702,13 +702,13 @@
           "item": "vinery:mellohi_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -724,13 +724,13 @@
           "item": "vinery:noir_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -746,13 +746,13 @@
           "item": "vinery:red_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -768,13 +768,13 @@
           "item": "vinery:solaris_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -790,13 +790,13 @@
           "item": "vinery:stal_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -812,13 +812,13 @@
           "item": "vinery:strad_wine"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -834,13 +834,13 @@
           "item": "vinery:villagers_fright"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -856,13 +856,13 @@
           "item": "brewery:beer_barley"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -878,13 +878,13 @@
           "item": "brewery:beer_haley"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -900,13 +900,13 @@
           "item": "brewery:beer_hops"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -922,13 +922,13 @@
           "item": "brewery:beer_wheat"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -944,13 +944,13 @@
           "item": "brewery:whiskey_carrasconlabel"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -966,13 +966,13 @@
           "item": "brewery:whiskey_cristelwalker"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -988,13 +988,13 @@
           "item": "brewery:whiskey_jojannik"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -1010,13 +1010,13 @@
           "item": "brewery:whiskey_lilitusinglemalt"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -1032,13 +1032,13 @@
           "item": "brewery:whiskey_maggoallan"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -1054,13 +1054,13 @@
           "item": "betterbeekeeping:cool_honey_bottle"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -1076,13 +1076,13 @@
           "item": "betterbeekeeping:warm_honey_bottle"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -1098,13 +1098,13 @@
           "item": "betterbeekeeping:spicy_honey_bottle"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -1120,13 +1120,13 @@
           "item": "betterbeekeeping:lively_honey_bottle"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -1142,13 +1142,13 @@
           "item": "betterbeekeeping:bright_honey_bottle"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "NONE",
@@ -1164,13 +1164,13 @@
           "item": "betterbeekeeping:strange_honey_bottle"
         }
       ],
-      "max_time": 360,
-      "min_time": 0,
+      "max_time": 1800,
+      "min_time": 450,
       "nutrition": 2,
       "overcook_penalty": 0.0,
       "raw_penalty": 0.25,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     }
     
   ]
