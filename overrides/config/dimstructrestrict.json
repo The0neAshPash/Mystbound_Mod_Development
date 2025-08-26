@@ -79,6 +79,54 @@
       "active": true
     },
     {
+      "id": "valhelsia_structures:tower_ruin",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "terralith:underground/frosted_dungeon",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "terralith:underground/sunken_tower",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "terralith:underground/mining_outpost",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "terralith:underground/old_refinery",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "terralith:underground/witch_hut",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "paraglider:underground_horned_statue",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "whitelist": [],
+      "false_place": false,
+      "active": true
+    },
+    {
       "id": "illagerinvasion:labyrinth",
       "whitelist": [],
       "false_place": false,

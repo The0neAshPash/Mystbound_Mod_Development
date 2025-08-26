@@ -31,9 +31,9 @@
     "noise_scale": 0.08
   },
   "oceans": {
-    "deep_ocean_depth": -0.45,
+    "deep_ocean_depth": -0.5,
     "monument_offset": -30,
-    "ocean_depth": -0.13,
+    "ocean_depth": -0.22,
     "remove_frozen_ocean_ice": true
   }
 }
