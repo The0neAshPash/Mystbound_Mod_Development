@@ -843,7 +843,7 @@
           "chests": [
             "minecraft:chests/simple_dungeon"
           ],
-          "chance": 0.5
+          "chance": 0.2
         },
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_stronghold",
@@ -852,7 +852,7 @@
             "minecraft:chests/stronghold_crossing",
             "minecraft:chests/stronghold_library"
           ],
-          "chance": 0.4
+          "chance": 0.0
         },
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_portal",
@@ -870,14 +870,14 @@
             "minecraft:chests/bastion_treasure",
             "minecraft:chests/nether_bridge"
           ],
-          "chance": 0.25
+          "chance": 0.2
         },
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_end",
           "chests": [
             "minecraft:chests/end_city_treasure"
           ],
-          "chance": 0.5
+          "chance": 0.2
         }
       ]
     }
