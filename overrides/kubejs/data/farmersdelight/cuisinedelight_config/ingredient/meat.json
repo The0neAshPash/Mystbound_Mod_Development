@@ -92,9 +92,9 @@
           "item": "mofus_better_end_:end_manta_chop"
         }
       ],
-      "max_time": 360,
-      "min_time": 240,
-      "nutrition": 10,
+      "max_time": 800,
+      "min_time": 800,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
@@ -114,13 +114,13 @@
           "item": "farmersdelight:mutton_chops"
         }
       ],
-      "max_time": 240,
-      "min_time": 120,
-      "nutrition": 10,
+      "max_time": 2200,
+      "min_time": 1600,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 2,
-      "stir_time": 80
+      "stir_time": 60
     },
     {
       "type": "MEAT",
@@ -178,13 +178,13 @@
           "item": "butcher:intestines"
         }
       ],
-      "max_time": 240,
-      "min_time": 120,
-      "nutrition": 10,
+      "max_time": 2200,
+      "min_time": 1600,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 1.0,
       "size": 2,
-      "stir_time": 80
+      "stir_time": 100
     },
     {
       "type": "MEAT",
@@ -209,9 +209,9 @@
           "item": "butcher:orange_frog_leg"
         }
       ],
-      "max_time": 240,
-      "min_time": 120,
-      "nutrition": 8,
+      "max_time": 2200,
+      "min_time": 1600,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 1.0,
       "size": 1,
@@ -255,13 +255,13 @@
           "item": "mofus_better_end_:icycle_fish"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 12,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 2,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -292,13 +292,13 @@
           "item": "mofus_better_end_:sun_glider_bacon"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 12,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 2,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -320,13 +320,13 @@
           "item": "aquaculture:tambaqui"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 12,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 2,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -345,13 +345,13 @@
           "item": "aquaculture:red_shrooma"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 12,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 2,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -391,13 +391,13 @@
           "item": "aquaculture:perch"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 12,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 2,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -419,13 +419,13 @@
           "item": "aquaculture:tuna"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 12,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 2,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -450,13 +450,13 @@
           "item": "collectorsreap:platinum_bass"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 12,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 2,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -472,13 +472,13 @@
           "item": "aquaculture:goldfish"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 12,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 2,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -533,13 +533,13 @@
           "item": "aquaculture:fish_fillet_raw"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 12,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 5,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 1,
-      "stir_time": 40
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -547,22 +547,22 @@
         {
           "effect": "vinery:climbing_effect",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "alexsmobs:clinging",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:venom",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -570,13 +570,13 @@
           "item": "butcher:spiderleg"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -584,17 +584,17 @@
         {
           "effect": "brewery:toxictouch",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "magistuarmory:laceration",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -602,13 +602,13 @@
           "item": "butcher:cavespiderleg"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 1,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -616,17 +616,17 @@
         {
           "effect": "ars_nouveau:mana_regen",
           "level": 2,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "cofh_core:sundered",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -634,13 +634,13 @@
           "item": "butcher:rawwitchmeat"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -653,12 +653,12 @@
         {
           "effect": "tipsylib:shatterspleen",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -666,13 +666,13 @@
           "item": "butcher:rawevokermeat"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 100
     },
     {
       "type": "MEAT",
@@ -680,17 +680,17 @@
         {
           "effect": "cofh_core:slimed",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "relics:confusion",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -698,13 +698,13 @@
           "item": "butcher:slime_jelly_chunks"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -712,17 +712,17 @@
         {
           "effect": "collectorsreap:volatility",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "royalvariations:toxic_spores",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -733,13 +733,13 @@
           "item": "butcher:rawcreepermeat"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -747,17 +747,17 @@
         {
           "effect": "tipsylib:lesser_strength",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "born_in_chaos_v1:rotten_smell",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -765,13 +765,13 @@
           "item": "minecraft:rotten_flesh"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -779,17 +779,17 @@
         {
           "effect": "alexsmobs:oiled",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "irons_spellbooks:slowed",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -797,13 +797,13 @@
           "item": "butcher:rawguardianmeat"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -811,17 +811,17 @@
         {
           "effect": "tipsylib:berserk",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "cataclysm:abyssal_fear",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -829,13 +829,13 @@
           "item": "butcher:witherbonemeal"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 1,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -843,22 +843,22 @@
         {
           "effect": "alexsmobs:bug_pheromones",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "fruitsdelight:shrinking",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "minecraft:weakness",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -866,13 +866,13 @@
           "item": "butcher:silverfishchunks"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 1,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -880,30 +880,30 @@
         {
           "effect": "tipsylib:precision",
           "level": 1,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "cataclysm:wetness",
           "level": 4,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
         {
-          "item": "rpg_better_elder_guardian_1201:raw_elder_meat"
+          "item": "rpg_better_elder_guardian_8701:raw_elder_meat"
         },
         {
           "item": "butcher:raweldermeat"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
@@ -915,7 +915,7 @@
         {
           "effect": "netherexp:levitation_immunity",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -923,13 +923,13 @@
           "item": "butcher:shulkermeat"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -960,9 +960,9 @@
           "item": "apotheosis:warden_tendril"
         }
       ],
-      "max_time": 220,
-      "min_time": 80,
-      "nutrition": 8,
+      "max_time": 2200,
+      "min_time": 1500,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
@@ -974,7 +974,7 @@
         {
           "effect": "tipsylib:adrenaline",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "born_in_chaos_v1:jawattack",
@@ -990,13 +990,13 @@
           "item": "born_in_chaos_v1:rotten_fish"
         }
       ],
-      "max_time": 220,
-      "min_time": 80,
-      "nutrition": 8,
+      "max_time": 2200,
+      "min_time": 1500,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "MEAT",
@@ -1042,9 +1042,9 @@
           "item": "born_in_chaos_v1:nightmare_stalker_skull"
         }
       ],
-      "max_time": 300,
-      "min_time": 100,
-      "nutrition": 8,
+      "max_time": 3100,
+      "min_time": 1600,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 1,
@@ -1094,9 +1094,9 @@
           "item": "born_in_chaos_v1:lifestealer_skull"
         }
       ],
-      "max_time": 300,
-      "min_time": 100,
-      "nutrition": 8,
+      "max_time": 3100,
+      "min_time": 1600,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 1,
@@ -1108,17 +1108,17 @@
         {
           "effect": "cofh_core:enderference",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:creative_shock",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:impure",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1147,13 +1147,13 @@
           "item": "mofus_better_end_:enderman_heart"
         }
       ],
-      "max_time": 220,
-      "min_time": 80,
-      "nutrition": 8,
+      "max_time": 2200,
+      "min_time": 1600,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -1161,12 +1161,12 @@
         {
           "effect": "tipsylib:burning_thorns",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "simplyswords:immolation",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1174,13 +1174,13 @@
           "item": "stardew_fishing:blazing_oarfish"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -1188,12 +1188,12 @@
         {
           "effect": "fruitsdelight:cycling",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "vinery:experience_effect",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1201,13 +1201,13 @@
           "item": "stardew_fishing:chromatic_arapaima"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -1215,12 +1215,12 @@
         {
           "effect": "tipsylib:retaliation",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "minecraft:absorption",
           "level": 4,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1228,13 +1228,13 @@
           "item": "stardew_fishing:crystalline_snakehead"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -1242,7 +1242,7 @@
         {
           "effect": "tipsylib:precision",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1250,9 +1250,9 @@
           "item": "stardew_fishing:cyclops_mahimahi"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
@@ -1264,7 +1264,7 @@
         {
           "effect": "tipsylib:berserk",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1272,13 +1272,13 @@
           "item": "stardew_fishing:demon_gar"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -1286,7 +1286,7 @@
         {
           "effect": "born_in_chaos_v1:stimulation",
           "level": 2,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1294,9 +1294,9 @@
           "item": "stardew_fishing:golden_snook"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
@@ -1308,7 +1308,7 @@
         {
           "effect": "fruitsdelight:digesting",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1316,9 +1316,9 @@
           "item": "stardew_fishing:goliath_grouper"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
@@ -1330,12 +1330,12 @@
         {
           "effect": "alexsmobs:tigers_blessing",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "herbalbrews:feral",
           "level": 2,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1343,13 +1343,13 @@
           "item": "stardew_fishing:sabretoothed_tigerfish"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -1357,12 +1357,12 @@
         {
           "effect": "irons_spellbooks:thunderstorm",
           "level": 0,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "irons_spellbooks:charged",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1370,13 +1370,13 @@
           "item": "stardew_fishing:storm_tarpon"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     },
     {
       "type": "SEAFOOD",
@@ -1384,12 +1384,12 @@
         {
           "effect": "irons_spellbooks:vigor",
           "level": 2,
-          "time": 1000
+          "time": 2000
         },
         {
           "effect": "tipsylib:devour",
           "level": 0,
-          "time": 1000
+          "time": 2000
         }
       ],
       "ingredient": [
@@ -1397,13 +1397,13 @@
           "item": "stardew_fishing:vampire_payara"
         }
       ],
-      "max_time": 120,
-      "min_time": 60,
-      "nutrition": 8,
+      "max_time": 1200,
+      "min_time": 800,
+      "nutrition": 4,
       "overcook_penalty": 0.5,
       "raw_penalty": 0.5,
       "size": 3,
-      "stir_time": 60
+      "stir_time": 80
     }
   ]
 }
