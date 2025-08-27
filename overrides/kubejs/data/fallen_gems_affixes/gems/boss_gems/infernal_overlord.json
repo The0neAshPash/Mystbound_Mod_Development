@@ -1,0 +1,134 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "weight": 0,
+  "quality": 0,
+  "unique": true,
+  "min_rarity": "epic",
+  "bonuses": [
+    {
+      "type": "fallen_gems_affixes:permanent_effect",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "helmet"
+        ]
+      },
+      "effect": "minecraft:regeneration",
+      "values": {
+        "epic": 0,
+        "mythic": 1,
+        "ancient": 2
+      }
+    },
+    {
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "chestplate"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "values": {
+            "epic": 5,
+            "mythic": 7,
+            "ancient": 10
+          }
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "values": {
+            "epic": 3,
+            "mythic": 4,
+            "ancient": 5
+          }
+        }
+      ]
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "mob_effect": "cataclysm:blazing_brand",
+      "target": "attack_target",
+      "values": {
+        "epic": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 150,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 200,
+          "amplifier": 2,
+          "cooldown": 500
+        }
+      }
+    },
+    {
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword",
+          "trident"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "values": {
+            "epic": 5,
+            "mythic": 7,
+            "ancient": 10
+          }
+        },
+        {
+          "attribute": "attributeslib:current_hp_damage",
+          "operation": "ADDITION",
+          "values": {
+            "epic": 0.05,
+            "mythic": 0.07,
+            "ancient": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "shield",
+        "types": [
+          "shield"
+        ]
+      },
+      "attribute": "attributeslib:healing_received",
+      "operation": "ADDITION",
+      "values": {
+        "epic": 0.30,
+        "mythic": 0.40,
+        "ancient": 0.50
+      }
+    }
+  ]
+}

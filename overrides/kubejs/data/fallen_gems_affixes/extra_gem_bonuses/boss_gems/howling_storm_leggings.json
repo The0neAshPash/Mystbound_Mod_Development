@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:boss_gems/howling_storm",
+  "bonuses": [
+    {
+      "type": "fallen_gems_affixes:permanent_effect",
+      "gem_class": {
+        "key": "leggings",
+        "types": [
+          "leggings"
+        ]
+      },
+      "effect": "irons_spellbooks:charged",
+      "values": {
+        "epic": 0,
+        "mythic": 1,
+        "ancient": 2
+      }
+    }
+  ]
+}

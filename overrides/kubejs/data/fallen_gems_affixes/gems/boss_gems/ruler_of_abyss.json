@@ -1,0 +1,133 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "weight": 0,
+  "quality": 0,
+  "unique": true,
+  "min_rarity": "epic",
+  "bonuses": [
+    {
+      "type": "apotheosis:damage_reduction",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "chestplate"
+        ]
+      },
+      "damage_type": "magic",
+      "values": {
+        "epic": 0.1,
+        "mythic": 0.20,
+        "ancient": 0.30
+      }
+    },
+    {
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "values": {
+            "epic": 2,
+            "mythic": 5,
+            "ancient": 8
+          }
+        },
+        {
+          "attribute": "forge:swim_speed",
+          "operation": "ADDITION",
+          "values": {
+            "epic": 0.4,
+            "mythic": 0.6,
+            "ancient": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "mob_effect": "cataclysm:abyssal_curse",
+      "target": "attack_target",
+      "values": {
+        "epic": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 150,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 200,
+          "amplifier": 2,
+          "cooldown": 500
+        }
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword",
+          "trident"
+        ]
+      },
+      "mob_effect": "cataclysm:abyssal_fear",
+      "target": "attack_target",
+      "values": {
+        "epic": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 150,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 200,
+          "amplifier": 2,
+          "cooldown": 500
+        }
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "bow",
+          "crossbow"
+        ]
+      },
+      "attribute": "attributeslib:draw_speed",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "epic": 0.50,
+        "mythic": 0.70,
+        "ancient": 0.90
+      }
+    }
+  ]
+}

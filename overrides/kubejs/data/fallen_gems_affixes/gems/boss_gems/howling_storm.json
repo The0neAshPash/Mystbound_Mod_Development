@@ -1,0 +1,137 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "weight": 0,
+  "quality": 0,
+  "unique": true,
+  "min_rarity": "epic",
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "helmet"
+        ]
+      },
+      "mob_effect": "cataclysm:wetness",
+      "target": "attack_target",
+      "values": {
+        "epic": {
+          "duration": 80,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 140,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 220,
+          "amplifier": 2,
+          "cooldown": 500
+        }
+      }
+    },
+    {
+      "type": "apotheosis:enchantment",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "chestplate"
+        ]
+      },
+      "enchantment": "sharpness",
+      "_comment": "The enchantment field is unused when global=true, but still must be a valid name",
+      "global": true,
+      "values": {
+        "epic": 2,
+        "mythic": 3,
+        "ancient": 4
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "ADDITION",
+      "values": {
+        "epic": 0.05,
+        "mythic": 0.07,
+        "ancient": 0.09
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "ADDITION",
+      "values": {
+        "epic": 3,
+        "mythic": 5,
+        "ancient": 10
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword",
+          "trident"
+        ]
+      },
+      "mob_effect": "cataclysm:stun",
+      "target": "attack_target",
+      "values": {
+        "epic": {
+          "duration": 20,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 40,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 60,
+          "amplifier": 2,
+          "cooldown": 500
+        }
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "bow",
+          "crossbow"
+        ]
+      },
+      "attribute": "attributeslib:arrow_velocity",
+      "operation": "ADDITION",
+      "values": {
+        "epic": 0.4,
+        "mythic": 0.6,
+        "ancient": 0.8
+      }
+    }
+  ]
+}

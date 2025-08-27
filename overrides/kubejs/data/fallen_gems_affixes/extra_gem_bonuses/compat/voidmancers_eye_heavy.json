@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "additional_attributes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "traveloptics"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:compat/voidmancers_eye",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "additional_attributes:innate_spell/traveloptics/reversal",
+      "operation": "ADDITION",
+      "values": {
+        "ancient": 1
+      }
+    }
+  ]
+}

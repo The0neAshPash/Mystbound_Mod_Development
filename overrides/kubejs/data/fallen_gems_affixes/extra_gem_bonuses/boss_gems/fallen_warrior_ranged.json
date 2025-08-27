@@ -1,0 +1,41 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "runiclib"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:boss_gems/fallen_warrior",
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "bow",
+          "crossbow"
+        ]
+      },
+      "mob_effect": "runiclib:bleeding",
+      "target": "attack_target",
+      "values": {
+        "epic": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 150,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 200,
+          "amplifier": 2,
+          "cooldown": 500
+        }
+      }
+    }
+  ]
+}

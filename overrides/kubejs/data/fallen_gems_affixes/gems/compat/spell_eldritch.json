@@ -1,0 +1,29 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+	"variant": "spell_eldritch",
+	"weight": 0,
+	"quality": 0,
+	"min_rarity": "epic",
+	"unique": true,
+	"dimensions": [],
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "additional_attributes:spell_school_eldritch",
+			"operation": "ADDITION",
+			"values": {
+				"epic": 1,
+				"mythic": 2,
+				"ancient": 3
+			}
+		}
+	]
+}

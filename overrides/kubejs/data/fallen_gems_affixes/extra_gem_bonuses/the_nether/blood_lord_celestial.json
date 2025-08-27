@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "celestisynth"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "apotheosis:the_nether/blood_lord",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "celestial_weapons",
+        "types": [
+          "celestial_weapons"
+        ]
+      },
+      "attribute": "attributeslib:overheal",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "rare": 0.40,
+        "epic": 0.525,
+        "mythic": 0.65,
+        "ancient": 0.75
+      }
+    }
+  ]
+}

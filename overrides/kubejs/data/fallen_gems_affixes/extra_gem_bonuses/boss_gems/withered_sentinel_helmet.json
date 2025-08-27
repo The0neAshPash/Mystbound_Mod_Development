@@ -1,0 +1,40 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:boss_gems/withered_sentinel",
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "helmet"
+        ]
+      },
+      "mob_effect": "irons_spellbooks:charged",
+      "target": "attack_self",
+      "values": {
+        "epic": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 200,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 300,
+          "amplifier": 2,
+          "cooldown": 500
+        }
+      }
+    }
+  ]
+}

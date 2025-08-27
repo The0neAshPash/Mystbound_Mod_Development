@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "celestisynth"
+    }
+  ],
+  "replace": false,
+  "values": [
+    "celestisynth:solaris",
+    "celestisynth:crescentia",
+    "celestisynth:aquaflora",
+    "celestisynth:breezebreaker",
+    "celestisynth:keres",
+    "celestisynth:rainfall_serenity",
+    "celestisynth:poltergeist",
+    "celestisynth:frostbound"
+  ]
+}

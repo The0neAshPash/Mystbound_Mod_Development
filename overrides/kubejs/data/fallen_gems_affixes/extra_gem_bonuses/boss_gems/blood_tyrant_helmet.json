@@ -1,0 +1,40 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sweety_archaeology"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:boss_gems/blood_tyrant",
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "helmet"
+        ]
+      },
+      "mob_effect": "sweety_archaeology:venomous",
+      "target": "attack_self",
+      "values": {
+        "epic": {
+          "duration": 200,
+          "amplifier": 0,
+          "cooldown": 800
+        },
+        "mythic": {
+          "duration": 300,
+          "amplifier": 0,
+          "cooldown": 800
+        },
+        "ancient": {
+          "duration": 400,
+          "amplifier": 0,
+          "cooldown": 800
+        }
+      }
+    }
+  ]
+}

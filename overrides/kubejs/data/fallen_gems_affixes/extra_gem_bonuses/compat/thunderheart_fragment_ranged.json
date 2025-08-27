@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "additional_attributes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "traveloptics"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:compat/thunderheart_fragment",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "bow", "crossbow"
+        ]
+      },
+      "attribute": "additional_attributes:innate_spell/traveloptics/em_pulse",
+      "operation": "ADDITION",
+      "values": {
+        "rare": 1,
+        "epic": 2,
+        "mythic": 3,
+        "ancient": 4
+      }
+    }
+  ]
+}

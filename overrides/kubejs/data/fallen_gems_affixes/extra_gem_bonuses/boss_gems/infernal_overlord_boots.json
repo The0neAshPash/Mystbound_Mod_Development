@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "runiclib"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:boss_gems/infernal_overlord",
+  "bonuses": [
+    {
+      "type": "fallen_gems_affixes:permanent_effect",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "effect": "runiclib:lava_walking",
+      "values": {
+        "epic": 0,
+        "mythic": 1,
+        "ancient": 2
+      }
+    }
+  ]
+}

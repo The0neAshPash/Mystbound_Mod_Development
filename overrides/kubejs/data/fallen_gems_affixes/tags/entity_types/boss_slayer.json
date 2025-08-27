@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ender_dragon",
+    "minecraft:wither",
+    "minecraft:elder_guardian",
+    "minecraft:warden",
+    "dummmmmmy:target_dummy",
+    "#forge:bosses",
+    "born_in_chaos_v1:lifestealer", "born_in_chaos_v1:lifestealer_true_form", "born_in_chaos_v1:missioner", "cataclysm:ender_golem", "cataclysm:ender_guardian", "cataclysm:netherite_monstrosity", "cataclysm:ignited_revenant", "cataclysm:ignis", "cataclysm:the_harbinger", "aquamirae:captain_cornelia", "cataclysm:scylla",
+    "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith","bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:void_blossom", "dungeonnowloading:chaos_spawner"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "runiclib"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:boss_gems/blood_tyrant",
+  "bonuses": [
+    {
+      "type": "fallen_gems_affixes:permanent_effect",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "effect": "runiclib:adrenaline",
+      "values": {
+        "epic": 0,
+        "mythic": 1,
+        "ancient": 2
+      }
+    }
+  ]
+}

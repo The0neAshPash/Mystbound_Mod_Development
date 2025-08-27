@@ -1,0 +1,45 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "traveloptics"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:compat/hemolith_shard",
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "leggings",
+        "types": [
+          "leggings"
+        ]
+      },
+      "mob_effect": "traveloptics:assassin",
+      "target": "hurt_self",
+      "values": {
+        "rare": {
+          "duration": 70,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "epic": {
+          "duration": 140,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 210,
+          "amplifier": 2,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 280,
+          "amplifier": 3,
+          "cooldown": 500
+        }
+      }
+    }
+  ]
+}

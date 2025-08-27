@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "traveloptics"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:compat/voidmancers_eye",
+  "bonuses": [
+    {
+      "type": "fallen_gems_affixes:permanent_effect",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword", "trident"
+        ]
+      },
+      "effect": "traveloptics:abyssal_strike",
+      "values": {
+        "rare": 0,
+        "epic": 1,
+        "mythic": 2,
+        "ancient": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "additional_attributes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:compat/nyxite_crystal",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "additional_attributes:innate_spell/irons_spellbooks/echoing_strikes",
+      "operation": "ADDITION",
+      "values": {
+        "rare": 1,
+        "epic": 1,
+        "mythic": 2,
+        "ancient": 2
+      }
+    }
+  ]
+}

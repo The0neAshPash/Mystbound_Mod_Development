@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "traveloptics"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:compat/arcane_catalyst",
+  "bonuses": [
+    {
+      "type": "fallen_gems_affixes:permanent_effect",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "bow", "crossbow"
+        ]
+      },
+      "effect": "traveloptics:lingering_strain",
+      "values": {
+        "rare": 0,
+        "epic": 1,
+        "mythic": 2,
+        "ancient": 3
+      }
+    }
+  ]
+}

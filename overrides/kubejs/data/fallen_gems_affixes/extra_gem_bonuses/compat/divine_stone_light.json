@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "additional_attributes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:compat/divine_stone",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword", "trident"
+        ]
+      },
+      "attribute": "additional_attributes:innate_spell/irons_spellbooks/divine_smite",
+      "operation": "ADDITION",
+      "values": {
+        "rare": 1,
+        "epic": 2,
+        "mythic": 3,
+        "ancient": 4
+      }
+    }
+  ]
+}

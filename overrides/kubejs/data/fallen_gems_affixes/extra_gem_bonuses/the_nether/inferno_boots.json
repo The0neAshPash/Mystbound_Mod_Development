@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "apotheosis:the_nether/inferno",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "attribute": "irons_spellbooks:max_mana",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "rare": 0.15,
+        "epic": 0.20,
+        "mythic": 0.25,
+        "ancient": 0.30
+      }
+    }
+  ]
+}

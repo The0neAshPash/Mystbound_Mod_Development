@@ -1,0 +1,122 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "weight": 0,
+  "quality": 0,
+  "unique": true,
+  "min_rarity": "epic",
+  "bonuses": [
+    {
+      "type": "apotheosis:damage_reduction",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "chestplate"
+        ]
+      },
+      "damage_type": "explosion",
+      "values": {
+        "epic": 0.1,
+        "mythic": 0.20,
+        "ancient": 0.30
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "leggings",
+        "types": [
+          "leggings"
+        ]
+      },
+      "attribute": "minecraft:generic.armor",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "epic": 0.10,
+        "mythic": 0.20,
+        "ancient": 0.30
+      }
+    },
+    {
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "attributeslib:armor_shred",
+          "operation": "ADDITION",
+          "values": {
+            "epic": 0.1,
+            "mythic": 0.2,
+            "ancient": 0.3
+          }
+        },
+        {
+          "attribute": "attributeslib:armor_pierce",
+          "operation": "ADDITION",
+          "values": {
+            "epic": 2.5,
+            "mythic": 5,
+            "ancient": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "epic": 0.40,
+        "mythic": 0.60,
+        "ancient": 0.80
+      }
+    },
+    {
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "bow",
+          "crossbow"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "attributeslib:arrow_damage",
+          "operation": "ADDITION",
+          "values": {
+            "epic": 0.25,
+            "mythic": 0.35,
+            "ancient": 0.45
+          }
+        },
+        {
+          "attribute": "attributeslib:arrow_velocity",
+          "operation": "ADDITION",
+          "values": {
+            "epic": 0.60,
+            "mythic": 0.75,
+            "ancient": 0.9
+          }
+        }
+      ]
+    }
+  ]
+}

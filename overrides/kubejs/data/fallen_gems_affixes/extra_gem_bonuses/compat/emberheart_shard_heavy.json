@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "additional_attributes"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:compat/emberheart_shard",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "additional_attributes:innate_spell/irons_spellbooks/flaming_strike",
+      "operation": "ADDITION",
+      "values": {
+        "rare": 1,
+        "epic": 2,
+        "mythic": 3,
+        "ancient": 4
+      }
+    }
+  ]
+}

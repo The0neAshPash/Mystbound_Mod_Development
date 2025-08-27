@@ -1,0 +1,67 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "weight": 10,
+  "quality": 0,
+  "dimensions": [
+  ],
+  "unique": true,
+  "min_rarity": "rare",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "staffs",
+        "types": [
+          "staffs"
+        ]
+      },
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "rare": 0.15,
+        "epic": 0.175,
+        "mythic": 0.2,
+        "ancient": 0.25
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "chestplate"
+        ]
+      },
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "rare": 0.10,
+        "epic": 0.125,
+        "mythic": 0.15,
+        "ancient": 0.2
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "helmet"
+        ]
+      },
+      "attribute": "irons_spellbooks:max_mana",
+      "operation": "ADDITION",
+      "values": {
+        "rare": 100,
+        "epic": 150,
+        "mythic": 200,
+        "ancient": 250
+      }
+    }
+  ]
+}

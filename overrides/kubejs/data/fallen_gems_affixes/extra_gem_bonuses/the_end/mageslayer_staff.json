@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "apotheosis:the_end/mageslayer",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "staffs",
+        "types": [
+          "staffs"
+        ]
+      },
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "epic": 0.15,
+        "mythic": 0.30,
+        "ancient": 0.45
+      }
+    }
+  ]
+}

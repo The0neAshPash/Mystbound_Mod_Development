@@ -1,0 +1,40 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:boss_gems/void_guardian",
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "mob_effect": "feathers:endurance",
+      "target": "attack_self",
+      "values": {
+        "epic": {
+          "duration": 100,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 160,
+          "amplifier": 2,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 220,
+          "amplifier": 3,
+          "cooldown": 500
+        }
+      }
+    }
+  ]
+}

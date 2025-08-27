@@ -1,0 +1,79 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "weight": 0,
+  "quality": 0,
+  "unique": true,
+  "min_rarity": "epic",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "helmet"
+        ]
+      },
+      "attribute": "attributeslib:cold_damage",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "epic": 0.50,
+        "mythic": 0.75,
+        "ancient": 1
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "leggings",
+        "types": [
+          "leggings"
+        ]
+      },
+      "attribute": "attributeslib:overheal",
+      "operation": "ADDITION",
+      "values": {
+        "epic": 0.1,
+        "mythic": 0.2,
+        "ancient": 0.3
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "attributeslib:current_hp_damage",
+      "operation": "ADDITION",
+      "values": {
+        "epic": 0.1,
+        "mythic": 0.2,
+        "ancient": 0.3
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword",
+          "trident"
+        ]
+      },
+      "attribute": "attributeslib:overheal",
+      "operation": "ADDITION",
+      "values": {
+        "epic": 0.1,
+        "mythic": 0.2,
+        "ancient": 0.3
+      }
+    }
+  ]
+}

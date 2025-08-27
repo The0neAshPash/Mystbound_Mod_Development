@@ -1,0 +1,41 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:boss_gems/void_guardian",
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword",
+          "trident"
+        ]
+      },
+      "mob_effect": "irons_spellbooks:echoing_strikes",
+      "target": "attack_self",
+      "values": {
+        "epic": {
+          "duration": 160,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 220,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 300,
+          "amplifier": 2,
+          "cooldown": 500
+        }
+      }
+    }
+  ]
+}

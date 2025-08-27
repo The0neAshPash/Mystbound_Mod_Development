@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "runiclib"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:compat/emberheart_shard",
+  "bonuses": [
+    {
+      "type": "fallen_gems_affixes:permanent_effect",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "chestplate"
+        ]
+      },
+      "effect": "runiclib:burning_thorns",
+      "values": {
+        "rare": 0,
+        "epic": 1,
+        "mythic": 2,
+        "ancient": 3
+      }
+    }
+  ]
+}

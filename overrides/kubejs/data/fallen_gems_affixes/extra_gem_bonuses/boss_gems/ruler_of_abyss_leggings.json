@@ -1,0 +1,40 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "runiclib"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:boss_gems/ruler_of_abyss",
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "leggings",
+        "types": [
+          "leggings"
+        ]
+      },
+      "mob_effect": "runiclib:shatterspleen",
+      "target": "attack_target",
+      "values": {
+        "epic": {
+          "duration": 60,
+          "amplifier": 0,
+          "cooldown": 500
+        },
+        "mythic": {
+          "duration": 80,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "ancient": {
+          "duration": 100,
+          "amplifier": 2,
+          "cooldown": 500
+        }
+      }
+    }
+  ]
+}

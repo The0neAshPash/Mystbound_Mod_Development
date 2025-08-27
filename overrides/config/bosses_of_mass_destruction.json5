@@ -1,17 +1,17 @@
 {
 	"lichConfig": {
 		"eternalNighttime": true,
-		"experienceDrop": 1500,
+		"experienceDrop": 5500,
 		"idleHealingPerTick": 0.20000000298023224,
-		"health": 300.0,
+		"health": 400.0,
 		"missile": {
 			"mobEffectId": "minecraft:slowness",
 			"mobEffectDuration": 100,
 			"mobEffectAmplifier": 2,
-			"damage": 9.0
+			"damage": 12.0
 		},
 		"comet": {
-			"explosionStrength": 4.0
+			"explosionStrength": 5.0
 		},
 		"summonMechanic": {
 			"isEnabled": true,
@@ -31,34 +31,34 @@
 				"minecraft:wither",
 				"minecraft:zombie_villager"
 			],
-			"numEntitiesKilledToDropSoulStar": 50
+			"numEntitiesKilledToDropSoulStar": 200
 		}
 	},
 	"obsidilithConfig": {
-		"health": 300.0,
+		"health": 1000.0,
 		"armor": 14.0,
-		"attack": 16.0,
+		"attack": 20.0,
 		"idleHealingPerTick": 0.5,
-		"experienceDrop": 1000,
+		"experienceDrop": 5000,
 		"spawnPillarOnDeath": true,
 		"anvilAttackExplosionStrength": 4.0
 	},
 	"gauntletConfig": {
 		"health": 250.0,
 		"armor": 8.0,
-		"attack": 16.0,
+		"attack": 20.0,
 		"idleHealingPerTick": 0.5,
-		"experienceDrop": 1000,
+		"experienceDrop": 5000,
 		"spawnAncientDebrisOnDeath": true,
 		"energizedPunchExplosionSize": 4.5,
 		"normalPunchExplosionMultiplier": 1.5
 	},
 	"voidBlossomConfig": {
-		"health": 350.0,
+		"health": 500.0,
 		"armor": 4.0,
-		"attack": 12.0,
+		"attack": 18.0,
 		"idleHealingPerTick": 0.5,
-		"experienceDrop": 1000
+		"experienceDrop": 5000
 	},
 	"generalConfig": {
 		"tableOfElevationRadius": 3
