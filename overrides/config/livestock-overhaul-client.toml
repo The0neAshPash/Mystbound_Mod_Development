@@ -8,10 +8,6 @@
 	"Visual Horse Sprint HUD" = true
 	#Should Brand Tags render on animals that have been tagged?
 	"Render Brand Tags" = true
-	#Should Leg Bands render on Chickens that have been tagged?
-	"Render Chicken Leg Bands" = true
-	#Should Neck Tags render on Chickens that have been tagged? Might be good for those who have trouble seeing leg bands.
-	"Render Chicken Neck Tags" = false
 	#Should text that states the gender of an O-Mount render along with the colored dot?
 	"Visual Accessibility Gender Text" = false
 	#X location value for the Sprint HUD. Default is 92.
