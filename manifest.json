@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Mystbound",
-  "version": "Beta.v.1.6",
+  "version": "Beta.v.1.2",
   "author": "",
   "files": [
     {
@@ -446,7 +446,7 @@
     },
     {
       "projectID": 574913,
-      "fileID": 6806296,
+      "fileID": 6972371,
       "required": true
     },
     {
@@ -581,7 +581,7 @@
     },
     {
       "projectID": 638535,
-      "fileID": 6952298,
+      "fileID": 5340134,
       "required": true
     },
     {
@@ -736,7 +736,7 @@
     },
     {
       "projectID": 1118306,
-      "fileID": 6965748,
+      "fileID": 6972419,
       "required": true
     },
     {
@@ -946,7 +946,7 @@
     },
     {
       "projectID": 855414,
-      "fileID": 6833927,
+      "fileID": 6970299,
       "required": true
     },
     {
@@ -1346,7 +1346,7 @@
     },
     {
       "projectID": 257356,
-      "fileID": 6677541,
+      "fileID": 6938482,
       "required": true
     },
     {
@@ -1471,7 +1471,7 @@
     },
     {
       "projectID": 1316748,
-      "fileID": 6963769,
+      "fileID": 6967823,
       "required": true
     },
     {

@@ -17,19 +17,55 @@
 # ⌄ 
 ["Fuel Items"]
 	#─────────────────────────────────//v
-	Boiler = [["#minecraft:planks", 10], ["#minecraft:coals", 37], ["#minecraft:logs_that_burn", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000]]
+	Boiler = [
+	    ["#minecraft:planks", 10],
+	    ["#minecraft:coals", 37],
+	    ["#minecraft:logs_that_burn", 37],
+	    ["minecraft:coal_block", 333],
+	    ["minecraft:magma_block", 333],
+	    ["minecraft:lava_bucket", 1000]
+	]
 	#─────────────────────────────────//v
-	Icebox = [["minecraft:snowball", 10], ["minecraft:clay_ball", 37], ["minecraft:snow_block", 100], ["minecraft:ice", 250], ["minecraft:clay", 333], ["minecraft:powder_snow_bucket", 100], ["minecraft:packed_ice", 1000]]
+	Icebox = [
+	    ["minecraft:snowball", 10],
+	    ["minecraft:clay_ball", 37],
+	    ["minecraft:snow_block", 100],
+	    ["minecraft:ice", 250],
+	    ["minecraft:clay", 333],
+	    ["minecraft:powder_snow_bucket", 100],
+	    ["minecraft:packed_ice", 1000]
+	]
 	#─────────────────────────────────//v
 	# (Negative values indicate cold fuel
-	Hearth = [["#minecraft:planks", 10], ["#minecraft:coals", 37], ["#minecraft:logs_that_burn", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000], ["minecraft:snowball", -10], ["minecraft:clay_ball", -37], ["minecraft:snow_block", -100], ["minecraft:ice", -250], ["minecraft:clay", -333], ["minecraft:powder_snow_bucket", -100], ["minecraft:packed_ice", -1000]]
+	Hearth = [
+	    ["#minecraft:planks", 10],
+	    ["#minecraft:coals", 37],
+	    ["#minecraft:logs_that_burn", 37],
+	    ["minecraft:coal_block", 333],
+	    ["minecraft:magma_block", 333],
+	    ["minecraft:lava_bucket", 1000],
+	    ["minecraft:snowball", -10],
+	    ["minecraft:clay_ball", -37],
+	    ["minecraft:snow_block", -100],
+	    ["minecraft:ice", -250],
+	    ["minecraft:clay", -333],
+	    ["minecraft:powder_snow_bucket", -100],
+	    ["minecraft:packed_ice", -1000]
+	]
 
 ["Hearth Extras"]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Potions containing any of these effects will not be allowed in the hearth
 	# └── Format: ["effect_id", "effect_id", ...etc]
 	# ⌄ 
-	"Blacklisted Hearth Potions" = ["minecraft:instant_damage", "minecraft:poison", "minecraft:wither", "minecraft:weakness", "minecraft:mining_fatigue", "minecraft:slowness"]
+	"Blacklisted Hearth Potions" = [
+	    "minecraft:instant_damage",
+	    "minecraft:poison",
+	    "minecraft:wither",
+	    "minecraft:weakness",
+	    "minecraft:mining_fatigue",
+	    "minecraft:slowness"
+	]
 	#─────────────────────────────────────────────────────────────────────────
 	# If true, potions can be used in the hearth to give all players in range the potion effect
 	# ⌄ 
@@ -42,12 +78,16 @@
 	# • item_id: The item's ID (i.e. "cold_sweat:soul_sprout").
 	# • amount: The amount of fuel the item provides. Higher values mean the item burns longer
 	# ⌄ 
-	"Fuel Items" = [["cold_sweat:soul_sprout", 4]]
+	"Fuel Items" = [
+	    ["cold_sweat:soul_sprout", 4]
+	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the dimensions that the Soulspring Lamp can be used in
 	# └── Format: ["dimension_id", "dimension_id", ...etc]
 	# ⌄ 
-	"Valid Dimensions" = ["minecraft:the_nether"]
+	"Valid Dimensions" = [
+	    "minecraft:the_nether"
+	]
 
 [Insulation]
 	#─────────────────────────────────────────────────────────────────────────//v
@@ -63,14 +103,55 @@
 	# • *nbt: If set, the item will only provide insulation if it has the specified NBT tag.
 	# • *fillSlots: If true, the item will fill 1 slot per 2 insulation points. Otherwise, the item will fill 1 slot.
 	# ⌄ 
-	"Insulation Ingredients" = [["minecraft:leather", 1.0, 1.0], ["butcher:pig_skin", 1.0, 1.0], ["butcher:pandafur", 1.0, 1.0], ["butcher:sheep_skin", 1.0, 1.0], ["butcher:snifferfur", 2.0, 0.0085, "adaptive"], ["cold_sweat:chameleon_molt", 2.0, 0.0085, "adaptive"], ["cold_sweat:hoglin_hide", 0.0, 2.5], ["butcher:camelfur", 0.0, 2.0], ["alexsmobs:kangaroo_hide", 0.5, 1.5], ["butcher:ocelotskin", 0.5, 1.5], ["cold_sweat:goat_fur", 2.0, 0.0], ["butcher:goatfur", 2.0, 0.0], ["butcher:snowyfoxfur", 2.0, 0.0], ["butcher:foxfur", 2.0, 0.0], ["born_in_chaos_v1:monster_skin", 2.0, 0.0], ["alexsmobs:bison_fur", 1.5, 0.0], ["butcher:polarbearfur", 2.5, 0.0], ["#minecraft:wool", 1.5, 0.0], ["minecraft:rabbit_hide", 0.0, 1.5]]
+	"Insulation Ingredients" = [
+	    ["minecraft:leather", 1.0, 1.0],
+	    ["butcher:pig_skin", 1.0, 1.0],
+	    ["butcher:pandafur", 1.0, 1.0],
+	    ["butcher:sheep_skin", 1.0, 1.0],
+	    ["butcher:snifferfur", 2.0, 0.0085, "adaptive"],
+	    ["cold_sweat:chameleon_molt", 2.0, 0.0085, "adaptive"],
+	    ["cold_sweat:hoglin_hide", 0.0, 2.5],
+	    ["butcher:camelfur", 0.0, 2.0],
+	    ["alexsmobs:kangaroo_hide", 0.5, 1.5],
+	    ["butcher:ocelotskin", 0.5, 1.5],
+	    ["cold_sweat:goat_fur", 2.0, 0.0],
+	    ["butcher:goatfur", 2.0, 0.0],
+	    ["butcher:snowyfoxfur", 2.0, 0.0],
+	    ["butcher:foxfur", 2.0, 0.0],
+	    ["born_in_chaos_v1:monster_skin", 2.0, 0.0],
+	    ["alexsmobs:bison_fur", 1.5, 0.0],
+	    ["butcher:polarbearfur", 2.5, 0.0],
+	    ["#minecraft:wool", 1.5, 0.0],
+	    ["minecraft:rabbit_hide", 0.0, 1.5]
+	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the items that provide insulation when worn
 	# ** See Insulation Ingredients for formatting.
 	# Enabling "fillSlots" will cause the armor's built-in insulation to consume the available insulation slots
 	# i.e. if an item has 5 insulation slots and gives one slot of cold insulation by default, it will only have 4 free slots left
 	# ⌄ 
-	"Insulating Armor" = [["minecraft:leather_helmet", 5, 5], ["minecraft:leather_chestplate", 7, 7], ["minecraft:leather_leggings", 6, 6], ["minecraft:leather_boots", 5, 5], ["cold_sweat:hoglin_headpiece", 0, 10], ["cold_sweat:hoglin_tunic", 0, 14], ["cold_sweat:hoglin_trousers", 0, 12], ["cold_sweat:hoglin_hooves", 0, 10], ["cold_sweat:goat_fur_cap", 10, 0], ["cold_sweat:goat_fur_parka", 14, 0], ["cold_sweat:goat_fur_pants", 12, 0], ["cold_sweat:goat_fur_boots", 10, 0], ["cold_sweat:chameleon_scale_helmet", 10, 0.0085, "adaptive"], ["cold_sweat:chameleon_scale_chestplate", 14, 0.0085, "adaptive"], ["cold_sweat:chameleon_scale_leggings", 12, 0.0085, "adaptive"], ["cold_sweat:chameleon_scale_boots", 10, 0.0085, "adaptive"], ["knightquest:polar_helmet", 10.0, 0.0], ["knightquest:polar_chestplate", 14.0, 0.0], ["knightquest:polar_leggings", 12.0, 0.0], ["knightquest:polar_boots", 10.0, 0.0]]
+	"Insulating Armor" = [
+	    ["minecraft:leather_helmet", 5, 5],
+	    ["minecraft:leather_chestplate", 7, 7],
+	    ["minecraft:leather_leggings", 6, 6],
+	    ["minecraft:leather_boots", 5, 5],
+	    ["cold_sweat:hoglin_headpiece", 0, 10],
+	    ["cold_sweat:hoglin_tunic", 0, 14],
+	    ["cold_sweat:hoglin_trousers", 0, 12],
+	    ["cold_sweat:hoglin_hooves", 0, 10],
+	    ["cold_sweat:goat_fur_cap", 10, 0],
+	    ["cold_sweat:goat_fur_parka", 14, 0],
+	    ["cold_sweat:goat_fur_pants", 12, 0],
+	    ["cold_sweat:goat_fur_boots", 10, 0],
+	    ["cold_sweat:chameleon_scale_helmet", 10, 0.0085, "adaptive"],
+	    ["cold_sweat:chameleon_scale_chestplate", 14, 0.0085, "adaptive"],
+	    ["cold_sweat:chameleon_scale_leggings", 12, 0.0085, "adaptive"],
+	    ["cold_sweat:chameleon_scale_boots", 10, 0.0085, "adaptive"],
+	    ["knightquest:polar_helmet", 10.0, 0.0],
+	    ["knightquest:polar_chestplate", 14.0, 0.0],
+	    ["knightquest:polar_leggings", 12.0, 0.0],
+	    ["knightquest:polar_boots", 10.0, 0.0]
+	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the items that provide insulation when worn in a curio slot
 	# See Insulation Ingredients for formatting. This setting does not have a "fillSlots" option
@@ -119,7 +200,9 @@
 	# • *nbt: If set, the item will only affect the player's temperature if it has the specified NBT tag.
 	# • *duration: If set, the player's temperature will remain increased/decreased for this amount of time (in ticks).
 	# ⌄ 
-	"Temperature-Affecting Foods" = [["cold_sweat:soul_sprout", -20, "{}", 1200]]
+	"Temperature-Affecting Foods" = [
+	    ["cold_sweat:soul_sprout", -20, "{}", 1200]
+	]
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines how much a waterskin will change the player's body temperature when used
 	# ⌄ 
@@ -147,7 +230,9 @@
 	# • item_id: The item's ID (i.e. "minecraft:sponge").
 	# • turns_into: The item to be turned into when the item is used (i.e. "minecraft:wet_sponge").
 	# ⌄ 
-	"Drying Items" = [["minecraft:sponge", "minecraft:wet_sponge"]]
+	"Drying Items" = [
+	    ["minecraft:sponge", "minecraft:wet_sponge"]
+	]
 
 [Misc]
 	#─────────────────────────────────────────────────────────────────────────//v

@@ -479,6 +479,7 @@
 		"mystbound-origins:omnivore-origin/hefty-hunger" = true
 		"mystbound-origins:omnivore-origin/quick-cooling-skin" = true
 		"mystbound-origins:omnivore-origin/stout-n-solid" = true
+		"mystbound-origins:omnivore-origin/hunger_weakness" = true
 
 	[origins."mystbound-origins:draconic"]
 		enabled = true
@@ -589,4 +590,9 @@
 		"mystbound-origins:carnivore-origin/thick-fur" = true
 		"mystbound-origins:carnivore-origin/couldbound" = true
 		"mystbound-origins:extras/cold_immune" = true
+		"mystbound-origins:carnivore-origin/coldbound" = true
+		"mystbound-origins:carnivore-origin/soft_step" = true
+		"mystbound-origins:carnivore-origin/bleeding_strike" = true
+		"mystbound-origins:carnivore-origin/swift_sneak" = true
+		"mystbound-origins:carnivore-origin/backstab" = true
 
