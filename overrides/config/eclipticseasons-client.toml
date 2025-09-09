@@ -28,12 +28,12 @@
 	snowUnderTree = false
 	#The colors of the grass and leaves change with the time of year.
 	SeasonalGrassColorChange = true
-	#In spring, grass blocks will occasionally have small flowers on them.
-	FlowerOnGrass = true
-	#When applying changes, perform mean calculation based on the percentage progress of the solar term instead of using a fixed value.
-	SmootherSeasonalGrassColorChange = true
 	#Birch, spruce, and mangrove leaves colors also have seasonal changes.
 	SeasonalColorChangeExtend = true
+	#When applying changes, perform mean calculation based on the percentage progress of the solar term instead of using a fixed value.
+	SmootherSeasonalGrassColorChange = true
+	#In spring, grass blocks will occasionally have small flowers on them.
+	FlowerOnGrass = true
 
 [Sound]
 	#Ambient Sound.
