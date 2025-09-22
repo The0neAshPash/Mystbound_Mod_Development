@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "celestisynth"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "apotheosis:core/brawlers",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "celestial_weapons",
+        "types": [
+          "celestial_weapons"
+        ]
+      },
+      "attribute": "attributeslib:armor_shred",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.04,
+        "uncommon": 0.08,
+        "rare": 0.12,
+        "epic": 0.16,
+        "mythic": 0.20,
+        "ancient": 0.25
+      }
+    }
+  ]
+}

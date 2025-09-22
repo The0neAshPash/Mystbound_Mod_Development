@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "celestisynth"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "apotheosis:core/guardian",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "celestial_weapons",
+        "types": [
+          "celestial_weapons"
+        ]
+      },
+      "attribute": "attributeslib:crit_damage",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.05,
+        "uncommon": 0.1,
+        "rare": 0.15,
+        "epic": 0.20,
+        "mythic": 0.25,
+        "ancient": 0.30
+      }
+    }
+  ]
+}

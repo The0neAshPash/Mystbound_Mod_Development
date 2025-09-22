@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "apotheosis:core/combatant",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "staffs",
+        "types": [
+          "staffs"
+        ]
+      },
+      "attribute": "irons_spellbooks:max_mana",
+      "operation": "ADDITION",
+      "values": {
+        "common": 50,
+        "uncommon": 75,
+        "rare": 100,
+        "epic": 125,
+        "mythic": 150,
+        "ancient": 175
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "celestisynth"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "apotheosis:core/slipstream",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "celestial_weapons",
+        "types": [
+          "celestial_weapons"
+        ]
+      },
+      "attribute": "celestisynth:celestial_damage",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "common": 0.05,
+        "uncommon": 0.10,
+        "rare": 0.15,
+        "epic": 0.20,
+        "mythic": 0.25,
+        "ancient": 0.30
+      }
+    }
+  ]
+}

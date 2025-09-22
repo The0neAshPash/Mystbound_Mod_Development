@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "apotheosis:core/solar",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "staffs",
+        "types": [
+          "staffs"
+        ]
+      },
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "common": 0.03,
+        "uncommon": 0.06,
+        "rare": 0.09,
+        "epic": 0.12,
+        "mythic": 0.15,
+        "ancient": 0.2
+      }
+    }
+  ]
+}

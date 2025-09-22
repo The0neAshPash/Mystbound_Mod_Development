@@ -374,6 +374,7 @@
 		"mystbound-origins:revenant-origin/undead-constitution" = true
 		"mystbound-origins:banshee-origin/raw-carnivore" = true
 		"mystbound-origins:extras/man-eater" = true
+		"mystbound-origins:revenant-origin/hat" = true
 
 	[origins."mystbound-origins:herbivore"]
 		enabled = true

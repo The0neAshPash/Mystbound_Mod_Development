@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "celestisynth"
+    }
+  ],
+  "type": "fallen_gems_affixes:extra_gem_bonus",
+  "gem": "apotheosis:core/tyrannical",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "celestial_weapons",
+        "types": [
+          "celestial_weapons"
+        ]
+      },
+      "attribute": "attributeslib:life_steal",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.05,
+        "uncommon": 0.10,
+        "rare": 0.15,
+        "epic": 0.2,
+        "mythic": 0.30,
+        "ancient": 0.35
+      }
+    }
+  ]
+}

@@ -30,13 +30,13 @@
 	[Items.Wine]
 		#Maximum level for wine
 		#Range: 1 ~ 10
-		maxLevel = 5
+		maxLevel = 6
 		#Start duration for wine in seconds
 		#Range: 1 ~ 100000
-		startDuration = 1800
+		startDuration = 2000
 		#Duration per year in seconds
 		#Range: 1 ~ 10000
-		durationPerYear = 200
+		durationPerYear = 500
 		#Days per year
 		#Range: 1 ~ 100
 		daysPerYear = 24
@@ -45,7 +45,7 @@
 		yearsPerEffectLevel = 6
 		#Maximum duration in seconds
 		#Range: 1 ~ 100000
-		maxDuration = 15000
+		maxDuration = 36000
 
 	[Items.Banner]
 		#Set to false to disable the banner's effect.
@@ -60,9 +60,9 @@
 	[Items.WanderingTrader]
 		#Chance for the custom trader to spawn. Range: 0.0 to 1.0
 		#Range: 0.0 ~ 1.0
-		spawnChance = 0.5
+		spawnChance = 0.0
 		#If true, the trader will spawn with mules.
-		spawnWithMules = true
+		spawnWithMules = false
 		#Spawn delay for the trader in ticks.
 		#Range: > 1
 		spawnDelay = 48000

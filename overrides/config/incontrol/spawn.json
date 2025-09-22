@@ -8,7 +8,8 @@
     "born_in_chaos_v1:diamond_termite",
     "vinery:mule",
     "crittersandcompanions:leaf_insect",
-    "minecraft:trader_llama"
+    "minecraft:trader_llama",
+    "vinery:wandering_winemaker"
     ],
     "when": "onjoin",
     "result": "deny"
