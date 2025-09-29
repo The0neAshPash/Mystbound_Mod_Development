@@ -63,5 +63,15 @@ ItemEvents.modification(event => {
       item.armorProtection = 3 
       item.armorToughness = 4 
     })
+    event.modify('crystal_gems:green_gem', item => { item.fireResistant = false })
+    event.modify('crystal_gems:pink_gem', item => { item.fireResistant = false })
+    event.modify('crystal_gems:orange_gem', item => { item.fireResistant = false })
+    event.modify('crystal_gems:yellow_gem', item => { item.fireResistant = false })
+    event.modify('crystal_gems:purple_gem', item => { item.fireResistant = false })
+    event.modify('crystal_gems:white_gem', item => { item.fireResistant = false })
+    event.modify('crystal_gems:red_gem', item => { item.fireResistant = false })
+    event.modify('crystal_gems:black_gem', item => { item.fireResistant = false })
+    event.modify('crystal_gems:blue_gem', item => { item.fireResistant = false })
+    event.modify('crystal_gems:rainbow_gem', item => { item.fireResistant = false })
 
   })

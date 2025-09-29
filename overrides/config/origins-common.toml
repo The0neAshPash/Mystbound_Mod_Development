@@ -374,6 +374,7 @@
 		"mystbound-origins:revenant-origin/undead-constitution" = true
 		"mystbound-origins:banshee-origin/raw-carnivore" = true
 		"mystbound-origins:extras/man-eater" = true
+		"mystbound-origins:banshee-origin/burninsun" = true
 		"mystbound-origins:revenant-origin/burninsun" = true
 		"mystbound-origins:revenant-origin/hat" = true
 
@@ -387,6 +388,7 @@
 		"mystbound-origins:diets/herbivore" = true
 		"mystbound-origins:herbivore-origin/hardy" = true
 		"mystbound-origins:herbivore-origin/pure" = true
+		"mystbound-origins:extras/dash_headbutt" = true
 
 	[origins."mystbound-origins:pixie"]
 		enabled = true
@@ -583,6 +585,8 @@
 		"mystbound-origins:satyr-origin/sheep-smell" = true
 		"mystbound-origins:satyr-origin/thick-fur" = true
 		"mystbound-origins:extras/cold_immune" = true
+		"mystbound-origins:extras/goat" = true
+		"mystbound-origins:extras/dash_headbutt" = true
 
 	[origins."mystbound-origins:carnivore"]
 		enabled = true

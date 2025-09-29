@@ -82,6 +82,8 @@
     "ench": true
   },
   "dragnlivestock": {
+    "age_time": true,
+    "dry_time": true,
     "o_tooltips": true
   },
   "balm": {

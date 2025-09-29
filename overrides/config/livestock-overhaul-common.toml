@@ -59,7 +59,11 @@
 	#Amount of time, in ticks, that you must wait to shear an O-Sheep, Goat or Llama. Default is 24000 ticks, or 20 minutes.
 	"Wool Regrowth Time" = 24000
 	#Amount of Fertilized Eggs a hen should lay after mating. Default is 3.
-	"Chicken Egg Lay Amount" = 3
+	"Max Fertilized Chicken Eggs" = 3
+	#Maximum amount of piglets a pig can have at once. Default is 3.
+	"Max Pig Babies" = 3
+	#Maximum amount of kits a rabbit can have at once. Default is 3.
+	"Max Rabbit Babies" = 3
 
 [Herding]
 	#Should animals, like cows, herd together?
@@ -76,13 +80,13 @@
 [QoL]
 	#Should O-Animals use vanilla loot instead of the loot included in the mod?
 	"Use Vanilla Animal Loot" = true
-	#Should O-Horses be able to spawn with any breed naturally? (They spawn only as wild Mustangs by default)
+	#Should O-Horses be able to spawn with any breed naturally? Default is Mustangs only.
 	"Naturally Spawning O-Horse Breeds" = false
 	#Base time an O-Horse can run for at full speed, in seconds. Default is 45s.
 	"Base Horse Sprint Time" = 45
 	#Should O-Horses's manes and tails be able to grow over time?
 	"Horse Hair Growth Progression" = true
-	#Amount of time, in ticks, it takes for a horse's mane or tail to grow to the next stage. Default is 72000.
+	#Amount of time, in ticks, it takes for a horse's mane or tail to grow to the next stage. Default is 72000 (3 ingame days).
 	"Horse Hair Growth Time" = 72000
 	#Should O-Animals' colors, markings, and other genetic attributes depend on their breed and gender, along with their breed depending on the biome?
 	"Spawn By Breed & Biome" = true
@@ -99,25 +103,41 @@
 	"Ground Tie When Dismounted" = true
 	#Should debug logs run? This will spam the console with logs, so it's best turned off unless you're a dev or testing on your server temporarily.
 	"Debug Logs On [DEV]" = false
-	#(THIS DOESN'T DO ANYTHING YET!) Should Dynamic Resources be turned on? Only turn this on if you're running a DR resource pack. (Experimental)
-	"Dynamic Resources (WIP)" = false
 	#Should only those in Creative Mode be able to 'Mustang Brand' horses?
 	"Creative-Only Mustang Branding" = false
+	#Should players be able to train their O-Horse's stats by riding them over an extended period of time?
+	"Allow Horse Training" = true
+	#Time it takes (whilst riding), in ticks, to train an O-Horse up one level of it's stats. Default is 48000 (40 minutes of riding).
+	"Stat Training Time" = 48000
+	#Amount of times a player can level up their O-Horse's stats. Default is 5.
+	"Stat Training Max" = 5
+	#Should only those in Creative Mode be able to snip (geld or spay) mounts?
+	"Creative-Only Snipping" = false
 
 [Miscellaneous]
 	#Should Unicorns be able to breed?
 	"Allow Unicorn Breeding" = false
 	#Should O-Horses have a small chance to turn Undead upon death?
 	"Occasional Horse Turns Undead" = true
-	#Amount of time, in ticks, it takes for an Undead Horse to decompose to the next stage. Default is 72000.
+	#Amount of time, in ticks, it takes for an Undead Horse to decompose to the next stage. Default is 72000 (3 ingame days).
 	"Undead Decomp Stage Time" = 72000
 	#Should players be able to craft special event blankets? If this is false, servers can give out blankets as free event rewards instead (cannot be a real currency payment).
 	"Allow Special Event Blanket Crafting" = true
-	#NON FUNCTIONAL
-	"NON FUNCTIONAL" = 3
+	#Chance of an O-Horse turning undead after dying to a natural cause. Default is 0.03 (3%).
+	"Undead Horse Chance" = 0.03
 
 [Uninstalling]
 	#Should all O-Animals be converted back into a vanilla counterpart? Make sure all replacers are turned to false before running. 
 	#WARNING: This should be used *sparingly*, and only when needed/ if this mod is about to be removed.
 	"Failsafe O-Animal -> Vanilla Animal Converter" = false
+
+[Wagons]
+	"Covered Wagon Speed Multiplier" = 0.1
+	"Dog Sled Speed Multiplier" = 0.42
+	"Goods Cart Speed Multiplier" = 0.25
+	"Livestock Wagon Speed Multiplier" = 0.1
+	"Lumber Wagon Speed Multiplier" = 0.1
+	"Mining Cart Speed Multiplier" = 0.12
+	"Transport Cart Speed Multiplier" = 0.3
+	"Plow Speed Multiplier" = 0.1
 
