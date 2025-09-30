@@ -5,6 +5,15 @@ ServerEvents.recipes(event => {
           'butcher:goatfur'
         ]
       )
+      event.shapeless(
+        Item.of('crystal_gems:orange_gem', 1), 
+        [
+          'crystal_gems:red_gem',
+          'reactive:soul_bottle',
+          'reactive:light_bottle',
+          'reactive:vital_bottle'
+        ]
+      )
       event.replaceInput(
         { input: 'knightlib:small_essence' }, 
         'knightlib:small_essence',            

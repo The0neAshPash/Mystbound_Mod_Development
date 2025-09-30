@@ -14,6 +14,18 @@ ServerEvents.recipes(event => {
   },
 )
 ServerEvents.recipes(event => {
+      event.recipes.summoningrituals
+          .altar(Ingredient.of("call_of_yucutan:fragment_of_death"))
+          .itemOutput('crystal_gems:red_gem')
+          .input('3x ars_nouveau:source_gem')
+          .input('14x minecraft:crying_obsidian')
+          .input('6x reactive:soul_bottle')
+          .sacrifice('alexsmobs:sunbird')
+          .sacrificeRegion(20, 20)
+          .recipeTime(200);
+  },
+)
+ServerEvents.recipes(event => {
   event.recipes.summoningrituals
       .altar(Ingredient.of("minecraft:recovery_compass"))
       .itemOutput('minecraft:respawn_anchor')
@@ -163,7 +175,7 @@ ServerEvents.recipes(event => {
       .input('2x call_of_yucutan:hematite')
       .input('21x galosphere:silver_nugget')
       .input('34x minecraft:kelp')
-      .sacrifice('minecraft:sheep', 5)
+      .sacrifice('dragnlivestock:o_sheep', 5)
       .sacrificeRegion(3, 3)
       .recipeTime(3600)
       .blockBelow('minecraft:copper_ore');
@@ -205,4 +217,30 @@ ItemEvents.rightClicked('crystal_gems:purple_gem', event => {
   }
 )
 
+ItemEvents.rightClicked('crystal_gems:red_gem', event => {
+    event.server.runCommand('bloodmoon moon_event start')
+
+    const stack = event.player.getHeldItem(event.hand);
+    stack.count -= 1;
+    
+    // Update the player's inventory so client syncs
+    event.player.setHeldItem(event.hand, stack);
+  }
+)
+
+ItemEvents.rightClicked('crystal_gems:orange_gem', event => {
+    event.server.runCommand('execute as @p run solapplepie clear')
+    event.server.runCommand('bloodmoon moon_event end')
+    event.server.runCommand('effect give @p born_in_chaos_v1:obsession 200')
+    event.server.runCommand('effect give @p tipsylib:creative_shock')
+    event.server.runCommand('effect give @p irons_spellbooks:heartstop')
+    event.server.runCommand('time set 0')
+    
+    const stack = event.player.getHeldItem(event.hand);
+    stack.count -= 1;
+    
+    // Update the player's inventory so client syncs
+    event.player.setHeldItem(event.hand, stack);
+  }
+)
 
