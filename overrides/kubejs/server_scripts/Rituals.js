@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
           .input('born_in_chaos_v1:fire_dust')
           .input('irons_spellbooks:holy_upgrade_orb')
           .sacrifice('alexsmobs:blue_jay')
-          .sacrificeRegion(3, 3)
+          .sacrificeRegion(5, 5)
           .recipeTime(200)
           .dayTime('day')
           .weather('clear');
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
       .input('3x minecraft:glowstone')
       .input('minecraft:totem_of_undying')
       .sacrifice('dragnlivestock:o_pig', 1)
-      .sacrificeRegion(3, 3)
+      .sacrificeRegion(5, 5)
       .recipeTime(200)
       .blockBelow('minecraft:bedrock')
       .dayTime('night');
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
       .input('10x irons_spellbooks:arcane_essence')
       .input('5x ars_nouveau:conjuration_essence')
       .sacrifice('born_in_chaos_v1:seared_spirit', 1)
-      .sacrificeRegion(3, 3)
+      .sacrificeRegion(5, 5)
       .recipeTime(200)
       .blockBelow('minecraft:bedrock')
       .dayTime('night');
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
         .input('farmersdelight:brown_mushroom_colony')
         .input('farmersdelight:red_mushroom_colony')
         .sacrifice('dragnlivestock:o_cow')
-        .sacrificeRegion(3, 3)
+        .sacrificeRegion(5, 5)
         .recipeTime(200)
         .blockBelow('farmersdelight:rich_soil');
   },
@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
       .input('2x apotheosis:rare_material')
       .input('ars_nouveau:ritual_binding')
       .sacrifice('born_in_chaos_v1:spiritof_chaos', 1)
-      .sacrificeRegion(3, 3)
+      .sacrificeRegion(5, 5)
       .recipeTime(200)
       .blockBelow('irons_spellbooks:arcane_anvil')
       .dayTime('night');
@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
       .input('irons_spellbooks:ancient_knowledge_fragment')
       .input('irons_spellbooks:hogskin')
       .sacrifice('minecraft:warden', 2)
-      .sacrificeRegion(3, 3)
+      .sacrificeRegion(5, 5)
       .recipeTime(200)
       .blockBelow('minecraft:reinforced_deepslate');
   },
@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
       .input('spelunkery:inkcap_mushroom')
       .input('spelunkery:white_inkcap_mushroom')
       .sacrifice('minecraft:slime', 3)
-      .sacrificeRegion(3, 3)
+      .sacrificeRegion(5, 5)
       .recipeTime(200)
       .blockBelow('minecraft:crying_obsidian')
       .dayTime('night');
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
       .input('8x caupona:vivid_charcoal')
       .input('3x ars_nouveau:abjuration_essence')
       .sacrifice('dragnlivestock:o_chicken', 5)
-      .sacrificeRegion(3, 3)
+      .sacrificeRegion(5, 5)
       .recipeTime(3600)
       .blockBelow('minecraft:stone');
   },
@@ -158,7 +158,7 @@ ServerEvents.recipes(event => {
       .input('21x galosphere:silver_nugget')
       .input('34x minecraft:kelp')
       .sacrifice('minecraft:slime', 8)
-      .sacrificeRegion(3, 3)
+      .sacrificeRegion(5, 5)
       .recipeTime(3600)
       .blockBelow('minecraft:moss_block');
   },
@@ -176,7 +176,7 @@ ServerEvents.recipes(event => {
       .input('21x galosphere:silver_nugget')
       .input('34x minecraft:kelp')
       .sacrifice('dragnlivestock:o_sheep', 5)
-      .sacrificeRegion(3, 3)
+      .sacrificeRegion(5, 5)
       .recipeTime(3600)
       .blockBelow('minecraft:copper_ore');
   },
@@ -235,6 +235,19 @@ ItemEvents.rightClicked('crystal_gems:orange_gem', event => {
     event.server.runCommand('effect give @p tipsylib:creative_shock')
     event.server.runCommand('effect give @p irons_spellbooks:heartstop')
     event.server.runCommand('time set 0')
+    
+    const stack = event.player.getHeldItem(event.hand);
+    stack.count -= 1;
+    
+    // Update the player's inventory so client syncs
+    event.player.setHeldItem(event.hand, stack);
+  }
+)
+
+ItemEvents.rightClicked('crystal_gems:yellow_gem', event => {
+    event.server.runCommand('effect give @p relics:stun 5')
+    event.server.runCommand('effect give @p minecraft:resistance 5 5')
+    event.server.runCommand('cast @p heal 5')
     
     const stack = event.player.getHeldItem(event.hand);
     stack.count -= 1;

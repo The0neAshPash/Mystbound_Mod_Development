@@ -522,6 +522,7 @@
 		"mystbound-origins:siren-origin/seduce" = true
 		"mystbound-origins:diets/pescatarian-maneater" = true
 		"mystbound-origins:extras/man-eater" = true
+		"mystbound-origins:extras/cold_immune" = true
 
 	[origins."mystbound-origins:harpy"]
 		enabled = true
@@ -567,6 +568,7 @@
 		"mystbound-origins:undine-origin/coldwater-comforts" = true
 		"mystbound-origins:undine-origin/freeze-ray" = true
 		"mystbound-origins:diets/pescatarian" = true
+		"mystbound-origins:extras/cold_immune" = true
 
 	[origins."mystbound-origins:hobbit"]
 		enabled = true
