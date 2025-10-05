@@ -715,9 +715,9 @@
           "time": 2000
         },
         {
-          "effect": "royalvariations:toxic_spores",
+          "effect": "royalvariations:time_bomb",
           "level": 0,
-          "time": 2000
+          "time": 80
         },
         {
           "effect": "tipsylib:impure",

@@ -74,3 +74,16 @@ habitatBiomes = [
     "minecraft:mangrove_swamp"
 ]
 habitatBiomeDensity = 3
+
+[waterfalls]
+waterfallsEnabled = true
+smallWaterfallsEnabled = true
+waterfallUpdateFrequency = 6
+randomizeWaterfallParticleRotation = false
+mediumWaterfallParticleDensity = 1.0
+mediumWaterfallHeightThreshold = 6
+forceSpawnMediumWaterfallParticles = true
+largeWaterfallsEnabled = true
+largeWaterfallParticleDensity = 1.0
+largeWaterfallHeightThreshold = 10
+forceSpawnLargeWaterfallParticles = true

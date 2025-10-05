@@ -441,6 +441,7 @@
 		"mystbound-origins:banshee-origin/ephemeral-attune" = true
 		"mystbound-origins:extras/man-eater" = true
 		"mystbound-origins:diets/raw-carnivore" = true
+		"mystbound-origins:banshee-origin/whirlwind_shriek" = true
 
 	[origins."mystbound-origins:gorgon"]
 		enabled = true

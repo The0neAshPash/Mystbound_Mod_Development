@@ -2,7 +2,7 @@
     "type": "lychee:item_burning",
     "item_in": [
         {
-            "item": "irons_spellbooks:blank_rune"
+            "item": "bosses_of_mass_destruction:crystal_fruit"
         }
     ],
     "post": [

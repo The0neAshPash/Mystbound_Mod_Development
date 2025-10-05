@@ -151,7 +151,9 @@
     "irons_spellbooks:evasion_elixir",
     "irons_spellbooks:greater_evasion_elixir",
     "minecraft:shield",
-    "aquamirae:fin_cutter"
+    "aquamirae:fin_cutter",
+    "royalvariations:royal_telelocator",
+    "royalvariations:empty_royal_telelocator"
 	
   ],
   // -----------------------------------------------------------
