@@ -405,6 +405,8 @@
 		"mystbound-origins:extras/sour" = true
 		"mystbound-origins:extras/weak" = true
 		"mystbound-origins:pixie-origin/soggy-wings" = true
+		"mystbound-origins:pixie-origin/sour" = true
+		"mystbound-origins:pixie-origin/weak" = true
 
 	[origins."mystbound-origins:summoned"]
 		enabled = true
@@ -604,4 +606,79 @@
 		"mystbound-origins:carnivore-origin/bleeding_strike" = true
 		"mystbound-origins:carnivore-origin/swift_sneak" = true
 		"mystbound-origins:carnivore-origin/backstab" = true
+
+	[origins."sprites:lux"]
+		enabled = true
+		"sprites:air/unique/wings" = true
+		"sprites:air/common/dust" = true
+		"sprites:air/common/hide" = true
+		"sprites:air/unique/hover" = true
+		"sprites:air/unique/flutter" = true
+		"sprites:air/unique/dash" = true
+		"sprites:air/common/gain" = true
+		"sprites:air/common/held" = true
+		"sprites:shared/ride" = true
+		"sprites:shared/ridecd" = true
+		"sprites:shared/ridecdtrigger" = true
+		"sprites:air/common/elements" = true
+		"sprites:shared/attributes" = true
+		"sprites:shared/metal" = true
+		"sprites:shared/fireworks" = true
+		"sprites:air/common/glow" = true
+		"sprites:air/unique/sour" = true
+		"sprites:air/unique/iron" = true
+		"sprites:air/unique/ironweapon" = true
+		"sprites:air/unique/magical" = true
+		"sprites:air/unique/feather_footed" = true
+		"sprites:air/unique/weak" = true
+		"sprites:air/unique/herbivore" = true
+
+	[origins."sprites:ignis"]
+		enabled = true
+		"sprites:fire/unique/lava" = true
+		"sprites:fire/common/dust" = true
+		"sprites:fire/common/hide" = true
+		"sprites:fire/unique/ember" = true
+		"sprites:fire/unique/emberint" = true
+		"sprites:fire/unique/isfire" = true
+		"sprites:fire/unique/isgliding" = true
+		"sprites:fire/unique/landed" = true
+		"sprites:fire/unique/haswings" = true
+		"sprites:fire/unique/nofall" = true
+		"sprites:fire/common/gain" = true
+		"sprites:fire/unique/smelt" = true
+		"sprites:fire/common/held" = true
+		"sprites:shared/ride" = true
+		"sprites:shared/ridecd" = true
+		"sprites:shared/ridecdtrigger" = true
+		"sprites:fire/common/elements" = true
+		"sprites:shared/attributes" = true
+		"sprites:shared/metal" = true
+		"sprites:shared/fireworks" = true
+		"sprites:fire/unique/fire" = true
+		"sprites:fire/common/glow" = true
+
+	[origins."sprites:aqua"]
+		enabled = true
+		"sprites:water/unique/speed" = true
+		"sprites:water/common/dust" = true
+		"sprites:water/common/hide" = true
+		"sprites:water/unique/dashing" = true
+		"sprites:water/unique/leap" = true
+		"sprites:water/unique/leaping" = true
+		"sprites:water/unique/leapsound" = true
+		"sprites:water/unique/hunt" = true
+		"sprites:water/common/held" = true
+		"sprites:water/unique/elytra" = true
+		"sprites:water/unique/gliding" = true
+		"sprites:shared/ride" = true
+		"sprites:shared/ridecd" = true
+		"sprites:shared/ridecdtrigger" = true
+		"sprites:water/common/elements" = true
+		"sprites:shared/attributes" = true
+		"sprites:shared/metal" = true
+		"sprites:shared/fireworks" = true
+		"sprites:water/common/gain" = true
+		"sprites:water/unique/water" = true
+		"sprites:water/common/glow" = true
 
