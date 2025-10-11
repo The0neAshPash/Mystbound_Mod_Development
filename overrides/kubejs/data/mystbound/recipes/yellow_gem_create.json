@@ -1,0 +1,17 @@
+{
+    "type": "lychee:item_burning",
+    "item_in": [
+        {
+            "item": "bosses_of_mass_destruction:soul_star"
+        }
+    ],
+    "post": [
+        {
+            "type": "execute",
+            "command": "give @p crystal_gems:yellow_gem",
+            "hide": true
+        }
+    ]
+}
+
+

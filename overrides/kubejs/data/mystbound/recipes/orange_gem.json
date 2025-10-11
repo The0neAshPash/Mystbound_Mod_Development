@@ -1,0 +1,43 @@
+{
+    "type": "lychee:item_burning",
+    "item_in": [
+        {
+            "item": "crystal_gems:orange_gem"
+        }
+    ],
+    "post": [
+        {
+            "type": "execute",
+            "command": "bloodmoon moon_event end",
+            "hide": true
+        },
+        {
+            "type": "execute",
+            "command": "execute as @p run solapplepie clear",
+            "hide": true
+        },
+        {
+            "type": "execute",
+            "command": "effect give @p born_in_chaos_v1:obsession 200",
+            "hide": true
+        },
+        {
+            "type": "execute",
+            "command": "effect give @p tipsylib:creative_shock",
+            "hide": true
+        },
+        {
+            "type": "execute",
+            "command": "effect give @p irons_spellbooks:heartstop",
+            "hide": true
+        },
+        {
+            "type": "execute",
+            "command": "time set 0",
+            "hide": true
+        }
+        
+    ]
+}
+
+

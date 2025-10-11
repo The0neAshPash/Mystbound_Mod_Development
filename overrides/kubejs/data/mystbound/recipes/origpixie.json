@@ -13,7 +13,7 @@
             },
             {
                 "type": "execute",
-                "command": "origin set @p origins:origin mystbound-origins:pixie",
+                "command": "origin set @p origins:origin sprites:lux",
                 "hide": true
             }
 

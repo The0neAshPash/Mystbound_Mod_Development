@@ -1,0 +1,27 @@
+{
+    "type": "lychee:item_burning",
+    "item_in": [
+        {
+            "item": "crystal_gems:yellow_gem"
+        }
+    ],
+    "post": [
+        {
+            "type": "execute",
+            "command": "effect give @p relics:stun 5",
+            "hide": true
+        },
+        {
+            "type": "execute",
+            "command": "effect give @p minecraft:resistance 5 5",
+            "hide": true
+        },
+        {
+            "type": "execute",
+            "command": "cast @p heal 5",
+            "hide": true
+        }
+    ]
+}
+
+
