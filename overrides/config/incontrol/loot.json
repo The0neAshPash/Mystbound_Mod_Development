@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "mob": "born_in_chaos_v1:diamond_termite",
+    "player": true,
+    "item": "spelunkery:rough_diamond_shard",
+    "itemcount": "2-3"
+  }
+]

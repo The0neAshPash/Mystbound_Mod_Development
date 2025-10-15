@@ -103,7 +103,10 @@
           "simplyswords:gold_halberd",
           "simplyswords:diamond_halberd",
           "simplyswords:netherite_halberd",
-          "simplyswords:runic_halberd"
+          "simplyswords:runic_halberd",
+          "relics:drowned_belt",
+          "relics:rage_glove",
+          "cataclysm:black_steel_targe"
         ],
         "nbt": "{}"
       },

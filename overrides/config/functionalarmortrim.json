@@ -39,36 +39,26 @@
     ],
     "minecraft:netherite_ingot": [
         {
-            "attribute": "minecraft:generic.armor",
-            "operation": "addition",
-            "amount": 1.0
-        },
-        {
             "attribute": "minecraft:generic.armor_toughness",
             "operation": "addition",
-            "amount": 1.0
+            "amount": 4.0
         },
         {
             "attribute": "functionalarmortrim:fire_resistance",
             "operation": "addition",
-            "amount": 0.2
+            "amount": 2.0
         }
     ],
     "cataclysm:ignitium_ingot": [
         {
-            "attribute": "minecraft:generic.armor",
-            "operation": "addition",
-            "amount": 1.0
-        },
-        {
             "attribute": "minecraft:generic.armor_toughness",
             "operation": "addition",
-            "amount": 1.0
+            "amount": 3.0
         },
         {
             "attribute": "functionalarmortrim:fire_resistance",
             "operation": "addition",
-            "amount": 0.2
+            "amount": 5.0
         }
     ],
     "minecraft:redstone": [
@@ -82,6 +72,13 @@
             "operation": "addition",
             "amount": 1.0
         }
+    ],
+    "collectorsreap:lunar_pearl": [
+    {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_total",
+        "amount": 0.15
+    }
     ],
     "call_of_yucutan:hematite": [
         {
@@ -99,14 +96,14 @@
         {
             "attribute": "forge:swim_speed",
             "operation": "multiply_total",
-            "amount": 0.1
+            "amount": 0.2
         }
     ],
     "cataclysm:cursium_ingot": [
         {
             "attribute": "forge:swim_speed",
-            "operation": "multiply_total",
-            "amount": 0.1
+            "operation": "addition",
+            "amount": 1.0
         }
     ],
     "minecraft:amethyst_shard": [
@@ -126,8 +123,8 @@
     "cataclysm:witherite_ingot": [
         {
             "attribute": "functionalarmortrim:experience_boost",
-            "operation": "multiply_total",
-            "amount": 0.1
+            "operation": "addition",
+            "amount": 0.5
         }
     ],
     "minecraft:quartz": [
@@ -147,8 +144,8 @@
     "call_of_yucutan:ancient_gold_ingot": [
         {
             "attribute": "functionalarmortrim:gossip_boost",
-            "operation": "multiply_total",
-            "amount": 0.1
+            "operation": "addition",
+            "amount": 0.5
         }
     ]
 }

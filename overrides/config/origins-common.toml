@@ -389,6 +389,7 @@
 		"mystbound-origins:herbivore-origin/hardy" = true
 		"mystbound-origins:herbivore-origin/pure" = true
 		"mystbound-origins:extras/dash_headbutt" = true
+		"mystbound-origins:herbivore-origin/natural_sprinter" = true
 
 	[origins."mystbound-origins:pixie"]
 		enabled = true
@@ -507,6 +508,8 @@
 		"mystbound-origins:draconic-origin/hydrophobic2" = true
 		"mystbound-origins:draconic-origin/dragon-wings" = true
 		"mystbound-origin:draconic-origin/wing-freeze" = true
+		"mystbound-origins:draconic-origin/fire_rend" = true
+		"mystbound-origins:revenant-origin/trading" = true
 
 	[origins."mystbound-origins:siren"]
 		enabled = true
