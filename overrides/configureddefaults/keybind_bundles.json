@@ -1,0 +1,328 @@
+[
+  {
+    "id": "59d2f41e-5613-44b6-9b1b-ea04b677717f",
+    "name": "Horse",
+    "entries": [
+      {
+        "key": "key.callhorse.desc",
+        "title": "Call Horse"
+      },
+      {
+        "key": "key.horsecombatcontrols.toggle",
+        "title": "Toggle horse combat controls"
+      },
+      {
+        "key": "key.sethorse.desc",
+        "title": "Set Horse"
+      },
+      {
+        "key": "key.showstats.desc",
+        "title": "Show Horse Stats"
+      }
+    ]
+  },
+  {
+    "id": "961afc8d-fd29-4039-82d1-bc843c7fd8df",
+    "name": "Horse - Emotes",
+    "entries": [
+      {
+        "key": "key.dragnlivestock.horse_bow",
+        "title": "Bow Emote - Horse"
+      },
+      {
+        "key": "key.dragnlivestock.horse_levade",
+        "title": "Levade Emote - Horse"
+      },
+      {
+        "key": "key.dragnlivestock.horse_piaffe",
+        "title": "Piaffe Emote - Horse"
+      },
+      {
+        "key": "key.dragnlivestock.horse_spanish_walk_toggle",
+        "title": "Spanish Walk - Horse"
+      },
+      {
+        "key": "key.dragnlivestock.horse_wave",
+        "title": "Wave Emote - Horse"
+      }
+    ]
+  },
+  {
+    "id": "d862185a-0a2b-4875-a7e2-cf05a08f4e5c",
+    "name": "Social",
+    "entries": [
+      {
+        "key": "key.socialInteractions",
+        "title": "Social Interactions Screen"
+      },
+      {
+        "key": "key.voice_chat",
+        "title": "Voice Chat Menu"
+      },
+      {
+        "key": "key.voice_chat_settings",
+        "title": "Voice Chat Settings"
+      },
+      {
+        "key": "quark.emote.no",
+        "title": "No"
+      },
+      {
+        "key": "quark.emote.yes",
+        "title": "Yes"
+      },
+      {
+        "key": "quark.emote.wave",
+        "title": "Wave"
+      },
+      {
+        "key": "quark.emote.salute",
+        "title": "Salute"
+      },
+      {
+        "key": "quark.emote.cheer",
+        "title": "Cheer"
+      },
+      {
+        "key": "quark.emote.clap",
+        "title": "Clap"
+      },
+      {
+        "key": "quark.emote.think",
+        "title": "Think"
+      },
+      {
+        "key": "quark.emote.point",
+        "title": "Point"
+      },
+      {
+        "key": "quark.emote.shrug",
+        "title": "Shrug"
+      },
+      {
+        "key": "quark.emote.headbang",
+        "title": "Headbang"
+      },
+      {
+        "key": "quark.emote.weep",
+        "title": "Weep"
+      },
+      {
+        "key": "quark.emote.facepalm",
+        "title": "Facepalm"
+      }
+    ]
+  },
+  {
+    "id": "caeef84e-4fb2-484f-aa00-6edf4389aa5b",
+    "name": "Other settings",
+    "entries": [
+      {
+        "key": "key.paraglider.paragliderSettings",
+        "title": "Paraglider Settings"
+      },
+      {
+        "key": "treechop.key.open_settings_overlay",
+        "title": "Open Settings Overlay"
+      },
+      {
+        "key": "key.mimi.midi.gui.settings",
+        "title": "key.mimi.midi.gui.settings"
+      },
+      {
+        "key": "key.voice_chat_settings",
+        "title": "Voice Chat Settings"
+      },
+      {
+        "key": "key.weaponmaster_ydm.opengui",
+        "title": "Open Settings",
+        "icon": {
+          "id": "minecraft:air",
+          "Count": 0
+        }
+      },
+      {
+        "key": "key.exposure.camera_controls",
+        "title": "Open Camera Controls"
+      },
+      {
+        "key": "key.leawind_third_person.open_config_menu",
+        "title": "Open configuration menu"
+      },
+      {
+        "key": "key.cpm.gestureMenu",
+        "title": "Gestures Menu"
+      },
+      {
+        "key": "key.voice_chat",
+        "title": "Voice Chat Menu"
+      }
+    ]
+  },
+  {
+    "id": "61069adc-c62d-4382-8dd7-c0a253d87395",
+    "name": "Ars",
+    "entries": [
+      {
+        "key": "key.ars_nouveau.qc1",
+        "title": "Quick Cast Slot 01"
+      },
+      {
+        "key": "key.ars_nouveau.qc2",
+        "title": "Quick Cast Slot 02"
+      },
+      {
+        "key": "key.ars_nouveau.qc3",
+        "title": "Quick Cast Slot 03"
+      },
+      {
+        "key": "key.ars_nouveau.qc4",
+        "title": "Quick Cast Slot 04"
+      },
+      {
+        "key": "key.ars_nouveau.qc5",
+        "title": "Quick Cast Slot 05"
+      },
+      {
+        "key": "key.ars_nouveau.qc6",
+        "title": "Quick Cast Slot 06"
+      },
+      {
+        "key": "key.ars_nouveau.qc7",
+        "title": "Quick Cast Slot 07"
+      },
+      {
+        "key": "key.ars_nouveau.qc8",
+        "title": "Quick Cast Slot 08"
+      },
+      {
+        "key": "key.ars_nouveau.qc9",
+        "title": "Quick Cast Slot 09"
+      },
+      {
+        "key": "key.ars_nouveau.qc10",
+        "title": "Quick Cast Slot 10"
+      },
+      {
+        "key": "key.ars_nouveau.open_book",
+        "title": "(Spell Book) Open Book"
+      },
+      {
+        "key": "key.ars_nouveau.familiar_toggle",
+        "title": "Summon/Dispel Familiar"
+      }
+    ]
+  },
+  {
+    "id": "c7046477-7f56-4fa3-b565-2c41ecf36b90",
+    "name": "Armor Abilites",
+    "entries": [
+      {
+        "key": "key.mofus_better_end_.armors_abilities",
+        "title": "Armors Abilities"
+      },
+      {
+        "key": "key.cataclysm.ability",
+        "title": "Cataclysm Ability"
+      },
+      {
+        "key": "key.cataclysm.boots_ability",
+        "title": "Cataclysm Boots Ability"
+      },
+      {
+        "key": "key.cataclysm.chestplate_ability",
+        "title": "Cataclysm Chestplate Ability"
+      },
+      {
+        "key": "key.cataclysm.helmet_ability",
+        "title": "Cataclysm Helmet Ability"
+      }
+    ]
+  },
+  {
+    "id": "1af25079-f93f-4ae2-962f-2e2acf8d21a3",
+    "name": "Jade",
+    "entries": [
+      {
+        "key": "key.jade.config",
+        "title": "Open Config"
+      },
+      {
+        "key": "key.jade.show_details",
+        "title": "Show Details"
+      },
+      {
+        "key": "key.jade.show_overlay",
+        "title": "Show Overlay"
+      },
+      {
+        "key": "key.jade.show_recipes",
+        "title": "Show Recipes"
+      },
+      {
+        "key": "key.jade.show_uses",
+        "title": "Show Uses"
+      },
+      {
+        "key": "key.jade.toggle_liquid",
+        "title": "Toggle Fluid"
+      },
+      {
+        "key": "key.jade.narrate",
+        "title": "Narrate"
+      }
+    ]
+  },
+  {
+    "id": "17eb6b32-851d-4143-90fc-22506bfc4e8f",
+    "name": "Tetra",
+    "entries": [
+      {
+        "key": "tetra.toolbelt.binding.open",
+        "title": "Open toolbelt"
+      },
+      {
+        "key": "tetra.toolbelt.binding.access",
+        "title": "Quick access"
+      },
+      {
+        "key": "tetra.toolbelt.binding.restock",
+        "title": "Restock toolbelt"
+      },
+      {
+        "key": "tetra.toolbelt.binding.secondary_use",
+        "title": "Use secondary"
+      }
+    ]
+  },
+  {
+    "id": "115eca34-b418-43e4-a185-9c6e7786eb3f",
+    "name": "Inventories",
+    "entries": [
+      {
+        "key": "key.inventory",
+        "title": "Open/Close Inventory"
+      },
+      {
+        "key": "cos.key.opencosarmorinventory",
+        "title": "OpenCosmeticArmorInventory"
+      },
+      {
+        "key": "key.curios.open.desc",
+        "title": "Open/Close Curios Inventory"
+      },
+      {
+        "key": "key.travelersbackpack.inventory",
+        "title": "Open Backpack"
+      },
+      {
+        "key": "tetra.toolbelt.binding.open",
+        "title": "Open toolbelt"
+      },
+      {
+        "key": "supplementaries.keybind.quiver",
+        "title": "Quiver"
+      }
+    ]
+  }
+]

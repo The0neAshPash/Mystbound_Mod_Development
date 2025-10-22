@@ -19,7 +19,7 @@
 	#Whether feather icons are affected by icons on the right side of the HUD.
 	"Feathers Affected by Right Side Icons" = true
 	#How far left or right you want the feathers to be
-	"HUD X Offset" = 0
+	"HUD X Offset" = 100
 	#How far up or down you want the feathers to be. TIP: use this for compatibility with mods that add other bars such as thirst
-	"HUD Y Offset" = 0
+	"HUD Y Offset" = 30
 

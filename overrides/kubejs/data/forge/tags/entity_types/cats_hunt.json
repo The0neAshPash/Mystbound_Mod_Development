@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexsmobs:roadrunner",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:hummingbird",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:fly",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:raccoon",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cockroach",
+      "required": false
+    },
+    {
+      "id": "sugar_glider",
+      "required": false
+    },
+    {
+      "id": "blue_jay",
+      "required": false
+    }    
+
+  ]
+}

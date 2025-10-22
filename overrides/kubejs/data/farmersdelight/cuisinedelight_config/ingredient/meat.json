@@ -895,9 +895,6 @@
       ],
       "ingredient": [
         {
-          "item": "rpg_better_elder_guardian_8701:raw_elder_meat"
-        },
-        {
           "item": "butcher:raweldermeat"
         }
       ],

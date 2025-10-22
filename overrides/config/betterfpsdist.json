@@ -1,7 +1,7 @@
 {
   "verticalScaling": {
     "desc:": "The amount by which the chunk render distance sphere is stretched vertically. default:2.0, min 0.5, max 10",
-    "verticalScaling": 1.25
+    "verticalScaling": 1.0
   },
   "horizontalScaling": {
     "desc:": "The amount by which the chunk render distance sphere is stretched horizontally. default:1.0, min 0.05, max 2",

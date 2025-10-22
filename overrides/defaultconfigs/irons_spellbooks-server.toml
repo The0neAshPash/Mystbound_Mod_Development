@@ -1014,7 +1014,7 @@
 	[Spells."irons_spellbooks:thunderstorm"]
 		Enabled = true
 		School = "irons_spellbooks:lightning"
-		MaxLevel = 8
+		MaxLevel = 1
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0

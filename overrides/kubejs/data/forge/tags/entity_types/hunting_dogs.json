@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "dragnpets:labrador",
+    "dragnpets:bloodhound",
+    "dragnpets:cocker_spaniel",
+    "dragnpets:whippet",
+    "dragnpets:american_ridgeback"
+  ]
+}

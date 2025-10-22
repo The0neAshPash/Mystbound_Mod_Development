@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "AshPash",
+      "uniqueId": "8261c325-eef0-4c04-86ac-15ca1b8bb7aa"
+    },
+    "time": 1761010926514,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/wkczQgCPQi"
+    }
+  }
+]

@@ -27,7 +27,7 @@ LootJS.modifiers((event) => {
             title: 'Treaty of Flames',
             author: 'T4rsh1sh'
         }))
-            .when((c) => c.randomChance(0.02)),
+            .when((c) => c.randomChance(0.002)),
             LootEntry.of(Item.of('minecraft:written_book', {
             pages: [
                 '{"text":"The Tale of SunBird \\nand Crow\\n\\nLong ago, a \\nmischievous Blue Jay \\nand a proud Crow \\nquarreled endlessly \\nover who possessed \\nthe finest collection \\nof treasures; \\nshimmering trinkets, \\nglowing gems, and \\nthings no eye had \\never seen. Their "}',
@@ -51,7 +51,7 @@ LootJS.modifiers((event) => {
             title: 'The Tale of SunBird and Crow',
             author: 'Cardona'
         }))
-            .when((c) => c.randomChance(0.03)),// 3% chance
+            .when((c) => c.randomChance(0.003)),// 3% chance
 
 
             LootEntry.of(Item.of('minecraft:written_book', {
@@ -69,7 +69,7 @@ LootJS.modifiers((event) => {
             title: 'For surviving the winter',
             author: 'Wilzero'
         }))
-            .when((c) => c.randomChance(0.03)),
+            .when((c) => c.randomChance(0.003)),
 
     LootEntry.of(Item.of('minecraft:written_book', {
             pages: [
@@ -108,7 +108,7 @@ LootJS.modifiers((event) => {
             title: 'FK-004',
             author: 'T4rsh1sh'
         }))
-            .when((c) => c.randomChance(0.03)),
+            .when((c) => c.randomChance(0.003)),
 
             LootEntry.of(Item.of('minecraft:written_book',{
             pages: [
@@ -145,7 +145,7 @@ LootJS.modifiers((event) => {
             title: 'The Three Cloaks',
             author: 'Blue8733'
         }))
-            .when((c) => c.randomChance(0.05)),
+            .when((c) => c.randomChance(0.005)),
 
             
 LootEntry.of(Item.of('minecraft:written_book', {
@@ -163,7 +163,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
             title: 'Collection of Arcane History in Poetry Vol.II',
             author: 'Cardona'
         }))
-            .when((c) => c.randomChance(0.08)),
+            .when((c) => c.randomChance(0.008)),
 
     LootEntry.of(Item.of('minecraft:written_book', {
             pages: [
@@ -180,7 +180,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
             title: 'Collection of Arcane History in Poetry Vol.I',
             author: 'Cardona'
         }))
-            .when((c) => c.randomChance(0.08)),
+            .when((c) => c.randomChance(0.008)),
 
 LootEntry.of(Item.of('minecraft:written_book', {
     pages: [
@@ -222,7 +222,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
     title: 'Troubling Translation',
     author: 'Baluster'
 }))
-    .when(c => c.randomChance(0.1)),
+    .when(c => c.randomChance(0.01)),
            
 
     LootEntry.of(Item.of('minecraft:written_book', {
@@ -248,7 +248,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
             title: 'Urgent Summons',
             author: 'KayC0rumz'
         }))
-            .when((c) => c.randomChance(0.1)),
+            .when((c) => c.randomChance(0.01)),
 
             LootEntry.of(Item.of('minecraft:written_book', {
             pages: [
@@ -269,7 +269,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
             title: 'The Fable of Harpy',
             author: 'Cardona'
         }))
-            .when((c) => c.randomChance(0.15)),
+            .when((c) => c.randomChance(0.015)),
 
             LootEntry.of(Item.of('minecraft:written_book', {
             pages: [
@@ -320,7 +320,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
             title: 'Weather Vol.I',
             author: 'Archmage Ardentia, Arcanist Hythe, Spellmaster Apollo, Magus Pierce, and Magister Thardune'
         }))
-            .when((c) => c.randomChance(0.15)),
+            .when((c) => c.randomChance(0.015)),
 
 
     LootEntry.of(Item.of('minecraft:written_book', {
@@ -362,7 +362,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
             title: 'Weather Vol.III',
             author: 'Archmage Ardentia, Magus Pierce, Magister Thardune, Spellmaster Apollo, and Arcanist Hythe'
         }))
-            .when((c) => c.randomChance(0.15)),
+            .when((c) => c.randomChance(0.015)),
 
     LootEntry.of(Item.of('minecraft:written_book', {
             pages: [
@@ -402,7 +402,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
             title: 'Weather Vol.II',
             author: 'Archmage Ardentia, Arcanist Hythe, Spellmaster Apollo, Magus Pierce, and Magister Thardune'
         }))
-            .when((c) => c.randomChance(0.15)),
+            .when((c) => c.randomChance(0.015)),
 
     LootEntry.of(Item.of('minecraft:written_book', {
             pages: [
@@ -443,7 +443,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
             title: 'Crying Obsidian',
             author: 'Arcanist Hythe, Magus Pierce,  Magister Thardune, Spellmaster Apollo, and Archmage Ardentia'
         }))
-            .when((c) => c.randomChance(0.15)),
+            .when((c) => c.randomChance(0.015)),
 
         LootEntry.of(Item.of('minecraft:written_book', {
             pages: [
@@ -459,7 +459,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
             title: 'གଝݡ ଶધ གଶખཫଚݡག',
             author: ' '
         }))
-            .when(c => c.randomChance(0.05)),
+            .when(c => c.randomChance(0.005)),
         LootEntry.of(Item.of('minecraft:written_book', {
         pages: [
             '{"text":"གଦ લટݡޚ ଶધ \\nཥݡଣཥଝݡଶޛ ଦޙଉ \\nޚଗશશཫખ ଶޙ།ଝޙགଶག \\nસଚݡ གଝݡ གଶસଝޙખ    \\n\\n།ݡଗޙખཫݡଶཥખଦޙ\\nଟݡ ଭଉ ખଡݡ ଭଉ   \\nଦݽଟޙ། །ଉ ཏଛ གݡଉ   \\nଦݽଶག གଶખ¿   ଦݽଣ \\nଟݡଦޙ། ཏଶݐ།ଣ ଢཁ \\nଝޙଣ ଢཁ གଝݡ ཫݐଈޚધ  \\nଇ གଞ། གଦ   ଦݽଚݡག   \\nଦݽଡག ଗཫલଉଦݐଣ ଗཫ།  \\nଦݽଶགଞ། ଶޙଢસ"}',
@@ -483,7 +483,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
             title: 'གଦ લટݡޚ ଶધ',
             author: ' '
         }))
-            .when(c => c.randomChance(0.05)),
+            .when(c => c.randomChance(0.005)),
 LootEntry.of(Item.of('minecraft:written_book', {
     pages: [
         '{"text":"གଦ પଚཫખ ཏଗགଦݡ\\nଇ ޚଢખ། પଈખଦޙ   \\nݐଝખ། གଈ གଶખཫଢཁଦݡ \\nଗޙག ખݐଈ ޚଣ    \\n\\n།ݡଗޙખཫݡଶཥખଦޙ\\nଦݽଣ ཫଗޙ། ཫଣཥ གଶખ \\nଢཥ   ޙଟ། ଗધ   ଦݽଣ \\nଟޙ ݡଞ    \\n\\nଦཏݡଣག     གଦ \\nલଝݡଣଦ། ଶધ གଦ \\nસଗખ།ଦખ། གଶޛ ଟޙ །ଉ \\nݐଝཏધ ଗޙག ଝཁଦݡଣ \\n།ଇޚ ଦݽଣ સଇޙག"}',
@@ -505,7 +505,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
         title: 'પଚཫખ ཏଗགଦݡ',
         author: '  '
     }))
-        .when(c => c.randomChance(0.05)),
+        .when(c => c.randomChance(0.005)),
     LootEntry.of(Item.of('minecraft:written_book', {
     pages: [
         '{"text":"ޚଗཏཥଇ\\n\\nଢޚཁݡଦག ཫଣݐଟݡ\\nଦݽଢޙખ ޚଚݡ પଗག གଦ \\nޚଗཏཥଇ ཁଶޙ \\nགଶખཫଢཁଦݡག  ଖݡଦખ། \\nݐଚખ། ଦޚଶག གଦ \\nલଟޚݡધ ޙଝખ།     પଣ \\nપଗག ଦݡଇཁག ଗ། གଦ \\nཫଦޙଝݡଣધ ޙଝખ།     \\nપଣ ખཥଈཫ ଢޙ།ଉ ଦ \\nખޚଚݐ   ଦݽଇ། ཁଖݡག   \\nཫݡଈགଦݐག ཁଣ།  \\nଦݽଶཫખ། પશધ પଗޙགધ"}',
@@ -520,7 +520,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
     title: 'ޚଗཏཥଇ',
     author: '  '
 }))
-    .when(c => c.randomChance(0.05)),
+    .when(c => c.randomChance(0.005)),
 
     LootEntry.of(Item.of('minecraft:written_book', {
     pages: [
@@ -536,7 +536,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
     title: 'ཫଟޙཁଦݡખଈખଦޙ ཁଶ།',
     author: ' '
 }))
-    .when(c => c.randomChance(0.05)),
+    .when(c => c.randomChance(0.005)),
 
 LootEntry.of(Item.of('minecraft:written_book', {
     pages: [
@@ -560,7 +560,7 @@ LootEntry.of(Item.of('minecraft:written_book', {
     title: 'ଞݐધ ཏଗགଦݡ',
     author: ' '
 }))
-    .when(c => c.randomChance(0.05)),
+    .when(c => c.randomChance(0.005)),
 
 
         );

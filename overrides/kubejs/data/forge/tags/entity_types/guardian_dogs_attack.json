@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:wolves",
+    "#forge:fox",
+    "dragnpets:o_ocelot",
+    {
+      "id": "alexsmobs:crocodile",
+      "required": false
+    },    
+    {
+      "id": "alexsmobs:grizzly_bear",
+      "required": false
+    },    
+    {
+      "id": "alexsmobs:tiger",
+      "required": false
+    },    
+    {
+      "id": "alexsmobs:froststalker",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:anaconda",
+      "required": false
+    },
+    {
+      "id": "permafrost:dinofelis",
+      "required": false
+    },
+    {
+      "id": "permafrost:direwolf",
+      "required": false
+    },
+
+    {
+      "id": "permafrost:titanis",
+      "required": false
+    }
+  ]
+}

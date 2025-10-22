@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "dragnlivestock:o_chicken",
+    "dragnlivestock:o_pig",
+
+    "#forge:fox",
+    "dragnlivestock:o_rabbit",
+
+    "dragnlivestock:caribou",
+    "dragnlivestock:o_goat",
+    {
+    "id": "alexsmobs:grizzly_bear",
+    "required": false
+    },    
+    {
+      "id": "alexsmobs:froststalker",
+      "required": false
+    },
+    {
+    "id": "alexsmobs:gazelle",
+    "required": false
+    },
+    {
+      "id": "permafrost:cervalces_latifrons",
+      "required": false
+    }
+  ]
+}

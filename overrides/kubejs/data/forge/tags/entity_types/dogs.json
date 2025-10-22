@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "dragnpets:o_dog",
+    "dragnpets:doberman",
+    "dragnpets:border_collie",
+    "dragnpets:labrador",
+    "dragnpets:pyrenees",
+    "dragnpets:husky",
+    "dragnpets:bernese",
+    "dragnpets:australian_shepherd",
+    "dragnpets:bloodhound",
+    "dragnpets:cocker_spaniel",
+    "dragnpets:whippet",
+    "dragnpets:rottweiler",
+    "dragnpets:american_ridgeback"
+  ]
+}

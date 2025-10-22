@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:medium_predators",
+      "required": false
+    },
+    {
+      "id": "#forge:small_predators",
+      "required": false
+    },
+    {
+      "id": "#forge:medium_herbivores",
+      "required": false
+    },
+    {
+      "id": "#forge:small_herbivores",
+      "required": false
+    }
+  ]
+}

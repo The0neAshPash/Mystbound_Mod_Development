@@ -1,5 +1,16 @@
 [
   {
+    "mod": "alexsmobs",
+    "random": 0.3,
+    "when": "onjoin",
+    "result": "allow"
+  },
+  {
+    "mod": "alexsmobs",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
     "mob": [
     "aquamirae:golden_moth",
     "born_in_chaos_v1:corpse_fly",

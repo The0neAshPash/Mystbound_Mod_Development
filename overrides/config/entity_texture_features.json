@@ -5,7 +5,7 @@
   "illegalPathSupportMode": "None",
   "enableCustomTextures": true,
   "enableCustomBlockEntities": true,
-  "textureUpdateFrequency_V2": "Fast",
+  "textureUpdateFrequency_V2": "Slow",
   "enableEmissiveTextures": true,
   "enableEnchantedTextures": true,
   "enableEmissiveBlockEntities": true,
