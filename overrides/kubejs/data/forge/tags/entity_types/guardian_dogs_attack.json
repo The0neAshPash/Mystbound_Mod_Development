@@ -36,6 +36,10 @@
     {
       "id": "permafrost:titanis",
       "required": false
+    },
+    {
+      "id": "predator",
+      "required": false
     }
   ]
 }

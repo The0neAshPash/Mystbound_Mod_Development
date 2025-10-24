@@ -24,6 +24,14 @@
     {
       "id": "permafrost:cervalces_latifrons",
       "required": false
+    },
+    {
+      "id": "prey",
+      "required": false
+    },
+    {
+      "id": "beast",
+      "required": false
     }
   ]
 }

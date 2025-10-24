@@ -28,6 +28,10 @@
     {
       "id": "blue_jay",
       "required": false
+    },
+    {
+      "id": "small_prey",
+      "required": false
     }    
 
   ]
