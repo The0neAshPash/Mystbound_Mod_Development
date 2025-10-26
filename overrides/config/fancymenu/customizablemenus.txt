@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
@@ -25,5 +22,11 @@ net.minecraft.client.gui.screens.ConnectScreen {
 }
 
 net.minecraft.client.gui.screens.ProgressScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 }
 
