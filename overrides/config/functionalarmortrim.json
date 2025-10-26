@@ -8,9 +8,9 @@
     ],
     "call_of_yucutan:jade": [
         {
-            "attribute": "minecraft:generic.armor",
+            "attribute": "irons_spellbooks:ender_magic_resist",
             "operation": "addition",
-            "amount": 2.0
+            "amount": 0.2
         }
     ],
     "minecraft:diamond": [
@@ -27,14 +27,9 @@
     ],
     "illagerinvasion:platinum_sheet": [
         {
-            "attribute": "minecraft:generic.armor",
+            "attribute": "irons_spellbooks:evocation_magic_resist",
             "operation": "addition",
-            "amount": 1.0
-        },
-        {
-            "attribute": "minecraft:generic.armor_toughness",
-            "operation": "addition",
-            "amount": 2.0
+            "amount": 0.2
         }
     ],
     "minecraft:netherite_ingot": [
@@ -51,59 +46,44 @@
     ],
     "cataclysm:ignitium_ingot": [
         {
-            "attribute": "minecraft:generic.armor_toughness",
+            "attribute": "irons_spellbooks:fire_magic_resist",
             "operation": "addition",
-            "amount": 3.0
-        },
-        {
-            "attribute": "functionalarmortrim:fire_resistance",
-            "operation": "addition",
-            "amount": 5.0
+            "amount": 0.2
         }
     ],
     "minecraft:redstone": [
         {
             "attribute": "minecraft:generic.movement_speed",
-            "operation": "multiply_total",
-            "amount": 0.1
-        },
-        {
-            "attribute": "forge:step_height_addition",
             "operation": "addition",
-            "amount": 1.0
+            "amount": 0.1
         }
     ],
     "collectorsreap:lunar_pearl": [
-    {
-        "attribute": "minecraft:generic.movement_speed",
-        "operation": "multiply_total",
-        "amount": 0.15
-    }
+        {
+            "attribute": "forge:swim_speed",
+            "operation": "addition",
+            "amount": 0.2
+        }
     ],
     "call_of_yucutan:hematite": [
         {
-            "attribute": "minecraft:generic.movement_speed",
-            "operation": "multiply_total",
-            "amount": 0.1
-        },
-        {
-            "attribute": "forge:step_height_addition",
+            "attribute": "irons_spellbooks:holy_magic_resist",
             "operation": "addition",
-            "amount": 1.0
+            "amount": 0.2
         }
     ],
     "minecraft:copper_ingot": [
         {
-            "attribute": "forge:swim_speed",
-            "operation": "multiply_total",
+            "attribute": "irons_spellbooks:lightning_magic_resist",
+            "operation": "addition",
             "amount": 0.2
         }
     ],
     "cataclysm:cursium_ingot": [
         {
-            "attribute": "forge:swim_speed",
+            "attribute": "irons_spellbooks:ice_magic_resist",
             "operation": "addition",
-            "amount": 1.0
+            "amount": 0.2
         }
     ],
     "minecraft:amethyst_shard": [
@@ -116,15 +96,15 @@
     "minecraft:lapis_lazuli": [
         {
             "attribute": "functionalarmortrim:experience_boost",
-            "operation": "multiply_total",
-            "amount": 0.1
+            "operation": "addition",
+            "amount": 0.25
         }
     ],
     "cataclysm:witherite_ingot": [
         {
-            "attribute": "functionalarmortrim:experience_boost",
+            "attribute": "irons_spellbooks:blood_magic_resist",
             "operation": "addition",
-            "amount": 0.5
+            "amount": 0.2
         }
     ],
     "minecraft:quartz": [
@@ -137,15 +117,15 @@
     "minecraft:emerald": [
         {
             "attribute": "functionalarmortrim:gossip_boost",
-            "operation": "multiply_total",
-            "amount": 0.1
+            "operation": "addition",
+            "amount": 0.25
         }
     ],
     "call_of_yucutan:ancient_gold_ingot": [
         {
-            "attribute": "functionalarmortrim:gossip_boost",
+            "attribute": "irons_spellbooks:nature_magic_resist",
             "operation": "addition",
-            "amount": 0.5
+            "amount": 0.2
         }
     ]
 }
