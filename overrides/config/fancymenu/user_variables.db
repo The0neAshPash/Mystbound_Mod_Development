@@ -1,8 +1,8 @@
 type = user_variables
 
 variable {
-  name = a
-  value = 0
+  name = i
+  value = 1
   reset_on_launch = false
 }
 

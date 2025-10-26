@@ -12,7 +12,7 @@ _version = 3
 			[client.advanced.graphics.quality]
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 92
+				lodChunkRenderDistanceRadius = 48
 				#
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
@@ -69,7 +69,7 @@ _version = 3
 				# ENABLED: Simulates Minecraft's block shading for LODs. 
 				#               Can be used to force LOD shading when using some shaders. 
 				# DISABLED: All LOD sides will be rendered with the same brightness.
-				lodShading = "AUTO"
+				lodShading = "ENABLED"
 				#
 				# How should the sides and bottom of grass block LODs render? 
 				# 
@@ -161,7 +161,7 @@ _version = 3
 			[client.advanced.graphics.fog]
 				#
 				# Determines if fog is drawn on DH LODs.
-				enableDhFog = true
+				enableDhFog = false
 				#
 				# What color should fog use? 
 				# 
@@ -537,7 +537,7 @@ _version = 3
 		#  outside the vanilla render distance? 
 		# Depending on the generator mode, this will import existing chunks 
 		# and/or generating missing chunks.
-		enableDistantGeneration = true
+		enableDistantGeneration = false
 		#
 		# How detailed should LODs be generated outside the vanilla render distance? 
 		# 
@@ -623,7 +623,7 @@ _version = 3
 		# Expected Compression Ratio: 0.2
 		# Estimated average DTO read speed: 13.29 ms
 		# Estimated average DTO write speed: 70.95 ms
-		dataCompression = "Z_STD"
+		dataCompression = "LZ4"
 		#
 		# How should block data be compressed when creating LOD data? 
 		# This setting will only affect new or updated LOD data, 
@@ -639,7 +639,7 @@ _version = 3
 		# Only visible block/biome changes are recorded in the database. 
 		# Hidden blocks (IE ores) are ignored.  
 		# Expected Compression Ratio: 0.7
-		worldCompression = "VISUALLY_EQUAL"
+		worldCompression = "MERGE_SAME_BLOCKS"
 		#
 		# True: Recalculate chunk height maps before chunks can be used by DH.
 		#       This can fix problems with worlds created by World Painter or 
@@ -689,7 +689,7 @@ _version = 3
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 12
+		numberOfThreads = 8
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -697,7 +697,7 @@ _version = 3
 		# This can be used to reduce CPU usage if the thread count 
 		# is already set to 1 for the given option, or more finely 
 		# tune CPU performance.
-		threadRunTimeRatio = "0.7"
+		threadRunTimeRatio = "1.0"
 
 	[common.logging]
 		#

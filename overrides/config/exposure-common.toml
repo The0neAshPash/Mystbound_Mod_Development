@@ -3,7 +3,7 @@
 	#Default focal range of the camera (without a lens attached).
 	#Allowed range: 10-300
 	#Default: 18-55
-	DefaultFocalRange = "18-55"
+	DefaultFocalRange = "10-60"
 	#Can attack while looking through Viewfinder.
 	#Default: true
 	ViewfinderAttacking = true
@@ -20,19 +20,19 @@
 	BlackAndWhitePrintTime = 80
 	#Time in ticks to print color photograph. Default: 200
 	#Range: > 1
-	ColorPrintTime = 200
+	ColorPrintTime = 100
 	#Time in ticks to print one channel of a chromatic photograph. Default: 120
 	#Range: > 1
-	ChromaticPrintTime = 120
+	ChromaticPrintTime = 80
 	#Amount of experience awarded per printed black and white Photograph. Set to 0 to disable. Default: 2
 	#Range: 0 ~ 99
-	ExperiencePerPrintBW = 2
+	ExperiencePerPrintBW = 6
 	#Amount of experience awarded per printed color Photograph. Set to 0 to disable. Default: 4
 	#Range: 0 ~ 99
-	ExperiencePerPrintColor = 4
+	ExperiencePerPrintColor = 8
 	#Amount of experience awarded per printed chromatic Photograph (when all three channels have been printed). Set to 0 to disable. Default: 5
 	#Range: 0 ~ 99
-	ExperiencePerPrintChromatic = 5
+	ExperiencePerPrintChromatic = 6
 
 [Photographs]
 	#How many photographs can be stacked in Stacked Photographs item. Default: 16.
