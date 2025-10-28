@@ -52,7 +52,8 @@ scroll_list_customization {
 
 layout_action_executable_blocks {
   open_screen_executable_block_identifier = 97963224-cb6d-48bd-a08d-0851f1818595-1761443773054
-  [executable_block:97963224-cb6d-48bd-a08d-0851f1818595-1761443773054][type:generic] = [executables:]
+  [executable_action_instance:e9d8def4-d2a1-43b9-9e7a-812bec1b3428-1761443773855][action_type:reloadmenu] = 
+  [executable_block:97963224-cb6d-48bd-a08d-0851f1818595-1761443773054][type:generic] = [executables:e9d8def4-d2a1-43b9-9e7a-812bec1b3428-1761443773855;]
 }
 
 element {
