@@ -10,7 +10,6 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingDamageEvent", 
   if (origin == 'mystbound-origins:siren' && entity.hasEffect('mystbound:seduction')) {
     let newDamage = (amount * 1.5)
     event.setAmount(newDamage)
-    player.tell('1.5x Damage')
     return;
   }
 }
