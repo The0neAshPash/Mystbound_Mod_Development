@@ -1,5 +1,6 @@
 let $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
 let $MobCategory = Java.loadClass('net.minecraft.world.entity.MobCategory')
+let $MemoryModuleType = Java.loadClass('net.minecraft.world.entity.ai.memory.MemoryModuleType')
 
 // This will list each entity categorized as a Mob. If we need other categories for whatever reason 'like a mod adds their own mob types', let me know. - IllestT
 let seducedMobs = []
@@ -28,8 +29,20 @@ seducedMobs.forEach(seducedMob => {
             if (!target.isPlayer() || origin != 'mystbound-origins:siren') return;
             if (mob.getActiveEffects().toString().includes('seduction')) {
                 mob.setTarget(null)
-            }
+                try {
+                        let nav = mob.getNavigation()
+                        if (nav && typeof nav.stop === 'function') nav.stop()
+                    } catch (e) { }
+
+                    try {
+                        let brain = mob.getBrain()
+                        if (brain && $MemoryModuleType && $MemoryModuleType.ATTACK_TARGET) {
+                            brain.eraseMemory($MemoryModuleType.ATTACK_TARGET)
+                        }
+                    } catch (e) { } // Needs to be try/catch to filter out mobs that don't have a vanilla Attack Target Goal
+            }                       // If the mob continues to attack, the goal is custom and report to IllestT the mob type (mystbound:bosses are excluded)
         })
     })
 
 })
+
