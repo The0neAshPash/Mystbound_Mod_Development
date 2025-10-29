@@ -7,6 +7,8 @@ $BuiltInRegistries.ENTITY_TYPE.keySet().forEach(id => {
     let type = $BuiltInRegistries.ENTITY_TYPE.get(id)
     if (!type) return;
 
+    if (type.tags.anyMatch(tag => tag.location() == 'mystbound-origins:bosses')) return;
+
     let category = type.getCategory()
     if (
         category == $MobCategory.MONSTER ||
@@ -29,4 +31,5 @@ seducedMobs.forEach(seducedMob => {
             }
         })
     })
+
 })
