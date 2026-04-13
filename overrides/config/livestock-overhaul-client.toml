@@ -14,4 +14,8 @@
 	"Horse Sprint HUD X Location" = 92
 	#Y location value for the Sprint HUD. Default is 52.
 	"Horse Sprint HUD Y Location" = 52
+	#Should O-Animals run simplified, vanilla-styled models? This option may be good for those on lower-end computers/ those having performance issues with the complex LO models.
+	#This option significantly "dumbs down" LO animal models to allow for better performance. With this enabled, your FPS may be able to double or even triple, especially in highly populated areas. For this reason, animal markings, visual cosmetics, and breed dimorphism cannot render on these simpler models. They are almost purely vanilla, only taking on genetic base colors. 
+	#Restart your game after changing for best results. Some animals may not yet be included.
+	"Performance Models [Experimental]" = false
 

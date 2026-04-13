@@ -64,6 +64,12 @@
 	"Max Pig Babies" = 3
 	#Maximum amount of kits a rabbit can have at once. Default is 3.
 	"Max Rabbit Babies" = 3
+	#Should players be able to dye sheep?
+	"Allow Direct Sheep Dyeing" = true
+	#Maximum amount of times a sheep can be sheared before dye wears off. Default is 3.
+	"Max Dyed Shears" = 3
+	#Should roosters fend off predators like Ocelots, Cats, Foxes, and Ferrets?
+	"Roosters Fend Off Predators" = true
 
 [Herding]
 	#Should animals, like cows, herd together?
@@ -113,6 +119,16 @@
 	"Stat Training Max" = 5
 	#Should only those in Creative Mode be able to snip (geld or spay) mounts?
 	"Creative-Only Snipping" = false
+	#Should some farm animals, such as O-Cows, have a Quality rating that affects how much they drop?
+	"Quality Rating" = true
+	#Should rabbits produce Rabbit Poop at a certain interval?
+	"Allow Rabbit Poop" = true
+	#Amount of time, in ticks, it takes for a rabbit to poop. Default is 24000 (1 ingame day).
+	"Rabbit Poop Time" = 24000
+	#How long, in ticks, a Male O-Animal's breeding cooldown takes. If Genders Affect Breeding is disabled, this does nothing. Default is 1200 (1 minute). Vanilla is 6000 (5 minutes).
+	"Male Breeding Cooldown" = 1200
+	#How long, in ticks, a Female O-Animal's breeding cooldown takes. If Genders Affect Breeding is disabled, this applies to all O-Animals. Default is 6000 (5 minutes).
+	"Female/ Neutral Breeding Cooldown" = 6000
 
 [Miscellaneous]
 	#Should Unicorns be able to breed?
@@ -125,6 +141,8 @@
 	"Allow Special Event Blanket Crafting" = true
 	#Chance of an O-Horse turning undead after dying to a natural cause. Default is 0.03 (3%).
 	"Undead Horse Chance" = 0.03
+	#Should holiday events take place, and should holiday items be available? If this is false, all holiday events are disabled and holiday items will not be available to craft.
+	"Allow Holiday Events & Items" = true
 
 [Uninstalling]
 	#Should all O-Animals be converted back into a vanilla counterpart? Make sure all replacers are turned to false before running. 
@@ -140,4 +158,8 @@
 	"Mining Cart Speed Multiplier" = 0.12
 	"Transport Cart Speed Multiplier" = 0.3
 	"Plow Speed Multiplier" = 0.1
+	"Mower Speed Multiplier" = 0.1
+	"Coupé Speed Multiplier" = 0.25
+	"Cabriolet Speed Multiplier" = 0.3
+	"Sleigh Speed Multiplier" = 0.35
 

@@ -30,8 +30,8 @@
     ],
     "when": "finalize",
     "result": "allow",
-    "healthmultiply": 2,
-    "damagemultiply": 3
+    "healthmultiply": 1,
+    "damagemultiply": 1
   }, 
   {
     "phase": "noBIC",

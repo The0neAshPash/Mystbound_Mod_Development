@@ -90,6 +90,7 @@
     "jade": true
   },
   "eclipticseasons": {
+    "greenhouse_core": true,
     "animal": true,
     "cauldron": true,
     "crop": true,

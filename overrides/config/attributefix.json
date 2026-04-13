@@ -913,17 +913,6 @@
         "value": 100
       }
     },
-    "fallen_gems_affixes:reload_speed": {
-      "enabled": false,
-      "min": {
-        "default": -0.99,
-        "value": -0.99
-      },
-      "max": {
-        "default": 10,
-        "value": 10
-      }
-    },
     "functionalarmortrim:thorns": {
       "enabled": false,
       "min": {
@@ -944,6 +933,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "fallen_gems_affixes:reload_speed": {
+      "enabled": false,
+      "min": {
+        "default": -0.99,
+        "value": -0.99
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "additional_attributes:innate_school/irons_spellbooks/ice": {
@@ -1540,17 +1540,6 @@
         "value": Infinity
       }
     },
-    "fallen_gems_affixes:kick_reduction": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "additional_attributes:innate_spell/irons_spellbooks/wall_of_fire": {
       "enabled": false,
       "min": {
@@ -1560,6 +1549,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "fallen_gems_affixes:kick_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "additional_attributes:innate_spell/alshanex_familiars/explosion_melody": {
