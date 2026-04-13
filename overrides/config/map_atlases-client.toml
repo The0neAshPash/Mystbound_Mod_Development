@@ -96,6 +96,8 @@
 	compact_slices_indicator = false
 	#Allows minimap to follow player movement instead of only displaying current map
 	follow_player = true
+	#When enabled, the Atlas world map pins will have their coordinates displayed when hovered
+	draw_coordinates_pin = true
 
 [misc]
 	#Multiplier for all the Atlases sound float

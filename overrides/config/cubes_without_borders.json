@@ -3,5 +3,5 @@
   "preferredFullscreenMode": "BORDERLESS",
   "fullscreenType": "windows:borderless",
   "borderlessFullscreenType": "windows:borderless",
-  "preferredMonitor": "0,0,2560,1440"
+  "preferredMonitor": "0,0,2560,1600"
 }

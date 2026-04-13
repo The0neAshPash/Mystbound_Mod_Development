@@ -35,6 +35,11 @@
 	# Can be one of "drink", "pour", or "none"
 	# ⌄ 
 	"Waterskin Secondary Action" = "drink"
+	#─────────────────────────────────────────────────────────────────────────
+	# The opacity of the water droplets on-screen
+	# ⌄ 
+	#Range: 0.0 ~ 1.0
+	"Water Droplet Opacity" = 0.5
 
 [Accessibility]
 	#─────────────────────────────────────────────────────────────────────────
@@ -91,11 +96,6 @@
 	# ⌄ 
 	"Hearth Debug" = true
 	#─────────────────────────────────────────────────────────────────────────
-	# Enables the animated soul spring lamp model
-	# Disable this if there are visual errors like missing textures
-	# ⌄ 
-	"Animated Soul Spring Lamp" = true
-	#─────────────────────────────────────────────────────────────────────────
 	# Show the config menu button in the Options menu
 	# ⌄ 
 	"Enable In-Game Config" = true
@@ -103,6 +103,15 @@
 	# The position (offset) of the config button on the screen
 	# ⌄ 
 	"Config Button Position" = [0, 0]
+	#─────────────────────────────────────────────────────────────────────────
+	# Enables the animated soul spring lamp model
+	# Disable this if there are visual errors like missing textures
+	# ⌄ 
+	"Animated Soulspring Lamp" = true
+	#─────────────────────────────────────────────────────────────────────────
+	# Uses custom player arm posing when holding a soulspring lamp
+	# ⌄ 
+	"Pose Soulspring Lamp" = true
 
 [HUD]
 	#─────────────────────────────────────────────────────────────────────────

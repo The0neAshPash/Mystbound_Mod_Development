@@ -377,6 +377,7 @@
 		"mystbound-origins:banshee-origin/burninsun" = true
 		"mystbound-origins:revenant-origin/burninsun" = true
 		"mystbound-origins:revenant-origin/hat" = true
+		"mystbound-origins:summoned-origin/trading" = true
 
 	[origins."mystbound-origins:herbivore"]
 		enabled = true
@@ -445,6 +446,7 @@
 		"mystbound-origins:extras/man-eater" = true
 		"mystbound-origins:diets/raw-carnivore" = true
 		"mystbound-origins:banshee-origin/whirlwind_shriek" = true
+		"mystbound-origins:summoned-origin/trading" = true
 
 	[origins."mystbound-origins:gorgon"]
 		enabled = true
@@ -460,6 +462,7 @@
 		"mystbound-origins:gorgon-origin/scaly" = true
 		"mystbound-origins:gorgon-origin/poison-soul" = true
 		"mystbound-origins:diets/carnivore" = true
+		"mystbound-origins:summoned-origin/trading" = true
 
 	[origins."mystbound-origins:kitsune"]
 		enabled = true
@@ -510,6 +513,8 @@
 		"mystbound-origin:draconic-origin/wing-freeze" = true
 		"mystbound-origins:draconic-origin/fire_rend" = true
 		"mystbound-origins:revenant-origin/trading" = true
+		"mystbound-origins:summoned-origin/trading" = true
+		"mystbound-origins:draconic-origin/wing-freeze" = true
 
 	[origins."mystbound-origins:siren"]
 		enabled = true
@@ -561,6 +566,19 @@
 		"mystbound-origins:warforged-origin/strong" = true
 		"mystbound-origins:warforged-origin/villagerdiscountbetter" = true
 		"mystbound-origins:warforged-origin/yeet" = true
+		"mystbound-origins:warforged-origin/right-to-repair-nugget" = true
+		"mystbound-origins:warforged-origin/right-to-repair-ingot" = true
+		"mystbound-origins:warforged-origin/right-to-repair-block" = true
+		"mystbound-origins:warforged-origin/metal-evolve" = true
+		"mystbound-origins:warforged-origin/metal-evolve-display" = true
+		"mystbound-origins:warforged-origin/timers/timer-counters/lava-countdown" = true
+		"mystbound-origins:warforged-origin/timers/timer-counters/rust-countdown" = true
+		"mystbound-origins:warforged-origin/timers/timer-setters/rust-set" = true
+		"mystbound-origins:warforged-origin/timers/timer-resources/lava-timer" = true
+		"mystbound-origins:warforged-origin/timers/timer-resources/rust-timer" = true
+		"mystbound-origins:warforged-origin/timers/timer-counters/overheat-countdown" = true
+		"mystbound-origins:warforged-origin/timers/timer-setters/overheat-set" = true
+		"mystbound-origins:warforged-origin/timers/timer-resources/overheat-timer" = true
 
 	[origins."mystbound-origins:undine"]
 		enabled = true
@@ -635,6 +653,8 @@
 		"sprites:air/unique/feather_footed" = true
 		"sprites:air/unique/weak" = true
 		"sprites:air/unique/herbivore" = true
+		"minecraft:mystbound-origins/diets/herbivore" = true
+		"mystbound-origins:extras/small_prey" = true
 
 	[origins."sprites:ignis"]
 		enabled = true
