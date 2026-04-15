@@ -13,6 +13,16 @@
             },
             {
                 "type": "execute",
+                "command": "power revokeall @s mystbound:flesh-evolve",
+                "hide": true
+            },
+            {
+                "type": "execute",
+                "command": "power revokeall @s mystbound:metal-evolve",
+                "hide": true
+            },
+            {
+                "type": "execute",
                 "command": "origin set @p origins:origin mystbound-origins:kitsune",
                 "hide": true
             }
