@@ -88,3 +88,10 @@ EntityJSEvents.addGoals('dragnpets:o_fox', event => {
         return false;
     });
 })
+
+EntityJSEvents.addGoals('dragnpets:o_cat', event => {
+    event.nearestAttackableTarget(0, LivingEntity, 10, true, false, target => {
+        if (!event.entity.isTame() && (target.tags.toString().includes('small_prey'))) return true;
+        return false;
+    });
+})
