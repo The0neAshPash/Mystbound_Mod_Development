@@ -29,39 +29,39 @@ let foxHounds = [
     "dragnpets:jack_russell"
 ]
 
-function removeSmallPreyFear(event) {
-    // Remove any avoid goals that target small_prey
-    event.removeGoal(goal => {
-        try {
-            let target = goal.targetType;
-            if (!target) return false;
+// function removeSmallPreyFear(event) {
+//     // Remove any avoid goals that target small_prey
+//     event.removeGoal(goal => {
+//         try {
+//             let target = goal.targetType;
+//             if (!target) return false;
 
-            // Check if the target entity has the small_prey tag
-            let id = target.toString().toLowerCase();
-            return id.includes("small_prey");
-        } catch (e) {
-            return false;
-        }
-    });
-}
+//             // Check if the target entity has the small_prey tag
+//             let id = target.toString().toLowerCase();
+//             return id.includes("small_prey");
+//         } catch (e) {
+//             return false;
+//         }
+//     });
+// }
 
-EntityJSEvents.addGoals('dragnpets:o_fox', event => {
-    removeSmallPreyFear(event);
+// EntityJSEvents.addGoals('dragnpets:o_fox', event => {
+//     removeSmallPreyFear(event);
 
-    event.nearestAttackableTarget(0, LivingEntity, 10, true, false, target => {
-        if (!event.entity.isTame() && target.tags.toString().includes('small_prey')) return true;
-        return false;
-    });
-});
+//     event.nearestAttackableTarget(0, LivingEntity, 10, true, false, target => {
+//         if (!event.entity.isTame() && target.tags.toString().includes('small_prey')) return true;
+//         return false;
+//     });
+// });
 
-EntityJSEvents.addGoals('dragnpets:o_cat', event => {
-    removeSmallPreyFear(event);
+// EntityJSEvents.addGoals('dragnpets:o_cat', event => {
+//     removeSmallPreyFear(event);
 
-    event.nearestAttackableTarget(0, LivingEntity, 10, true, false, target => {
-        if (!event.entity.isTame() && target.tags.toString().includes('small_prey')) return true;
-        return false;
-    });
-});
+//     event.nearestAttackableTarget(0, LivingEntity, 10, true, false, target => {
+//         if (!event.entity.isTame() && target.tags.toString().includes('small_prey')) return true;
+//         return false;
+//     });
+// });
 
 
 
