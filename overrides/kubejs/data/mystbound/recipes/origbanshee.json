@@ -13,12 +13,12 @@
             },
             {
                 "type": "execute",
-                "command": "power revokeall @s mystbound:flesh-evolve",
+                "command": "power revokeall @p mystbound:flesh-evolve",
                 "hide": true
             },
             {
                 "type": "execute",
-                "command": "power revokeall @s mystbound:metal-evolve",
+                "command": "power revokeall @p mystbound:metal-evolve",
                 "hide": true
             },
             {
