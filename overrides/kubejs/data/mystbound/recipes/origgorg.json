@@ -1,0 +1,34 @@
+{
+    "type": "lychee:item_burning",
+    "item_in": [
+        {
+            "item": "sweety_archaeology:ancient_berries"
+        }
+    ],
+    "post": [
+            {
+                "type": "execute",
+                "command": "execute as @p run solapplepie clear",
+                "hide": true
+            },
+            {
+                "type": "execute",
+                "command": "power revokeall @p mystbound:flesh-evolve",
+                "hide": true
+            },
+            {
+                "type": "execute",
+                "command": "power revokeall @p mystbound:metal-evolve",
+                "hide": true
+            },
+            {
+                "type": "execute",
+                "command": "origin set @p origins:origin mystbound-origins:bansheen",
+                "hide": true
+            }
+
+    ]
+}
+
+
+
