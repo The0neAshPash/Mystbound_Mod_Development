@@ -378,6 +378,7 @@
 		"mystbound-origins:revenant-origin/burninsun" = true
 		"mystbound-origins:revenant-origin/hat" = true
 		"mystbound-origins:summoned-origin/trading" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:herbivore"]
 		enabled = true
@@ -391,6 +392,7 @@
 		"mystbound-origins:herbivore-origin/pure" = true
 		"mystbound-origins:extras/dash_headbutt" = true
 		"mystbound-origins:herbivore-origin/natural_sprinter" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:pixie"]
 		enabled = true
@@ -409,6 +411,7 @@
 		"mystbound-origins:pixie-origin/soggy-wings" = true
 		"mystbound-origins:pixie-origin/sour" = true
 		"mystbound-origins:pixie-origin/weak" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:summoned"]
 		enabled = true
@@ -433,6 +436,7 @@
 		"mystbound-origins:summoned-origin/night-vision" = true
 		"mystbound-origins:summoned-origin/silver" = true
 		"mystbound-origins:summoned-origin/the-damned" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:banshee"]
 		enabled = true
@@ -447,6 +451,7 @@
 		"mystbound-origins:diets/raw-carnivore" = true
 		"mystbound-origins:banshee-origin/whirlwind_shriek" = true
 		"mystbound-origins:summoned-origin/trading" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:gorgon"]
 		enabled = true
@@ -463,6 +468,7 @@
 		"mystbound-origins:gorgon-origin/poison-soul" = true
 		"mystbound-origins:diets/carnivore" = true
 		"mystbound-origins:summoned-origin/trading" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:kitsune"]
 		enabled = true
@@ -481,6 +487,7 @@
 		"mystbound-origins:kitsune-origin/natural-prey" = true
 		"mystbound-origins:kitsune-origin/fox-life" = true
 		"mystbound-origins:kitsune-origin/thick-fur" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:omnivore"]
 		enabled = true
@@ -491,6 +498,7 @@
 		"mystbound-origins:omnivore-origin/quick-cooling-skin" = true
 		"mystbound-origins:omnivore-origin/stout-n-solid" = true
 		"mystbound-origins:omnivore-origin/hunger_weakness" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:draconic"]
 		enabled = true
@@ -515,6 +523,7 @@
 		"mystbound-origins:revenant-origin/trading" = true
 		"mystbound-origins:summoned-origin/trading" = true
 		"mystbound-origins:draconic-origin/wing-freeze" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:siren"]
 		enabled = true
@@ -534,6 +543,7 @@
 		"mystbound-origins:diets/pescatarian-maneater" = true
 		"mystbound-origins:extras/man-eater" = true
 		"mystbound-origins:extras/cold_immune" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:harpy"]
 		enabled = true
@@ -547,6 +557,7 @@
 		"mystbound-origins:harpy-origin/fallfromsky" = true
 		"mystbound-origin:harpy/origin/magics" = true
 		"mystbound-origin:harpy-origin/magics" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:warforged"]
 		enabled = true
@@ -579,6 +590,7 @@
 		"mystbound-origins:warforged-origin/timers/timer-counters/overheat-countdown" = true
 		"mystbound-origins:warforged-origin/timers/timer-setters/overheat-set" = true
 		"mystbound-origins:warforged-origin/timers/timer-resources/overheat-timer" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:undine"]
 		enabled = true
@@ -593,6 +605,7 @@
 		"mystbound-origins:undine-origin/freeze-ray" = true
 		"mystbound-origins:diets/pescatarian" = true
 		"mystbound-origins:extras/cold_immune" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:hobbit"]
 		enabled = true
@@ -603,6 +616,7 @@
 		"mystbound-origins:hobbit-origin/light" = true
 		"mystbound-origins:hobbit-origin/small" = true
 		"mystbound-origins:hobbit-origin/speedy" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:satyr"]
 		enabled = true
@@ -613,6 +627,7 @@
 		"mystbound-origins:extras/cold_immune" = true
 		"mystbound-origins:extras/goat" = true
 		"mystbound-origins:extras/dash_headbutt" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."mystbound-origins:carnivore"]
 		enabled = true
@@ -627,6 +642,7 @@
 		"mystbound-origins:carnivore-origin/bleeding_strike" = true
 		"mystbound-origins:carnivore-origin/swift_sneak" = true
 		"mystbound-origins:carnivore-origin/backstab" = true
+		"mystbound-origins:extras/evo_reset" = true
 
 	[origins."sprites:lux"]
 		enabled = true
