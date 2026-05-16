@@ -131,7 +131,7 @@
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.1
-		CooldownInSeconds = 10.0
+		CooldownInSeconds = 60.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:blaze_storm"]

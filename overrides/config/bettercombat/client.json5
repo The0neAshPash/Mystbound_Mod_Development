@@ -12,6 +12,5 @@
 	"weaponSwingSoundVolume": 100,
 	"isDebugOBBEnabled": true,
 	"swingThruGrassBlacklist": "farmersdelight",
-	"mineWithWeaponBlacklist": "",
-	"firstPersonAnimations": "AUTO"
+	"mineWithWeaponBlacklist": ""
 }

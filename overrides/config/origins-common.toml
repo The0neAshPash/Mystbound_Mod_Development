@@ -379,6 +379,7 @@
 		"mystbound-origins:revenant-origin/hat" = true
 		"mystbound-origins:summoned-origin/trading" = true
 		"mystbound-origins:extras/evo_reset" = true
+		"mystbound-origins:revenant-origin/last-stand" = true
 
 	[origins."mystbound-origins:herbivore"]
 		enabled = true
@@ -437,6 +438,10 @@
 		"mystbound-origins:summoned-origin/silver" = true
 		"mystbound-origins:summoned-origin/the-damned" = true
 		"mystbound-origins:extras/evo_reset" = true
+		"mystbound-origins:banshee-origin/raw-carnivore" = true
+		"mystbound-origins:diets/raw-carnivore" = true
+		"mystbound-origins:summoned-origin/frail" = true
+		"mystbound-origins:summoned-origin/wither" = true
 
 	[origins."mystbound-origins:banshee"]
 		enabled = true
@@ -488,6 +493,8 @@
 		"mystbound-origins:kitsune-origin/fox-life" = true
 		"mystbound-origins:kitsune-origin/thick-fur" = true
 		"mystbound-origins:extras/evo_reset" = true
+		"mystbound-origins:kitsune-origin/lightcrown" = true
+		"mystbound-origins:summoned-origin/magicuser" = true
 
 	[origins."mystbound-origins:omnivore"]
 		enabled = true
@@ -499,6 +506,7 @@
 		"mystbound-origins:omnivore-origin/stout-n-solid" = true
 		"mystbound-origins:omnivore-origin/hunger_weakness" = true
 		"mystbound-origins:extras/evo_reset" = true
+		"mystbound-origins:omnivore-origin/quick-cooling" = true
 
 	[origins."mystbound-origins:draconic"]
 		enabled = true
@@ -544,6 +552,7 @@
 		"mystbound-origins:extras/man-eater" = true
 		"mystbound-origins:extras/cold_immune" = true
 		"mystbound-origins:extras/evo_reset" = true
+		"mystbound-origins:siren-origin/pressure_res" = true
 
 	[origins."mystbound-origins:harpy"]
 		enabled = true
@@ -558,6 +567,7 @@
 		"mystbound-origin:harpy/origin/magics" = true
 		"mystbound-origin:harpy-origin/magics" = true
 		"mystbound-origins:extras/evo_reset" = true
+		"mystbound-origins:harpy-origin/magics" = true
 
 	[origins."mystbound-origins:warforged"]
 		enabled = true
@@ -591,6 +601,7 @@
 		"mystbound-origins:warforged-origin/timers/timer-setters/overheat-set" = true
 		"mystbound-origins:warforged-origin/timers/timer-resources/overheat-timer" = true
 		"mystbound-origins:extras/evo_reset" = true
+		"mystbound-origins:warforged-origin/right-to-repair-copper-block" = true
 
 	[origins."mystbound-origins:undine"]
 		enabled = true
@@ -617,6 +628,7 @@
 		"mystbound-origins:hobbit-origin/small" = true
 		"mystbound-origins:hobbit-origin/speedy" = true
 		"mystbound-origins:extras/evo_reset" = true
+		"mystbound-origins:hobbit-origin/candid" = true
 
 	[origins."mystbound-origins:satyr"]
 		enabled = true
@@ -628,6 +640,7 @@
 		"mystbound-origins:extras/goat" = true
 		"mystbound-origins:extras/dash_headbutt" = true
 		"mystbound-origins:extras/evo_reset" = true
+		"mystbound-origins:satyr-origin/buzzkill" = true
 
 	[origins."mystbound-origins:carnivore"]
 		enabled = true
