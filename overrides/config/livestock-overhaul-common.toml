@@ -70,6 +70,24 @@
 	"Max Dyed Shears" = 3
 	#Should roosters fend off predators like Ocelots, Cats, Foxes, and Ferrets?
 	"Roosters Fend Off Predators" = true
+	#Maximum amount of kids a goat can have at once. Default is 3.
+	"Max Goat Babies" = 3
+	#Should some animals be able to have twins?
+	"Allow Twins" = true
+	#The chance of a horse having twins. Default is Default is 0.01 (1%)
+	"Horse Twins Chance" = 0.01
+	#The chance of a cow having twins. Default is Default is 0.05 (5%)
+	"Cow Twins Chance" = 0.05
+	#The chance of a sheep having twins. Default is Default is 0.15 (30%)
+	"Sheep Twins Chance" = 0.3
+	#The chance at which you can get a random genetic Breed out of breeding two animals, out of 100. Default is 10. Range is 0-100.
+	"Random Breed Chance Percentage" = 10
+	#The chance at which you can get a random genetic Coat out of breeding two animals, out of 100. Default is 10. Range is 0-100.
+	"Random Coat Chance Percentage" = 10
+	#The chance at which you can get random genetic Markings out of breeding two animals, out of 100. Default is 10. Range is 0-100.
+	"Random Marking Chance Percentage" = 10
+	#The chance at which you can get random genetic Horns, Eye Colors, etc out of breeding two animals, out of 10. Default is 20. Range is 0-100.
+	"Random Other Chance Percentage" = 10
 
 [Herding]
 	#Should animals, like cows, herd together?
@@ -129,6 +147,8 @@
 	"Male Breeding Cooldown" = 1200
 	#How long, in ticks, a Female O-Animal's breeding cooldown takes. If Genders Affect Breeding is disabled, this applies to all O-Animals. Default is 6000 (5 minutes).
 	"Female/ Neutral Breeding Cooldown" = 6000
+	#Should O-Animals use vanilla names instead of those with the "O-" prefix?
+	"Use Vanilla Animal Names" = false
 
 [Miscellaneous]
 	#Should Unicorns be able to breed?

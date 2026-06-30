@@ -3,7 +3,7 @@
   "is_horse_armor_enchantable": true,
   "enchantments": {
     "death_wish": {
-      "is_enabled": true,
+      "is_enabled": false,
       "damage_multiplier_range": {
         "min": 1.0,
         "max": 2.0
@@ -75,10 +75,10 @@
       "distance_multiplier_per_level": 0.01
     },
     "immortality": {
-      "is_enabled": true
+      "is_enabled": false
     },
     "leech": {
-      "is_enabled": true,
+      "is_enabled": false,
       "health_chance": 0.1,
       "hunger_chance": 0.1,
       "effect_chance": 0.1
@@ -131,7 +131,7 @@
       }
     },
     "incompatibility_curse": {
-      "is_enabled": true
+      "is_enabled": false
     },
     "slippery_curse": {
       "is_enabled": true,

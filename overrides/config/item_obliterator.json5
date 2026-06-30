@@ -165,21 +165,6 @@
   // 	
   // 	 You can also use regular expressions by starting the value with !
   "blacklisted_nbt": [
-    "apotheosis:capturing",
-    "majruszsenchantments:leech",
-    "majruszsenchantments:dodge",
-    "majruszsenchantments:immortality",
-    "majruszsenchantments:repulsion",
-    "majruszsenchantments:death_wish",
-    "galosphere:astral",
-    "galosphere:long_astral",
-    "apotheosis:mythic",
-    "apotheosis:ancient",
-    "apotheotic_additions:artifact",
-    "apotheotic_additions:heirloom",
-    "apotheotic_additions:esoteric",
-    "seeker_compass:warping",
-    "irons_spellbooks:mana_upgrade_orb"
   ],
   // -----------------------------------------------------------
   // Items here will not be able to be right-clicked (Interact)
