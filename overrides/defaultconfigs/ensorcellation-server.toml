@@ -17,10 +17,10 @@
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 3
+		"Max Level" = 1
 		#Adjust this value to set the chance per level of the Enchantment firing (in percentage).
 		#Range: 1 ~ 100
-		"Effect Chance" = 20
+		"Effect Chance" = 1
 		#If TRUE, mobs wearing armor with this Enchantment can teleport players.
 		"Mobs Teleport Players" = false
 
@@ -157,14 +157,14 @@
 		#If TRUE, the Leech Enchantment is available for various Weapons.
 		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
-		Treasure = false
+		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 4
+		"Max Level" = 1
 
 	[Enchantments."Magic Edge"]
 		#If TRUE, the Magic Edge Enchantment is available for various Weapons.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -178,22 +178,22 @@
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 3
+		"Max Level" = 1
 		#Adjust this value to set the base critical hit chance of the Enchantment (in percentage).
 		#Range: 0 ~ 100
-		"Base Critical Chance" = 5
+		"Base Critical Chance" = 0
 		#Adjust this value to set the additional critical hit chance per level of the Enchantment (in percentage).
 		#Range: 0 ~ 100
-		"Critical Chance / Level" = 5
+		"Critical Chance / Level" = 0
 		#Adjust this value to set the critical hit damage multiplier.
 		#Range: 0 ~ 1000
-		"Critical Damage Multiplier" = 5
+		"Critical Damage Multiplier" = 0
 		#Adjust this value to set the base head drop chance for the Enchantment (in percentage).
 		#Range: 0 ~ 100
-		"Base Head Drop Chance" = 10
+		"Base Head Drop Chance" = 0
 		#Adjust this value to set the head drop chance per level of the Enchantment (in percentage).
 		#Range: 0 ~ 100
-		"Head Drop Chance / Level" = 10
+		"Head Drop Chance / Level" = 0
 
 	[Enchantments.Excavating]
 		#If TRUE, the Excavating Enchantment is available for various Tools.
@@ -276,7 +276,7 @@
 		#If TRUE, the Soulbound Enchantment is available.
 		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
-		Treasure = false
+		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment. If permanent, this setting is ignored.
 		#Range: 1 ~ 10
 		"Max Level" = 3
