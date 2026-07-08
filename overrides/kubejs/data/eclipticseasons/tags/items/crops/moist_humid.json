@@ -3,11 +3,8 @@
     "minecraft:bamboo",
     "minecraft:brown_mushroom",
     "minecraft:red_mushroom",
-    "fruitsdelight:bayberry_sapling",
-    "fruitsdelight:cranberry",
     "collectorsreap:portobello",
     "collectorsreap:portobello_colony",
-    "collectorsreap:lime_seeds",
     "spelunkery:button_mushroom",
     "spelunkery:crimini",
     "spelunkery:portabella",
@@ -29,6 +26,16 @@
     {
       "id": "farmersdelight:red_mushroom_colony",
       "required": false
-    }
+    },
+    "vinery:jungle_grape_seeds_red",
+    "vinery:jungle_grape_seeds_white",
+    "fruitsdelight:pear_sapling",
+    "fruitsdelight:lychee_leaves",
+    "fruitsdelight:lychee_sapling",
+    "fruitsdelight:mango_leaves",
+    "fruitsdelight:mango_sapling",
+    "fruitsdelight:persimmon_leaves",
+    "fruitsdelight:persimmon_sapling",
+    "fruitsdelight:durian_sapling"
   ]
 }

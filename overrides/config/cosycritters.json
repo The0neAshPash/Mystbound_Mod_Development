@@ -1,0 +1,46 @@
+{
+  "configVersion": 1,
+  "maxBirds": 12,
+  "maxMoths": 5,
+  "maxSpiders": 8,
+  "spawnHatman": false,
+  "spawnBird": true,
+  "spawnMoth": true,
+  "spawnSpider": true,
+  "bird": {
+    "biomeList": {
+      "entries": [
+        "#c:is_forest",
+        "#c:is_taiga",
+        "#c:is_jungle",
+        "#minecraft:is_forest",
+        "#minecraft:is_taiga",
+        "#minecraft:is_jungle"
+      ],
+      "isWhitelist": true
+    },
+    "blockList": {
+      "entries": [
+        "#minecraft:leaves"
+      ],
+      "isWhitelist": true
+    },
+    "reactionDistance": 8,
+    "reactionSpeed": 60,
+    "despawnDistance": 128,
+    "blockAvoidanceDistance": 6,
+    "blockAvoidanceFactor": 0.1,
+    "separationDistance": 2,
+    "separation": 0.01,
+    "flockRange": 20,
+    "alignment": 0.05,
+    "cohesion": 0.001,
+    "maxSpeed": 1.0,
+    "minSpeed": 0.3,
+    "maxBehaviourTime": 400,
+    "landingResponsiveness": 0.01,
+    "flightHeightLimit": 20,
+    "flightHeightLimitFactor": 0.005,
+    "flightRandomness": 0.03
+  }
+}

@@ -11,7 +11,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Mystboundv.2.3",
+  "name": "Mystboundv.2.5",
   "version": "",
   "author": "",
   "overrides": "overrides",
@@ -43,6 +43,12 @@
     {
       "projectID": 1068445,
       "fileID": 5963449,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 322506,
+      "fileID": 5905130,
       "required": true,
       "isLocked": false
     },
@@ -149,6 +155,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1474300,
+      "fileID": 7880902,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 1356802,
       "fileID": 7053035,
       "required": true,
@@ -157,6 +169,12 @@
     {
       "projectID": 1138130,
       "fileID": 7088113,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1311617,
+      "fileID": 8344028,
       "required": true,
       "isLocked": false
     },
@@ -451,6 +469,12 @@
     {
       "projectID": 963245,
       "fileID": 5052580,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 627557,
+      "fileID": 8123287,
       "required": true,
       "isLocked": false
     },
@@ -876,7 +900,7 @@
     },
     {
       "projectID": 790626,
-      "fileID": 8255312,
+      "fileID": 8335833,
       "required": true,
       "isLocked": false
     },
@@ -1087,6 +1111,12 @@
     {
       "projectID": 276951,
       "fileID": 5503516,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1203057,
+      "fileID": 6925076,
       "required": true,
       "isLocked": false
     },
@@ -1464,7 +1494,7 @@
     },
     {
       "projectID": 1066037,
-      "fileID": 7645662,
+      "fileID": 8070773,
       "required": true,
       "isLocked": false
     },
@@ -1482,7 +1512,7 @@
     },
     {
       "projectID": 1118306,
-      "fileID": 7949160,
+      "fileID": 8379360,
       "required": true,
       "isLocked": false
     },
@@ -2147,6 +2177,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1182393,
+      "fileID": 7892037,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 442354,
       "fileID": 6598273,
       "required": true,
@@ -2466,7 +2502,7 @@
     },
     {
       "projectID": 686911,
-      "fileID": 7537759,
+      "fileID": 8348481,
       "required": true,
       "isLocked": false
     },

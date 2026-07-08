@@ -1,14 +1,14 @@
 {
   "values": [
-    "collectorsreap:portobello",
-    "collectorsreap:portobello_colony",
-    "fruitsdelight:durian_sapling",
-    "fruitsdelight:mango_sapling",
-    "fruitsdelight:pineapple_sapling",
+    "fruitsdelight:mangosteen_leaves",
     "fruitsdelight:mangosteen_sapling",
-    "fruitsdelight:lychee_sapling",
-    "fruitsdelight:kiwi_sapling",
-    "neapolitan:banana_frond",
-    "neapolitan:vanilla_pods"
+    {
+      "id": "neapolitan:banana_frond",
+      "required": false
+    },
+    {
+      "id": "neapolitan:vanilla_pods",
+      "required": false
+    }
   ]
 }
